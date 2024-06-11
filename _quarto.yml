@@ -1,0 +1,54 @@
+editor: source
+
+execute:
+  cache: false
+  freeze: auto
+
+project:
+  type: website
+  output-dir: docs
+  render: [index.qmd]
+
+title: "Open science:\n\n_Nullius in verba_"
+author: "Daniel Vartanian"
+  # name: "Daniel Vartanian"
+  # orcid: 0000-0001-7782-759X
+  # url: https://linktr.ee/danielvartan
+  # email: danvartan@gmail.com
+  # corresponding: true
+  # affiliation:
+  #   - name: University of São Paulo
+  #   - Country: Brazil
+  #   - url: https://www.usp.br
+keyword: >
+  Opens Science. Open data. Data engineering. Data science. OSF. R. Quarto.
+  Project management. rstats.
+institute: "University of São Paulo"
+date: 2024-06-20
+date-format: "YYYY-MM-DD"
+
+website:
+  open-graph: true
+  repo-url: https://github.com/danielvartan/open-science-pres/
+  site-url: https://danielvartan.github.io/open-science-pres/
+  issue-url: https://github.com/danielvartan/open-science-pres/issues/
+  repo-branch: main
+
+format:
+  revealjs:
+    locale: en
+    lang: en-us
+    code-link: true
+    tbl-cap-location: top
+    callout-appearance: simple
+    csl: csl/english-apa-author-date.csl
+    preview-links: auto
+    controls-layout: bottom-right
+    chalkboard: true
+    auto-stretch: true
+    fig-align: center
+    theme: [default, scss/styles.scss]
+    pdf-max-pages-per-slide: 1
+
+google-scholar: false
+bibliography: references.bib
