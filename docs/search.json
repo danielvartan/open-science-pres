@@ -2,413 +2,420 @@
   {
     "objectID": "index.html#hi-there",
     "href": "index.html#hi-there",
-    "title": "Open science:Nullius in verba\n",
+    "title": "Open science",
     "section": "Hi, there 👋",
-    "text": "Hi, there 👋\n\n\n⚠️ NOT FINISHED ⚠️\nThis presentation aims to provide solutions to issues regarding the Global Syndemic project. Here is our itinerary.\n\n\nIssues regarding the Global Syndemic project\nIntroduction to main concepts\nA mini-tour into the open science world\nExample of a reproducible research\nSuggestions for the Global Syndemic project\nFinal remarks"
+    "text": "Hi, there 👋\n\n\n⚠️ NOT FINISHED ⚠️\nThis presentation aims to organize our research efforts in a way that makes them transparent, reproducible, and in accordance with the best international standards.\nHere is our itinerary:\n\nIssues regarding the Global Syndemic project\nIntroduction to some concepts\nA mini-tour into the open science world\nExample of a reproducible research\nSuggestions for the Global Syndemic project\nFinal remarks"
   },
   {
-    "objectID": "index.html#materials-sent-before-this-lecture",
-    "href": "index.html#materials-sent-before-this-lecture",
-    "title": "Open science:Nullius in verba\n",
-    "section": "Materials sent before this lecture",
-    "text": "Materials sent before this lecture\nCenter of Open Science. Introduction to OSF. https://youtu.be/X07mBq2tnMg?si=m_mXwKrw0LvHazTg\nWickham, H. (2014). Tidy data. Journal of Statistical Software, 59(10). https://doi.org/10.18637/jss.v059.i10"
+    "objectID": "index.html#materials-sent",
+    "href": "index.html#materials-sent",
+    "title": "Open science",
+    "section": "Materials sent",
+    "text": "Materials sent\n\nCenter of Open Science. Introduction to OSF. https://youtu.be/X07mBq2tnMg?si=m_mXwKrw0LvHazTg\nLeek, J. How to share data with a statistician. https://github.com/jtleek/datasharing"
   },
   {
     "objectID": "index.html#some-issues-regarding-the-global-syndemic-project",
     "href": "index.html#some-issues-regarding-the-global-syndemic-project",
-    "title": "Open science:Nullius in verba\n",
+    "title": "Open science",
     "section": "Some issues regarding the Global Syndemic project",
-    "text": "Some issues regarding the Global Syndemic project\n\nLack of standards and guidelines regarding data collection, storage, analysis and sharing.\nLack of a data management tool.\nLack of transparency and reproducibility in the research process.\nNeed of sophisticated tools and techniques to analyze big datasets."
+    "text": "Some issues regarding the Global Syndemic project\n\nLack of standards and guidelines regarding data collection, storage, analysis and sharing.\nLack of a project and data management system.\nNeed of sophisticated tools and techniques to analyze big datasets."
   },
   {
     "objectID": "index.html#what-i-can-help-with",
     "href": "index.html#what-i-can-help-with",
-    "title": "Open science:Nullius in verba\n",
+    "title": "Open science",
     "section": "What I can help with",
-    "text": "What I can help with\nIt’s important to note, that I’m not an expert in public health or environmental science. However, I have a strong background in data science and complex systems modeling. I can help with:\n\nProject management.\nData engineering.\nData analysis and visualization.\nComplex system modeling.\n\nI leave the theorizing and the interpretation efforts to the experts in the field."
+    "text": "What I can help with\nIt’s important to note, that I’m not an expert in public health or environmental science. However, I have a strong background in data science and complex systems modeling. I can help with:\n\n\n\nProject management.\nData engineering.\n\n\n\nData analysis and visualization.\nComplex system modeling.\n\n\n\nI leave the theorizing and interpretation efforts to the experts in the field."
   },
   {
-    "objectID": "index.html#introduction-to-the-main-concepts",
-    "href": "index.html#introduction-to-the-main-concepts",
-    "title": "Open science:Nullius in verba\n",
-    "section": "Introduction to the main concepts",
-    "text": "Introduction to the main concepts"
+    "objectID": "index.html#introduction-to-some-concepts",
+    "href": "index.html#introduction-to-some-concepts",
+    "title": "Open science",
+    "section": "Introduction to some concepts",
+    "text": "Introduction to some concepts"
   },
   {
     "objectID": "index.html#houston-we-have-a-problem",
     "href": "index.html#houston-we-have-a-problem",
-    "title": "Open science:Nullius in verba\n",
+    "title": "Open science",
     "section": "Houston, we have a problem…",
     "text": "Houston, we have a problem…\n\n“The scientific research enterprise is built on a foundation of trust. Scientists trust that the results reported by others are valid. Society trusts that the results of research reflect an honest attempt by scientists to describe the world accurately and without bias. But this trust will endure only if the scientific community devotes itself to exemplifying and transmitting the values associated with ethical scientific conduct.”\n\n\n(National Academy of Sciences et al., 2009)"
   },
   {
     "objectID": "index.html#closed-doors-science",
     "href": "index.html#closed-doors-science",
-    "title": "Open science:Nullius in verba\n",
+    "title": "Open science",
     "section": "Closed doors science",
     "text": "Closed doors science\n\n\n\n\n\n\n\n\n(Drawings by John McKiernan)"
   },
   {
     "objectID": "index.html#reproducibility-crisis",
     "href": "index.html#reproducibility-crisis",
-    "title": "Open science:Nullius in verba\n",
+    "title": "Open science",
     "section": "Reproducibility crisis",
     "text": "Reproducibility crisis\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n(Figures extracted from Baker (2015) and Baker (2016))"
   },
   {
-    "objectID": "index.html#reproducibility-crisis-1",
-    "href": "index.html#reproducibility-crisis-1",
-    "title": "Open science:Nullius in verba\n",
-    "section": "Reproducibility crisis",
-    "text": "Reproducibility crisis"
-  },
-  {
     "objectID": "index.html#a-real-fiction-example",
     "href": "index.html#a-real-fiction-example",
-    "title": "Open science:Nullius in verba\n",
+    "title": "Open science",
     "section": "A real fiction example",
-    "text": "A real fiction example\n\nRefraining from sharing data and code.\nNot providing a clear description of the methods used.\nHierarchical communication.\nNon-transparent research process.\nUnreproducible results.\nLack of data management plan.\nLack of data documentation.\nData Findability ❌\nData Accessibility ❌\nData Interoperability ❌ (the data is locked in proprietary formats)\nData Reusability ❌\n\n(not to mention the toxic environment…)"
+    "text": "A real fiction example\n⚠️ NOT FINISHED ⚠️\n\nRefraining from sharing data and code.\nNot providing a clear description of the methods used.\nHierarchical communication.\nNon-transparent research process.\nUnreproducible results.\nLack of data management plan.\nLack of data documentation.\nData Findability ❌\nData Accessibility ❌\nData Interoperability ❌ (the data is locked in proprietary formats)\nData Reusability ❌\n\n(not to mention the toxic environment…)"
   },
   {
     "objectID": "index.html#a-real-fiction-example-1",
     "href": "index.html#a-real-fiction-example-1",
-    "title": "Open science:Nullius in verba\n",
+    "title": "Open science",
     "section": "A real fiction example",
-    "text": "A real fiction example\nSome people have the incredible ability of making everything look fine, even when it’s not."
-  },
-  {
-    "objectID": "index.html#a-real-fiction-example-2",
-    "href": "index.html#a-real-fiction-example-2",
-    "title": "Open science:Nullius in verba\n",
-    "section": "A real fiction example",
-    "text": "A real fiction example\nRemaining calm in the midst of chaos is a skill that few have, but things don’t have to be that way."
+    "text": "A real fiction example"
   },
   {
     "objectID": "index.html#theres-a-solution-open-science",
     "href": "index.html#theres-a-solution-open-science",
-    "title": "Open science:Nullius in verba\n",
+    "title": "Open science",
     "section": "There’s a solution: Open Science",
     "text": "There’s a solution: Open Science\n\n\n“Open Science is an umbrella term encompassing a multitude of assumptions about the future of knowledge creation and dissemination.” (Fecher & Friesike, 2014)\nAt a high-level, it can be defined as the following.\n“Open Science is scholarly research that is collaborative, transparent and reproducible and whose outputs are publicly available.” (European Commission & Directorate-General for Research and Innovation, 2018)\n\n\n\n\n\n\n\n\n(Figure by Lotta Tomasson)"
   },
   {
     "objectID": "index.html#fair-principles",
     "href": "index.html#fair-principles",
-    "title": "Open science:Nullius in verba\n",
+    "title": "Open science",
     "section": "Fair principles",
     "text": "Fair principles\nFindability, Accessibility, Interoperability, and Reuse of digital assets.\n\n(To learn more see: Wilkinson et al. (2016) and GO FAIR initiative (n.d.))"
   },
   {
     "objectID": "index.html#what-is-data-after-all",
     "href": "index.html#what-is-data-after-all",
-    "title": "Open science:Nullius in verba\n",
+    "title": "Open science",
     "section": "What is data after all?",
     "text": "What is data after all?\n\n\nAckoff’s DIKW pyramid.\nData &lt; Information &lt; Knowledge &lt; Wisdom.\nData versus the interpretation of data.\n\n\n\n(To learn more see: Ackoff (1989) and Rowley (2007))"
   },
   {
     "objectID": "index.html#what-is-data-after-all-1",
     "href": "index.html#what-is-data-after-all-1",
-    "title": "Open science:Nullius in verba\n",
+    "title": "Open science",
     "section": "What is data after all?",
     "text": "What is data after all?\nData is an abstraction of reality. It’s a representation of the world around us. Without context, it has no meaning."
   },
   {
     "objectID": "index.html#data-engineering",
     "href": "index.html#data-engineering",
-    "title": "Open science:Nullius in verba\n",
+    "title": "Open science",
     "section": "Data engineering",
     "text": "Data engineering\n“Data engineering is the development, implementation, and maintenance of systems and processes that take in raw data and produce high-quality, consistent information that supports downstream use cases, such as analysis and machine learning.”\nYou can think data engineering as the plumbing of data science.\n\n\n\n\n\n(Reis & Housley, 2022)"
   },
   {
     "objectID": "index.html#data-science",
     "href": "index.html#data-science",
-    "title": "Open science:Nullius in verba\n",
+    "title": "Open science",
     "section": "Data science",
     "text": "Data science\nIt’s a confusing term, with many definitions and interpretations.\nFor some, data science is just statistics (Broman, 2013) (hype statistics). For others, it’s a new interdisciplinary field that synthesizes statistics, informatics, computing, communication, management, and sociology (Cao, 2017).\nThe arguments about the difference between data science and statistics are not very good. So it’s best to use a high-level definition:\n“Data science is the study of the generalizable extraction of knowledge from data.” (Dhar, 2023)\n\n\n(Figure extracted from Wickham et al. (2023))"
   },
   {
     "objectID": "index.html#data-engineering-versus-data-science",
     "href": "index.html#data-engineering-versus-data-science",
-    "title": "Open science:Nullius in verba\n",
+    "title": "Open science",
     "section": "Data engineering versus data science",
     "text": "Data engineering versus data science\n\n“Data scientists, according to interviews and expert estimates, spend from 50 percent to 80 percent of their time mired in this more mundane labor of collecting and preparing unruly digital data, before it can be explored for useful nuggets.” (Lohr, 2014).\n\n\n\n(Figure by Reis & Housley (2022))"
   },
   {
     "objectID": "index.html#tidy-data",
     "href": "index.html#tidy-data",
-    "title": "Open science:Nullius in verba\n",
+    "title": "Open science",
     "section": "Tidy data",
     "text": "Tidy data\n\n\n\n\n\n(Illustration by Allison Horst)"
   },
   {
     "objectID": "index.html#tidy-data-1",
     "href": "index.html#tidy-data-1",
-    "title": "Open science:Nullius in verba\n",
+    "title": "Open science",
     "section": "Tidy data",
     "text": "Tidy data\n\n\n\n\n\n(Illustration by Allison Horst)"
   },
   {
     "objectID": "index.html#tidy-data-2",
     "href": "index.html#tidy-data-2",
-    "title": "Open science:Nullius in verba\n",
+    "title": "Open science",
     "section": "Tidy data",
     "text": "Tidy data\nLearn more in Wickham et al. (2023), chap. 5.\n\n\n\n\n\n(Figure extracted from Wickham et al. (2023))"
   },
   {
     "objectID": "index.html#tidy-data-3",
     "href": "index.html#tidy-data-3",
-    "title": "Open science:Nullius in verba\n",
+    "title": "Open science",
     "section": "Tidy data",
     "text": "Tidy data\n\n\n\n\n\n(Illustration by Allison Horst)"
   },
   {
     "objectID": "index.html#tidy-data-4",
     "href": "index.html#tidy-data-4",
-    "title": "Open science:Nullius in verba\n",
+    "title": "Open science",
     "section": "Tidy data",
     "text": "Tidy data\n\n\n\n\n\n(Illustration by Allison Horst)"
   },
   {
     "objectID": "index.html#open-data-formats",
     "href": "index.html#open-data-formats",
-    "title": "Open science:Nullius in verba\n",
+    "title": "Open science",
     "section": "Open data formats",
     "text": "Open data formats\nThere are many open data formats available for researchers to use. Here are some examples:\n\nTabular data\n\nComma-Separated Values (CSV)\nApache Parquet\n\n\nList data\n\nJavaScript Object Notation (JSON)\nYAML Ain’t Markup Language (YAML)\nTOML\nXML"
   },
   {
     "objectID": "index.html#data-documentation",
     "href": "index.html#data-documentation",
-    "title": "Open science:Nullius in verba\n",
+    "title": "Open science",
     "section": "Data documentation",
     "text": "Data documentation\n\nData dictionary (e.g., SISVAN)\nCodebook (e.g., )\nHow to share data with a statistician\nGuide to writing “readme” style metadata\nMetadata Standards Catalog"
   },
   {
     "objectID": "index.html#data-management-plans",
     "href": "index.html#data-management-plans",
-    "title": "Open science:Nullius in verba\n",
+    "title": "Open science",
     "section": "Data management plans",
     "text": "Data management plans\n\nFAPESP\nDMPTool\nDMPonline\n\nExample of a data management plan\n\nAssociations between the duration and quality of sleep of pregnant women in the third trimester with the duration of labor"
   },
   {
     "objectID": "index.html#big-data",
     "href": "index.html#big-data",
-    "title": "Open science:Nullius in verba\n",
+    "title": "Open science",
     "section": "Big data",
     "text": "Big data\n\n\n“Big data will be dead in 5 Years: Everything will be big data, so it won’t need a special name.” (Gavin, 2020)\n\n\n\n\n\n\n\n\n(Cartoon by David Fletcher)"
   },
   {
     "objectID": "index.html#reproducible-research",
     "href": "index.html#reproducible-research",
-    "title": "Open science:Nullius in verba\n",
+    "title": "Open science",
     "section": "Reproducible research",
     "text": "Reproducible research\n\n\nIllustration by Scriberia."
   },
   {
     "objectID": "index.html#a-mini-tour-into-the-open-science-world",
     "href": "index.html#a-mini-tour-into-the-open-science-world",
-    "title": "Open science:Nullius in verba\n",
+    "title": "Open science",
     "section": "A mini-tour into the open science world",
     "text": "A mini-tour into the open science world\n\n\n\n\n\n(Illustration by Allison Horst)"
   },
   {
     "objectID": "index.html#open-science-framework-osf",
     "href": "index.html#open-science-framework-osf",
-    "title": "Open science:Nullius in verba\n",
+    "title": "Open science",
     "section": "Open Science Framework (OSF)",
     "text": "Open Science Framework (OSF)\nOSF is a free and open source project management tool that supports researchers throughout their entire project lifecycle.\n\n\n(Center for Open Science)"
   },
   {
     "objectID": "index.html#osf-components",
     "href": "index.html#osf-components",
-    "title": "Open science:Nullius in verba\n",
+    "title": "Open science",
     "section": "OSF: Components",
-    "text": "OSF: Components\nEverything is a component in OSF, including projects."
+    "text": "OSF: Components\n⚠️ NOT FINISHED ⚠️\nEverything is a component in OSF, including projects."
   },
   {
     "objectID": "index.html#osf-managing-permissions",
     "href": "index.html#osf-managing-permissions",
-    "title": "Open science:Nullius in verba\n",
+    "title": "Open science",
     "section": "OSF: Managing permissions",
     "text": "OSF: Managing permissions\nOSF let you have a fine control over each component of your project.\n\n\n\n\n\n\n\n\n\n📁 Research protocol ✅\n📁 Research data ✅\n📁 Research code ✅\n📁 Research results ✅\n📁 Secrets of the masonic society (Level 5!) ❌"
   },
   {
+    "objectID": "index.html#osf-version-control",
+    "href": "index.html#osf-version-control",
+    "title": "Open science",
+    "section": "OSF: Version control",
+    "text": "OSF: Version control"
+  },
+  {
     "objectID": "index.html#protocol-registration",
     "href": "index.html#protocol-registration",
-    "title": "Open science:Nullius in verba\n",
+    "title": "Open science",
     "section": "Protocol registration",
     "text": "Protocol registration\n\nPROSPERO\nOSF Registries"
   },
   {
     "objectID": "index.html#open-licenses",
     "href": "index.html#open-licenses",
-    "title": "Open science:Nullius in verba\n",
+    "title": "Open science",
     "section": "Open licenses",
     "text": "Open licenses\nA unlicensed work is an “all rights reserved” work. This means that you can’t use it without the author’s permission.\n\nLicences for data\n\nOpen Knowledge Foundation\n\n\nLicences for software/code\n\nOSI Approved Licenses\nThe MIT licence\nGNU General Public License version 3\n\n\nLicences for everything else (e.g., documents, figures)\n\nCreative Commons\nCC BY 4.0"
   },
   {
     "objectID": "index.html#open-source-programming-languages",
     "href": "index.html#open-source-programming-languages",
-    "title": "Open science:Nullius in verba\n",
+    "title": "Open science",
     "section": "Open-source programming languages",
     "text": "Open-source programming languages"
   },
   {
     "objectID": "index.html#now-lets-be-rational-about-this",
     "href": "index.html#now-lets-be-rational-about-this",
-    "title": "Open science:Nullius in verba\n",
+    "title": "Open science",
     "section": "Now, let’s be rational about this…",
     "text": "Now, let’s be rational about this…"
   },
   {
     "objectID": "index.html#python-is-fine-too-i-suppose",
     "href": "index.html#python-is-fine-too-i-suppose",
-    "title": "Open science:Nullius in verba\n",
+    "title": "Open science",
     "section": "Python is fine too, I suppose…",
     "text": "Python is fine too, I suppose…\nPython is good for learning how to program, but it is much easier to learn how to work with data in R. In academia, both programming languages are very important."
   },
   {
     "objectID": "index.html#its-not-what-you-thinking",
     "href": "index.html#its-not-what-you-thinking",
-    "title": "Open science:Nullius in verba\n",
+    "title": "Open science",
     "section": "It’s not what you thinking",
     "text": "It’s not what you thinking\n\n\n\n\n\n(Illustration by Allison Horst)"
   },
   {
     "objectID": "index.html#its-not-what-you-thinking-1",
     "href": "index.html#its-not-what-you-thinking-1",
-    "title": "Open science:Nullius in verba\n",
+    "title": "Open science",
     "section": "It’s not what you thinking",
     "text": "It’s not what you thinking\n\n\n\nProgramming in movies versus programming in real life:"
   },
   {
     "objectID": "index.html#best-and-free-resources",
     "href": "index.html#best-and-free-resources",
-    "title": "Open science:Nullius in verba\n",
+    "title": "Open science",
     "section": "Best (and free!) resources",
     "text": "Best (and free!) resources\n\n\nI don’t know how to code! 😭\n\n\nIntrodução à Ciência da Computação com Python - Parte 1(USP) (Online course - pt-BR)\n\nIntrodução à Ciência da Computação com Python - Parte 2(USP) (Online course - pt-BR)\n\nHow do I learn R?\n\n\nData Science: Foundations using R(Jonh Hopkins) (Online course - en-US)\n\nR for Data Science (Book - en-US)\n\n\n\n\n\n\n\n\n\n(Illustration by Allison Horst)"
   },
   {
     "objectID": "index.html#r-has-the-best-communities",
     "href": "index.html#r-has-the-best-communities",
-    "title": "Open science:Nullius in verba\n",
+    "title": "Open science",
     "section": "R has the best communities",
     "text": "R has the best communities\n\n\nR was created by scientists for scientists.\nIt’s made of a very diverse, inclusive, non-toxic community. 100% incel-free!\n\n\n\n\n\n\n\n\n(Illustration by Allison Horst)"
   },
   {
     "objectID": "index.html#important-r-communities-and-events",
     "href": "index.html#important-r-communities-and-events",
-    "title": "Open science:Nullius in verba\n",
+    "title": "Open science",
     "section": "Important R communities and events",
     "text": "Important R communities and events"
   },
   {
     "objectID": "index.html#youll-be-up-and-running-in-no-time",
     "href": "index.html#youll-be-up-and-running-in-no-time",
-    "title": "Open science:Nullius in verba\n",
+    "title": "Open science",
     "section": "You’ll be up and running in no time",
-    "text": "You’ll be up and running in no time\n\n\n(Illustration by Allison Horst)"
-  },
-  {
-    "objectID": "index.html#the-future-is-bright",
-    "href": "index.html#the-future-is-bright",
-    "title": "Open science:Nullius in verba\n",
-    "section": "The future is bright!",
-    "text": "The future is bright!\n\n\n\n\n\n(Illustration by Allison Horst)"
+    "text": "You’ll be up and running in no time\n\n\n\n\n\n(Illustration by Allison Horst)"
   },
   {
     "objectID": "index.html#ok-now-that-we-got-that-out-of-the-way",
     "href": "index.html#ok-now-that-we-got-that-out-of-the-way",
-    "title": "Open science:Nullius in verba\n",
+    "title": "Open science",
     "section": "Ok, now that we got that out of the way…",
     "text": "Ok, now that we got that out of the way…"
   },
   {
     "objectID": "index.html#application-programming-interfaces-apis",
     "href": "index.html#application-programming-interfaces-apis",
-    "title": "Open science:Nullius in verba\n",
+    "title": "Open science",
     "section": "Application Programming Interfaces (APIs)",
-    "text": "Application Programming Interfaces (APIs)\n\nBrazil’s Central Bank APIs\nNASA’s APIs\nSIDRA API (IBGE)\nSISVAN API"
+    "text": "Application Programming Interfaces (APIs)\n⚠️ NOT FINISHED ⚠️\n\nOSF\nBrazil’s Central Bank APIs\nNASA’s APIs\nSIDRA API (IBGE)\nSISVAN API"
   },
   {
     "objectID": "index.html#dynamic-documents-computational-notebooks",
     "href": "index.html#dynamic-documents-computational-notebooks",
-    "title": "Open science:Nullius in verba\n",
+    "title": "Open science",
     "section": "Dynamic documents (computational notebooks)",
-    "text": "Dynamic documents (computational notebooks)\n\nQuarto\nJupyter\nRmarkdown"
+    "text": "Dynamic documents (computational notebooks)\n⚠️ NOT FINISHED ⚠️\n\nQuarto\nJupyter\nRmarkdown"
   },
   {
     "objectID": "index.html#some-other-things-that-we-didnt-cover",
     "href": "index.html#some-other-things-that-we-didnt-cover",
-    "title": "Open science:Nullius in verba\n",
+    "title": "Open science",
     "section": "Some other things that we didn’t cover",
     "text": "Some other things that we didn’t cover\nWe just scratched the surface of the open science world. There are many other tools and concepts that we didn’t cover, such as:\n\n\n\nPipelines (e.g., targets).\nReproducible environments (e.g., renv, Docker).\nMarkup languages (e.g., Markdown, LaTeX).\nOpen source softwares (e.g., rOpenSci, CRAN, Bioconductor, PyPI).\nVersion control systems (e.g. Git, SVN, Semantic versioning).\nOpen source data management systems (e.g., CKAN, Dataverse).\nOpen journals (e.g., PLoS, BMJ Open, PeerJ).\nCommunity-driven open journals (e.g., Journal of Statistical Software, JASSS).\n\n\n\nPreprint servers (e.g., arXiv, bioRxiv, OSF preprints).\nGit-based repositories (e.g., GitHub, GitLab).\nOpen repositories (e.g., Zenodo, FigShare, ResearchGate, Dryad).\nData repositories (e.g., GSA, UniProtKB, OpenNeuro).\nOpen science policies (e.g., FAPESP, European Commission).\nShadow libraries (e.g., Sci-Hub, Library Genesis)."
   },
   {
     "objectID": "index.html#some-other-things-that-we-didnt-cover-1",
     "href": "index.html#some-other-things-that-we-didnt-cover-1",
-    "title": "Open science:Nullius in verba\n",
+    "title": "Open science",
     "section": "Some other things that we didn’t cover",
     "text": "Some other things that we didn’t cover\n\n\n\n\n\n(Illustration by Allison Horst)"
   },
   {
     "objectID": "index.html#example-of-a-reproducible-research",
     "href": "index.html#example-of-a-reproducible-research",
-    "title": "Open science:Nullius in verba\n",
+    "title": "Open science",
     "section": "Example of a reproducible research",
-    "text": "Example of a reproducible research\n\nAssociations between the duration and quality of sleep of pregnant women in the third trimester with the duration of labor"
+    "text": "Example of a reproducible research\n⚠️ NOT FINISHED ⚠️\n\nAssociations between the duration and quality of sleep of pregnant women in the third trimester with the duration of labor."
   },
   {
     "objectID": "index.html#suggestions-for-the-global-syndemic-project",
     "href": "index.html#suggestions-for-the-global-syndemic-project",
-    "title": "Open science:Nullius in verba\n",
+    "title": "Open science",
     "section": "Suggestions for the Global Syndemic project",
-    "text": "Suggestions for the Global Syndemic project\n\nStart using a project management tool (e.g., OSF).\nStart using a data management system.\nStart using dynamic documents for the data analyses."
+    "text": "Suggestions for the Global Syndemic project\n⚠️ NOT FINISHED ⚠️\nProject and data management\n\nUse OSF as a project and data management system\n\n\nImplement OSF (Open Science Framework) as the central system for managing the project and associated data.\n\n\nSubprojects integration\n\n\nIntegrate each subproject (e.g., scope review, data analysis, causal model, agent-based modeling) into the main project on OSF."
   },
   {
-    "objectID": "index.html#two-main-things",
-    "href": "index.html#two-main-things",
-    "title": "Open science:Nullius in verba\n",
-    "section": "Two main things",
-    "text": "Two main things\n\nCentralize all data in a single place. (OSF)\nTidy and document all data."
+    "objectID": "index.html#suggestions-for-the-global-syndemic-project-1",
+    "href": "index.html#suggestions-for-the-global-syndemic-project-1",
+    "title": "Open science",
+    "section": "Suggestions for the Global Syndemic project",
+    "text": "Suggestions for the Global Syndemic project\nProject and data management\n\nProtocol registration\n\n\nRegister research protocols for both the main project and each subproject.\nEnsure alignment of protocols before registration by using drafts.\n\n\nOpen licenses\n\n\nApply open licenses to both the data and the code to ensure transparency and accessibility."
   },
   {
-    "objectID": "index.html#how-to-do-all-that",
-    "href": "index.html#how-to-do-all-that",
-    "title": "Open science:Nullius in verba\n",
-    "section": "How to do all that?",
-    "text": "How to do all that?\nFirst, we need to work as a team."
+    "objectID": "index.html#suggestions-for-the-global-syndemic-project-2",
+    "href": "index.html#suggestions-for-the-global-syndemic-project-2",
+    "title": "Open science",
+    "section": "Suggestions for the Global Syndemic project",
+    "text": "Suggestions for the Global Syndemic project\n⚠️ NOT FINISHED ⚠️\nData analysis\n\nUse Wickham’s program for data analysis\n\n\nFollow the guidelines and methodologies proposed by Wickham (2023) when conducting data analyses.\nTidy and document all the code and data.\n\n\nDynamic documents\n\n\nUtilize dynamic documents to maintain an updated and reproducible record of data analyses."
   },
   {
-    "objectID": "index.html#i-dont-wanna-learn-how-to-program",
-    "href": "index.html#i-dont-wanna-learn-how-to-program",
-    "title": "Open science:Nullius in verba\n",
-    "section": "I don’t wanna learn how to program! 😡",
-    "text": "I don’t wanna learn how to program! 😡\nOk. That’s fine. We can still do this.\nYou don’t have to use R, python, etc, but it’s important that you abide by the principles of open science. Your work must be transparent, shareable and reproducible."
+    "objectID": "index.html#suggestions-for-the-global-syndemic-project-3",
+    "href": "index.html#suggestions-for-the-global-syndemic-project-3",
+    "title": "Open science",
+    "section": "Suggestions for the Global Syndemic project",
+    "text": "Suggestions for the Global Syndemic project\n⚠️ NOT FINISHED ⚠️\nData analysis\n\nProgrammatic approach\n\n\nEmphasize learning and applying programmatic methods for handling large datasets, as this is the most effective approach for managing and analyzing extensive data collections\n\n\nReproducible environments\n\n\nUse reproducible environments to ensure that the data analysis is replicable and transparent."
+  },
+  {
+    "objectID": "index.html#we-need-to-work-as-a-team",
+    "href": "index.html#we-need-to-work-as-a-team",
+    "title": "Open science",
+    "section": "We need to work as a team",
+    "text": "We need to work as a team\nYou’re not alone in this journey. We’re all in this together."
+  },
+  {
+    "objectID": "index.html#global-syndemic-project-on-osf",
+    "href": "index.html#global-syndemic-project-on-osf",
+    "title": "Open science",
+    "section": "Global Syndemic project on OSF",
+    "text": "Global Syndemic project on OSF\n⚠️ NOT FINISHED ⚠️"
+  },
+  {
+    "objectID": "index.html#global-syndemic-project-on-github",
+    "href": "index.html#global-syndemic-project-on-github",
+    "title": "Open science",
+    "section": "Global Syndemic project on GitHub",
+    "text": "Global Syndemic project on GitHub\n⚠️ NOT FINISHED ⚠️"
   },
   {
     "objectID": "index.html#theory-versus-practice",
     "href": "index.html#theory-versus-practice",
-    "title": "Open science:Nullius in verba\n",
+    "title": "Open science",
     "section": "Theory versus practice",
     "text": "Theory versus practice\nThings will not always go as planned. But that’s ok. We’ll figure it out together."
   },
   {
     "objectID": "index.html#final-remarks",
     "href": "index.html#final-remarks",
-    "title": "Open science:Nullius in verba\n",
+    "title": "Open science",
     "section": "Final remarks",
     "text": "Final remarks\n \nThis presentation was made using the Quarto Publishing System. Code and materials are available at GitHub.\nAll those beautiful illustrations were made by Allison Horst. Thank you, Allison!\n\n\n\n\n\n(Illustration by Allison Horst)"
   },
   {
     "objectID": "index.html#references",
     "href": "index.html#references",
-    "title": "Open science:Nullius in verba\n",
+    "title": "Open science",
     "section": "References",
     "text": "References\n\nIn accordance with the American Psychological Association (APA) Style, 7th edition.\n\n\n\nAckoff, R. (1989). From data to wisdom. Journal of Applied Systems Analysis, 16, 3–9.\n\n\nBaker, M. (2015). Over half of psychology studies fail reproducibility test. Nature. https://doi.org/10.1038/nature.2015.18248\n\n\nBaker, M. (2016). 1,500 scientists lift the lid on reproducibility. Nature, 533(7604), 452–454. https://doi.org/10.1038/533452a\n\n\nBroman, K. (2013, April 5). Data science is statistics. The stupidest thing... https://kbroman.wordpress.com/2013/04/05/data-science-is-statistics/\n\n\nCao, L. (2017). Data science: A comprehensive overview. ACM Computing Surveys, 50(3), 43. https://doi.org/10.1145/3076253\n\n\nDhar, V. (2023). Data science and prediction. Communications of the ACM, 56(12), 64–73. https://doi.org/10.1145/2500499\n\n\nEuropean Commission, & Directorate-General for Research and Innovation. (2018). OSPP-REC: Open science policy platform recommendations. European Union. https://doi.org/10.2777/958647\n\n\nFecher, B., & Friesike, S. (2014). Open science: One term, five schools of thought. In S. Bartling & S. Friesike (Eds.), Opening science: The evolving guide on how the internet is changing research, collaboration and scholarly publishing (pp. 17–47). Springer. https://doi.org/10.1007/978-3-319-00026-8\n\n\nGavin, L. (2020, October 20). Big data will be dead in 5 years. Towards Data Science. https://towardsdatascience.com/big-data-will-be-dead-in-5-years-ef4344269aef\n\n\nGO FAIR initiative. (n.d.). GO FAIR initiative: Make your data & services FAIR. GO FAIR. Retrieved June 10, 2024, from https://www.go-fair.org/\n\n\nLohr, S. (2014, August 18). For big-data scientists, “Janitor work” is key hurdle to insights. The New York Times: Technology. https://www.nytimes.com/2014/08/18/technology/for-big-data-scientists-hurdle-to-insights-is-janitor-work.html\n\n\nNational Academy of Sciences, National Academy of Engineering, & Institute of Medicine of the National Academies. (2009). On being a scientist: A guide to responsible conduct in research: Third edition (3rd ed.). The National Academies Press. https://doi.org/10.17226/12192\n\n\nReis, J., & Housley, M. (2022). Fundamentals of data engineering: Plan and build robust data systems. O’Reilly.\n\n\nRowley, J. (2007). The wisdom hierarchy: Representations of the DIKW hierarchy. Journal of Information Science, 33(2), 163–180. https://doi.org/10.1177/0165551506070706\n\n\nWickham, H., Çetinkaya-Rundel, M., & Grolemund, G. (2023). R for data science: Import, tidy, transform, visualize, and model data (2nd ed.). O’Reilly. https://r4ds.hadley.nz/\n\n\nWilkinson, M. D., Dumontier, M., Aalbersberg, Ij. J., Appleton, G., Axton, M., Baak, A., Blomberg, N., Boiten, J.-W., Da Silva Santos, L. B., Bourne, P. E., Bouwman, J., Brookes, A. J., Clark, T., Crosas, M., Dillo, I., Dumon, O., Edmunds, S., Evelo, C. T., Finkers, R., … Mons, B. (2016). The FAIR guiding principles for scientific data management and stewardship. Scientific Data, 3(1), 160018. https://doi.org/10.1038/sdata.2016.18"
   },
   {
     "objectID": "index.html#thank-you",
     "href": "index.html#thank-you",
-    "title": "Open science:Nullius in verba\n",
+    "title": "Open science",
     "section": "Thank you!",
     "text": "Thank you!\n\n\n\n\n\n(Illustration by Allison Horst)"
   }

@@ -4,12 +4,12 @@
 ::: {.column width="70%"}
 ⚠️ __NOT FINISHED__ ⚠️
 
-This presentation aims to provide solutions to issues regarding the Global Syndemic project. Here is our itinerary.
+This presentation aims to organize our research efforts in a way that makes them transparent, reproducible, and in accordance with the best international standards.
 
-<!-- 🤔 👀 🌱⏳👩⏳ ☀️ 😪 🌎 ⚙️ 📓 📋 💬 -->
+Here is our itinerary:
 
 (@) __Issues regarding the Global Syndemic project__
-(@) __Introduction to main concepts__
+(@) __Introduction to some concepts__
 (@) __A mini-tour into the open science world__
 (@) __Example of a reproducible research__
 (@) __Suggestions for the Global Syndemic project__
@@ -21,11 +21,11 @@ This presentation aims to provide solutions to issues regarding the Global Synde
 :::
 ::::
 
-## Materials sent before this lecture {.smaller}
+## Materials sent {.smaller}
 
-Center of Open Science. _Introduction to OSF_. <https://youtu.be/X07mBq2tnMg?si=m_mXwKrw0LvHazTg>
+  * Center of Open Science. _Introduction to OSF_. <https://youtu.be/X07mBq2tnMg?si=m_mXwKrw0LvHazTg>
 
-Wickham, H. (2014). Tidy data. _Journal of Statistical Software_, _59_(10). <https://doi.org/10.18637/jss.v059.i10>
+  * Leek, J. _How to share data with a statistician_. <https://github.com/jtleek/datasharing>
 
 
 <!-- --- -->
@@ -33,33 +33,39 @@ Wickham, H. (2014). Tidy data. _Journal of Statistical Software_, _59_(10). <htt
 
 <!-- ## Some issues regarding the Global Syndemic project -->
 
-## {background-image="images/web-cnpq-br.png" background-position="top"}
+## {background-image="images/web-cnpq-br.png" background-position="top left" background-size="100%"}
 
 <!-- http://memoria2.cnpq.br/web/guest/chamadas-publicas?p_p_id=resultadosportlet_WAR_resultadoscnpqportlet_INSTANCE_0ZaM&filtro=abertas&detalha=chamadaDivulgada&idDivulgacao=11626 -->
 
 ## Some issues regarding the Global Syndemic project
 
 * Lack of standards and guidelines regarding data collection, storage, analysis and sharing.
-* Lack of a data management tool.
-* Lack of transparency and reproducibility in the research process.
+* Lack of a project and data management system.
 * Need of sophisticated tools and techniques to analyze big datasets.
 
-## What I can help with {.smaller}
+## What I can help with
 
 It's important to note, that I'm not an expert in public health or environmental science. However, I have a strong background in data science and complex systems modeling. I can help with:
 
+:::: {.columns}
+::: {.column width="50%"}
 * Project management.
 * Data engineering.
+:::
+
+::: {.column width="50%"}
 * Data analysis and visualization.
 * Complex system modeling.
+:::
+::::
 
-I leave the theorizing and the interpretation efforts to the experts in the field.
+I leave the theorizing and interpretation efforts to the experts in the field.
 
 
 <!-- --- -->
 
 
-## Introduction to the main concepts
+## Introduction to some concepts
 
 ## Houston, we have a problem...
 
@@ -90,7 +96,6 @@ source(here::here("R/quarto-setup.R"))
 :::
 ::::
 
-
 ::: footer
 (Drawings by [John McKiernan](http://whyopenresearch.org/paywalls))
 :::
@@ -112,13 +117,9 @@ source(here::here("R/quarto-setup.R"))
 (Figures extracted from @baker2015 and @baker2016)
 :::
 
-## Reproducibility crisis
-
-<!-- https://imageresizer.com/pt/gerador-de-memes/editar/astronaut-meme-always-has-been-template -->
-
-![](images/meme-research-reproducibility.png){.r-stretch}
-
 ## A ~~real~~ fiction example {.smaller}
+
+⚠️ __NOT FINISHED__ ⚠️
 
 * Refraining from sharing data and code.
 * Not providing a clear description of the methods used.
@@ -137,15 +138,9 @@ source(here::here("R/quarto-setup.R"))
 
 ## A ~~real~~ fiction example 
 
-Some people have the incredible ability of making everything look fine, even when it's not.
+<!-- Some people have the incredible ability of making everything look fine, even when it's not. -->
 
 ![](images/meme-this-is-fine.gif){.r-stretch fig-align="center"}
-
-## A ~~real~~ fiction example
-
-Remaining calm in the midst of chaos is a skill that few have, but things don't have to be that way.
-
-![](images/meme-awesome-me.gif){.r-stretch fig-align="center"}
 
 ## There's a solution: Open Science {.smaller}
 
@@ -166,10 +161,6 @@ At a high-level, it can be defined as the following.
 ::: footer
 (Figure by Lotta Tomasson)
 :::
-
-## {background-image="images/web-wilkinson-et-al-2016.png" background-position="top"}
-
-<!-- https://www.nature.com/articles/sdata201618 -->
 
 ## Fair principles {.smaller}
 
@@ -361,6 +352,8 @@ OSF is a free and open source project management tool that supports researchers 
 
 ## OSF: Components {.smaller}
 
+⚠️ __NOT FINISHED__ ⚠️
+
 Everything is a component in OSF, including projects.
 
 ## OSF: Managing permissions
@@ -384,6 +377,8 @@ OSF let you have a fine control over each component of your project.
 ::: {#third-column}
 :::
 ::::
+
+## OSF: Version control
 
 ## Protocol registration {.smaller}
 
@@ -514,17 +509,9 @@ It's made of a very diverse, inclusive, non-toxic community. __100% incel-free__
 :::
 ::::
 
-## You'll be up and running in no time {.smaller}
+## You'll be up and running in no time {.nostretch}
 
-![](images/allison-horst-figure-5.png){fig-align="center" style="padding-top: 35px;"}
-
-::: footer
-(Illustration by [Allison Horst](https://allisonhorst.com/horst-hill-collaborations))
-:::
-
-## The future is bright! {.nostretch}
-
-![](images/allison-horst-figure-7.png){fig-align="center" width=75% style="padding-top: 0px;"}
+![](images/allison-horst-figure-7.png){fig-align="center" width=75% style="padding-top: 10px;"}
 
 ::: footer
 (Illustration by [Allison Horst](https://allisonhorst.com/horst-hill-collaborations))
@@ -534,12 +521,17 @@ It's made of a very diverse, inclusive, non-toxic community. __100% incel-free__
 
 ## Application Programming Interfaces (APIs) {.smaller}
 
+⚠️ __NOT FINISHED__ ⚠️
+
+* [OSF](https://developer.osf.io/)
 * [Brazil's Central Bank APIs](https://dadosabertos.bcb.gov.br/dataset?res_format=API)
 * [NASA's APIs](https://api.nasa.gov/)
 * [SIDRA API (IBGE)](https://api.sidra.ibge.gov.br/)
 * [SISVAN API](https://opendatasus.saude.gov.br/dataset/sisvan-estado-nutricional/resource/3ead4331-6424-471f-a811-4edf22f58e00)
 
 ## Dynamic documents (computational notebooks) {.smaller}
+
+⚠️ __NOT FINISHED__ ⚠️
 
 * [Quarto](https://quarto.org/)
 * [Jupyter](https://jupyter.org/)
@@ -586,34 +578,71 @@ We just scratched the surface of the open science world. There are many other to
 
 ## Example of a reproducible research
 
-* Associations between the duration and quality of sleep of pregnant women in the third trimester with the duration of labor
+⚠️ __NOT FINISHED__ ⚠️
+
+* Associations between the duration and quality of sleep of pregnant women in the third trimester with the duration of labor.
 
 
 <!-- --- -->
 
 
-## Suggestions for the Global Syndemic project
+## Suggestions for the Global Syndemic project {.smaller}
 
-* Start using a project management tool (e.g., OSF).
-* Start using a data management system.
-* Start using dynamic documents for the data analyses.
+⚠️ __NOT FINISHED__ ⚠️
 
-## Two main things
+#### Project and data management
 
-* Centralize all data in a single place. (OSF)
-* Tidy and document all data.
+1. __Use OSF as a project and data management system__
+  * Implement OSF (Open Science Framework) as the central system for managing the project and associated data.
+2. __Subprojects integration__
+  * Integrate each subproject (e.g., scope review, data analysis, causal model, agent-based modeling) into the main project on OSF.
 
-## How to do all that?
+## Suggestions for the Global Syndemic project {.smaller}
 
-First, we need to work as a team.
+#### Project and data management
+
+3. __Protocol registration__
+  * Register research protocols for both the main project and each subproject.
+  * Ensure alignment of protocols before registration by using drafts.
+4. __Open licenses__
+  * Apply open licenses to both the data and the code to ensure transparency and accessibility.
+
+## Suggestions for the Global Syndemic project {.smaller}
+
+⚠️ __NOT FINISHED__ ⚠️
+
+#### Data analysis
+
+1. __Use Wickham's program for data analysis__
+  * Follow the guidelines and methodologies proposed by Wickham (2023) when conducting data analyses.
+  * Tidy and document all the code and data.
+2. __Dynamic documents__
+  * Utilize dynamic documents to maintain an updated and reproducible record of data analyses.
+
+## Suggestions for the Global Syndemic project {.smaller}
+
+⚠️ __NOT FINISHED__ ⚠️
+
+#### Data analysis
+
+3. __Programmatic approach__
+  * Emphasize learning and applying programmatic methods for handling large datasets, as this is the most effective approach for managing and analyzing extensive data collections
+4. Reproducible environments
+  * Use reproducible environments to ensure that the data analysis is replicable and transparent.
+
+## We need to work as a team
+
+You're not alone in this journey. We're all in this together.
 
 ![](images/meme-team-work.gif){fig-align="center" width=200%}
 
-## I don't wanna learn how to program! 😡
+## Global Syndemic project on OSF {.smaller}
 
-Ok. That's fine. We can still do this.
+⚠️ __NOT FINISHED__ ⚠️
 
-__You don't have to use R, python, etc__, but it's important that you abide by the principles of open science. Your work must be transparent, shareable and reproducible.
+## Global Syndemic project on GitHub {.smaller}
+
+⚠️ __NOT FINISHED__ ⚠️
 
 ## Theory _versus_ practice
 
@@ -628,9 +657,9 @@ Things will not always go as planned. But that's ok. We'll figure it out togethe
 ## Final remarks {.smaller}
 
 [![License:
-MIT](https://img.shields.io/badge/license-MIT-green)](https://choosealicense.com/licenses/mit/)
+MIT](images/mit-license-badge.svg){width=10.5%}](https://choosealicense.com/licenses/mit/)
 [![License: CC BY
-4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+4.0](images/cc-licence-badge.svg){width=15%}](https://creativecommons.org/licenses/by/4.0/)
 
 This presentation was made using the Quarto Publishing System. Code and materials are available at [GitHub](https://github.com/danielvartan/open-science-pres).
 
@@ -658,130 +687,3 @@ In accordance with the [American Psychological Association (APA) Style](https://
 ::: footer
 (Illustration by [Allison Horst](https://allisonhorst.com/horst-hill-collaborations))
 :::
-
-
-<!-- --- -->
-
-
-## Appendices {visibility="hidden"}
-
-What couldn't be said in the main presentation.
-
-## Open science policies {visibility="hidden"}
-
-## {background-image="images/web-fapesp-br-openscience.png" background-position="top" visibility="hidden"}
-
-<!-- https://fapesp.br/openscience/ -->
-
-## {background-image="images/web-fapesp.br-gestaodedados.png" background-position="top" visibility="hidden"}
-
-<!-- https://fapesp.br/gestaodedados -->
-
-## {background-image="images/web-research-and-innovation-ec.europa-eu.png" background-position="top" visibility="hidden"}
-
-<!-- https://research-and-innovation.ec.europa.eu/strategy/strategy-2020-2024/our-digital-future/open-science_en -->
-
-## {background-image="images/web-open-science-gov.png" background-position="top" visibility="hidden"}
-
-<!-- https://open.science.gov -->
-
-## {background-image="images/web-unesco-org-en-open-science.png" background-position="top" visibility="hidden"}
-
-<!-- https://www.unesco.org/en/open-science -->
-
-## Pipelines {visibility="hidden"}
-
-:::: {.columns}
-::: {.column width="25%"}
-[![](images/targets-logo.png){fig-align="center" width=50% style="padding-top: 50px;"}](https://github.com/ropensci/targets)
-:::
-
-::: {.column width="75%"}
-[![](images/targets-pipeline.png){fig-align="center"}](https://books.ropensci.org/targets/walkthrough.html#inspect-the-pipeline)
-:::
-::::
-
-## Reproducible environments {visibility="hidden"}
-
-:::: {.columns}
-::: {.column width="50%"}
-[![](images/renv-logo.png){fig-align="center"}](https://rstudio.github.io/renv/)
-:::
-
-::: {.column width="50%"}
-[![](images/docker-logo.png){fig-align="center"}(https://www.docker.com/)
-:::
-::::
-
-## Markup languages {visibility="hidden"}
-
-## Open source software {visibility="hidden"}
-
-## Open source data management systems {visibility="hidden"}
-
-* [CKAN](https://ckan.org/)
-* [Dataverse](https://dataverse.org/)
-
-## Open journals {visibility="hidden"}
-
-Free for readers.
-
-* [PLOS ONE](https://journals.plos.org/plosone/)
-* [PeerJ](https://peerj.com/)
-
-
-## {background-image="images/web-doaj-org.png" background-position="top" visibility="hidden"}
-
-<!-- https://www.doaj.org/ -->
-
-## Community-driven open journals {visibility="hidden"}
-
-Free for readers __and__ authors.
-
-* [Journal of Statistical Software](https://www.jstatsoft.org)
-* [Journal of Open Source Software](https://joss.theoj.org)   
-* [Journal of Artificial Societies and Social Simulation](https://www.jasss.org)
-
-## Preprint servers {visibility="hidden"}
-
-* [arXiv](https://arxiv.org/) (preprint server)
-* [bioRxiv](https://www.biorxiv.org/) (preprint server)
-* [OSF Preprints](https://osf.io/preprints/)
-
-## Data repositories {visibility="hidden"}
-
-There are many data repositories available for researchers to deposit their data. Here are some examples:
-
-* Nucleic acid sequence
-  * [Genome Sequence Archive (GSA)](https://ngdc.cncb.ac.cn/gsa/)
-  * [European Variation Archive](https://www.ebi.ac.uk/eva/)
-  * [ClinVar](https://www.ncbi.nlm.nih.gov/clinvar/)
-
-* Protein sequence
-  * [UniProtKB](https://www.uniprot.org/)
-
-* Neuroscience
-  * [NeuroMorpho](http://neuromorpho.org/)
-  * [OpenNeuro](https://openneuro.org/)
-  * [EBRAINS](https://ebrains.eu/)
-
-* Health sciences
-  * [Cancer Imaging Archive (TCIA)](https://www.cancerimagingarchive.net/)
-
-See a more comprehensive list at [Nature](https://www.nature.com/sdata/policies/repositories).
-
-## Open repositories {visibility="hidden"}
-
-* Curated: Dryad
-
-* General non-curated: Zenodo (OpenAIRE e CERN), Researchgate, Figshare
-
-## Gitbased repositories {visibility="hidden"}
-
-* [GitHub](https://github.com/)
-* [GitLab](https://gitlab.com/)
-* [Bitbucket](https://bitbucket.org/)
-
-## Theory _versus_ practice {visibility="hidden"}
-
-![](images/meme-draw-an-owl.jpg){.r-stretch}

@@ -9,7 +9,7 @@ project:
   output-dir: docs
   render: [index.qmd]
 
-title: "Open science:\n\n_Nullius in verba_"
+title: "Open science"
 author: "Daniel Vartanian"
   # name: "Daniel Vartanian"
   # orcid: 0000-0001-7782-759X
