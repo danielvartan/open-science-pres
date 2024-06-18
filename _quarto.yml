@@ -9,7 +9,7 @@ project:
   output-dir: docs
   render: [index.qmd]
 
-title: "Open science"
+title: "Enhancing the Global Syndemic project with Open Science practices"
 author: "Daniel Vartanian"
   # name: "Daniel Vartanian"
   # orcid: 0000-0001-7782-759X
@@ -39,10 +39,11 @@ format:
     locale: en
     lang: en-us
     code-link: true
+    link-external-newwindow: true
     tbl-cap-location: top
     callout-appearance: simple
     csl: csl/english-apa-author-date.csl
-    preview-links: auto
+    preview-links: false
     controls-layout: bottom-right
     chalkboard: true
     auto-stretch: true

@@ -12,7 +12,7 @@ MIT](https://img.shields.io/badge/license-MIT-green)](https://choosealicense.com
 
 ⚗️🧪🧫🧬🔬🔭📡🔎 🔓⛓️‍💥🌊✊🌍
 
-This repository contains the slides of the open science presentation, made for the Sustentarea Research and Extension Center at the University of São Paulo. The slides are available [here](https://danielvartan.github.io/open-science-pres/).
+This repository contains the slides of the open science presentation made for the Sustentarea Research and Extension Center at the University of São Paulo. The slides are available [here](https://danielvartan.github.io/open-science-pres/).
 
 The code related to this repository is released under the [MIT
 license](https://opensource.org/license/mit/). Documents are released under the [Creative Commons Attribution 4.0 International

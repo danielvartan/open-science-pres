@@ -1,18 +1,26 @@
-## Hi, there 👋 {.smaller}
+## Hi there! 👋 {.smaller}
+
+```{r}
+#| label: setup
+#| include: false
+
+source(here::here("R/quarto-setup.R"))
+```
 
 :::: {.columns}
 ::: {.column width="70%"}
-⚠️ __NOT FINISHED__ ⚠️
-
 This presentation aims to organize our research efforts in a way that makes them transparent, reproducible, and in accordance with the best international standards.
+
+<!-- Problem-solution approach -->
 
 Here is our itinerary:
 
-(@) __Issues regarding the Global Syndemic project__
-(@) __Introduction to some concepts__
-(@) __A mini-tour into the open science world__
-(@) __Example of a reproducible research__
-(@) __Suggestions for the Global Syndemic project__
+(@) __Introduction__
+(@) __Key points for improvement__
+(@) __Fostering a culture of open science__
+(@) __Implementing a comprehensive project and data management system__
+(@) __Promoting reproducible research practices__
+(@) __Summary of points and suggestions__
 (@) __Final remarks__
 :::
 
@@ -21,27 +29,37 @@ Here is our itinerary:
 :::
 ::::
 
-## Materials sent {.smaller}
+## Materials sent before the presentation {.smaller}
 
-  * Center of Open Science. _Introduction to OSF_. <https://youtu.be/X07mBq2tnMg?si=m_mXwKrw0LvHazTg>
+:::: {.columns}
+::: {.column width="50%" style="font-size: 0.75em; padding-top: 120px;"}
+![](images/osf-logo.png){fig-align="center" width=75% style="padding-bottom: 150px;"}
 
-  * Leek, J. _How to share data with a statistician_. <https://github.com/jtleek/datasharing>
+Center for Open Science. (February 15, 2023) _Introduction to OSF_. <https://youtu.be/X07mBq2tnMg?si=m_mXwKrw0LvHazTg>
+:::
+
+::: {.column width="50%" style="font-size: 0.75em; padding-top: 0px;"}
+![](images/jeff-leek.jpg){fig-align="center" width=75% style="border-radius:50%"}
+
+Ellis, S. E., & Leek, J. T. (2018). How to share data for collaboration. _The American Statistician_, _72_(1), 53–57. <https://doi.org/10.1080/00031305.2017.1375987>
+:::
+::::
+
+## Let's try to keep an open mind {.nostretch}
+
+![](images/allison-horst-figure-10.png){fig-align="center" style="padding-top: 10px;"}
 
 
 <!-- --- -->
 
 
-<!-- ## Some issues regarding the Global Syndemic project -->
-
-## {background-image="images/web-cnpq-br.png" background-position="top left" background-size="100%"}
+## {background-image="images/web-cnpq-br.png" background-position="top left" background-size="100%" label="CNPq"}
 
 <!-- http://memoria2.cnpq.br/web/guest/chamadas-publicas?p_p_id=resultadosportlet_WAR_resultadoscnpqportlet_INSTANCE_0ZaM&filtro=abertas&detalha=chamadaDivulgada&idDivulgacao=11626 -->
 
-## Some issues regarding the Global Syndemic project
+## Why this is important? {.nostretch visibility="uncounted"}
 
-* Lack of standards and guidelines regarding data collection, storage, analysis and sharing.
-* Lack of a project and data management system.
-* Need of sophisticated tools and techniques to analyze big datasets.
+![](images/meme-your-plan-reality.png){fig-align="center"}
 
 ## What I can help with
 
@@ -49,32 +67,35 @@ It's important to note, that I'm not an expert in public health or environmental
 
 :::: {.columns}
 ::: {.column width="50%"}
-* Project management.
-* Data engineering.
+* __Project management__.
+* __Data engineering__.
 :::
 
 ::: {.column width="50%"}
-* Data analysis and visualization.
-* Complex system modeling.
+* __Data analysis and visualization__.
+* __Complex system modeling__.
 :::
 ::::
 
 I leave the theorizing and interpretation efforts to the experts in the field.
 
+## Key points for improvement
+
+1. __Fostering a culture of open science__.
+1. __Implementing a comprehensive project and data management system__.
+1. __Promoting reproducible research practices__.
+
+<!-- <p style="padding-bottom: 20px;">(If there is time)</p> -->
+
+<!-- 4\. __Establishing standardized guidelines for data practices__) -->
+
 
 <!-- --- -->
 
 
-## Introduction to some concepts
+## Fostering a culture of open science {.smaller}
 
-## Houston, we have a problem...
-
-```{r}
-#| label: setup
-#| include: false
-
-source(here::here("R/quarto-setup.R"))
-```
+## We have a problem...
 
 ::: {style="padding-top: 50px;"}
 "__The scientific research enterprise is built on a foundation of trust__. Scientists trust that the results reported by others are valid. Society trusts that the results of research reflect an honest attempt by scientists to describe the world accurately and without bias. __But this trust will endure only__ if the scientific community devotes itself to exemplifying and transmitting the values associated with ethical scientific conduct."
@@ -114,35 +135,31 @@ source(here::here("R/quarto-setup.R"))
 ::::
 
 ::: footer
-(Figures extracted from @baker2015 and @baker2016)
+(Figures from @baker2015 and @baker2016)
 :::
 
-## A ~~real~~ fiction example {.smaller}
+## A ~~real~~ fictional example {.nostretch .smaller}
 
-⚠️ __NOT FINISHED__ ⚠️
-
-* Refraining from sharing data and code.
-* Not providing a clear description of the methods used.
+:::: {.columns}
+::: {.column width="50%"}
+* Multicentric cohort study.
+* Uncentralized data storage.
+* No data management plan.
 * Hierarchical communication.
+* Reluctance to share data and code.
+* Complete absence of standards.
+* Complete absence of documentation.
+* Proprietary data formats.
 * Non-transparent research process.
 * Unreproducible results.
-* Lack of data management plan.
-* Lack of data documentation.
+:::
 
-* Data Findability ❌
-* Data Accessibility ❌
-* Data Interoperability ❌ (the data is locked in proprietary formats)
-* Data Reusability ❌
+::: {.column width="50%" style="padding-top: 125px;"}
+![](images/meme-this-is-fine.gif){fig-align="center"}
+:::
+::::
 
-(not to mention the toxic environment...)
-
-## A ~~real~~ fiction example 
-
-<!-- Some people have the incredible ability of making everything look fine, even when it's not. -->
-
-![](images/meme-this-is-fine.gif){.r-stretch fig-align="center"}
-
-## There's a solution: Open Science {.smaller}
+## There is a solution: Open Science {.smaller}
 
 :::: {.columns}
 ::: {.column width="50%"}
@@ -153,7 +170,7 @@ At a high-level, it can be defined as the following.
 "__Open Science is scholarly research that is collaborative, transparent and reproducible and whose outputs are publicly available.__" [@europeancommission2018]
 :::
 
-::: {.column width="50%"}
+::: {.column width="50%" style="padding-top: 25px;"}
 ![](images/lotta-tomasson-figure-1.png){fig-align="center"}
 :::
 ::::
@@ -162,183 +179,35 @@ At a high-level, it can be defined as the following.
 (Figure by Lotta Tomasson)
 :::
 
-## Fair principles {.smaller}
+## Fair principles {.smaller .nostretch}
 
-**F**indability, **A**ccessibility, **I**nteroperability, and **R**euse of digital assets.
-
-![](images/fair-data-principles.png){.r-stretch style="padding-top: 50px;"}
+![](images/fair-data-principles.png){fig-align="center" style="padding-top: 75px;"}
 
 ::: footer
 (To learn more see: @wilkinson2016 and @gofairinitiative)
 :::
 
-## What is data after all? {.smaller}
+## Open licenses {.smaller}
 
-* [Ackoff's DIKW pyramid](https://en.wikipedia.org/wiki/DIKW_pyramid).
-* Data < Information < Knowledge < Wisdom.
-* Data _versus_ the interpretation of data.
+A unlicensed work is an "all rights reserved" work. This means that you can't use it without the author's permission.
 
-![](images/dikw-drawing.jpeg){fig-align="center" style="padding-top: 25px;"}
+* Licences for data
+  * [Open Knowledge Foundation](https://okfn.org/)
 
-::: footer
-(To learn more see: @ackoff1989 and @rowley2007)
-:::
+* Licences for software/code
+  * [OSI Approved Licenses](https://opensource.org/licenses)
+  * [The MIT licence](https://opensource.org/license/mit)
+  * [GNU General Public License version 3](https://opensource.org/license/gpl-3-0)
 
-## What is data after all? {.smaller}
-
-Data is an abstraction of reality. It's a representation of the world around us. Without context, it has no meaning.
-
-[![](images/picasso-1946-the-bull.jpg){fig-align="center"}](https://www.artic.edu/artworks/83721/the-bull)
-
-## Data engineering {.smaller .nostretch}
-
-"__Data engineering is the development, implementation, and maintenance of systems and processes that take in raw data and produce high-quality, consistent information that supports downstream use cases, such as analysis and machine learning.__"
-
-You can think data engineering as the __plumbing__ of data science.
-
-![](images/reis-2022-figure-1-1.png){fig-align="center" width=65% style="padding-top: 0px;"}
-
-::: footer
-[@reis2022]
-:::
-
-## Data science {.smaller}
-
-It's a confusing term, with many definitions and interpretations.
-
-For some, data science is just statistics [@broman2013] (_hype statistics_). For others, it's a new interdisciplinary field that synthesizes statistics, informatics, computing, communication, management, and sociology [@cao2017].
-
-The arguments about the difference between data science and statistics are not very good. So it's best to use a high-level definition: 
-
-"__Data science is the study of the generalizable extraction of knowledge from data.__" [@dhar2023]
-
-
-![](images/wickham-2023-figure-1.png){fig-align="center"}
-
-::: footer
-(Figure extracted from @wickham2023b)
-:::
-
-## Data engineering _versus_ data science
-
-<p style="padding-top:50px;">"Data scientists, according to interviews and expert estimates, spend __from 50 percent to 80 percent of their time mired in this more mundane labor of collecting and preparing unruly digital data__, before it can be explored for useful nuggets." [@lohr2014].</p>
-
-![](images/reis-2022-figure-1-6.png){fig-align="center" style="padding-top:50px;"}
-
-::: footer
-(Figure by @reis2022)
-:::
-
-## Tidy data {.nostretch}
-
-![](images/allison-horst-figure-13.jpg){fig-align="center" width=100%}
-
-::: footer
-(Illustration by [Allison Horst](https://allisonhorst.com/horst-hill-collaborations))
-:::
-
-## Tidy data {.nostretch}
-
-![](images/allison-horst-figure-14.jpg){fig-align="center" width=100%}
-
-::: footer
-(Illustration by [Allison Horst](https://allisonhorst.com/horst-hill-collaborations))
-:::
-
-## Tidy data {.nostretch}
-
-Learn more in @wickham2023b, chap. 5.
-
-![](images/wickham-2023-figure-5-3.png){fig-align="center" width=100%}
-
-::: footer
-(Figure extracted from @wickham2023b)
-:::
-
-## Tidy data {.nostretch}
-
-![](images/allison-horst-figure-15.jpg){fig-align="center" width=100%}
-
-::: footer
-(Illustration by [Allison Horst](https://allisonhorst.com/horst-hill-collaborations))
-:::
-
-## Tidy data {.nostretch}
-
-![](images/allison-horst-figure-19.jpg){fig-align="center" width=100%}
-
-::: footer
-(Illustration by [Allison Horst](https://allisonhorst.com/horst-hill-collaborations))
-:::
-
-## Open data formats {.smaller}
-
-There are many open data formats available for researchers to use. Here are some examples:
-
-* Tabular data
-  * [Comma-Separated Values (CSV)](https://en.wikipedia.org/wiki/Comma-separated_values)
-  * [Apache Parquet](https://en.wikipedia.org/wiki/Apache_Parquet)
-
-* List data
-  * [JavaScript Object Notation (JSON)](https://en.wikipedia.org/wiki/JSON)
-  * [YAML Ain't Markup Language (YAML)](https://en.wikipedia.org/wiki/YAML)
-  * [TOML](https://en.wikipedia.org/wiki/TOML)
-  * [XML](https://en.wikipedia.org/wiki/XML)
-
-## Data documentation
-
-* Data dictionary (e.g., [SISVAN](https://s3.sa-east-1.amazonaws.com/ckan.saude.gov.br/SISVAN/estado_nutricional/Dicionário+de+Dados+-+Estado+Nutricional.pdf))
-* [Codebook](https://github.com/jtleek/datasharing?tab=readme-ov-file#the-code-book) (e.g., )
-
-* [How to share data with a statistician](https://github.com/jtleek/datasharing)
-
-* [Guide to writing “readme” style metadata](https://data.research.cornell.edu/data-management/sharing/readme/)
-* [Metadata Standards Catalog](https://rdamsc.bath.ac.uk/)
-
-## Data management plans
-
-* [FAPESP](https://fapesp.br/gestaodedados)
-* [DMPTool](https://dmptool.org/)
-* [DMPonline](https://dmponline.dcc.ac.uk/)
-
-* Example of a data management plan
-  * [Associations between the duration and quality of sleep of pregnant women in the third trimester with the duration of labor](https://doi.org/10.48321/D1PS4M)
-
-## Big data
-
-:::: {.columns}
-::: {.column width="40%"}
-"__Big data will be dead in 5 Years__: Everything will be big data, so it won't need a special name." [@gavin2020]
-:::
-
-::: {.column width="60%"}
-![](images/david-fletcher-big-data.jpeg){fig-align="center" width=100%}
-:::
-::::
-
-::: footer
-(Cartoon by [David Fletcher](https://en.wikipedia.org/wiki/David_Fletcher_(cartoonist)))
-:::
-
-## Reproducible research
-
-![](images/scriberia-reproducible-research.jpg){fig-align="center"}
-
-::: footer
-Illustration by [Scriberia](https://zenodo.org/records/10654984).
-:::
+* Licences for _everything else_ (e.g., documents, figures)
+  * [Creative Commons](https://creativecommons.org/)
+  * [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 
 
 <!-- --- -->
 
 
-## A mini-tour into the open science world {.nostretch}
-
-![](images/allison-horst-figure-12.png){fig-align="center" width=85% style="padding-top: 0px;"}
-
-::: footer
-(Illustration by [Allison Horst](https://allisonhorst.com/horst-hill-collaborations))
-:::
+## Implementing a comprehensive project and data management system
 
 ## Open Science Framework (OSF) {.smaller}
 
@@ -350,11 +219,24 @@ OSF is a free and open source project management tool that supports researchers 
 ([Center for Open Science](https://www.cos.io/products/osf))
 :::
 
+## OSF: Registrations {.smaller}
+
+* [OSF Registries](https://osf.io/registries)
+* [PROSPERO](https://www.crd.york.ac.uk/prospero/)
+* [ClinicalTrials.gov](https://clinicaltrials.gov/)
+
+## OSF: Data storage {.smaller}
+
 ## OSF: Components {.smaller}
 
-⚠️ __NOT FINISHED__ ⚠️
+* Everything is a component in OSF, including projects.
+* Subprojects can be nested into main projects.
 
-Everything is a component in OSF, including projects.
+![](images/cos-2023-figure-1.png){fig-align="center" style="padding-top: 25px;"}
+
+::: footer
+(Diagram by [Center for Open Science](https://www.youtube.com/watch?v=X07mBq2tnMg))
+:::
 
 ## OSF: Managing permissions
 
@@ -378,32 +260,126 @@ OSF let you have a fine control over each component of your project.
 :::
 ::::
 
-## OSF: Version control
+## OSF: Digital Objects & version control {.smaller}
 
-## Protocol registration {.smaller}
+:::: {.columns}
+::: {.column width="50%"}
+* OSF provides unique, persistent URLs for all components and files.
+* It can also provide DOIs (Digital Object Identifiers) for all components.
 
-* [PROSPERO](https://www.crd.york.ac.uk/prospero/)
-* [OSF Registries](https://osf.io/registries)
+<!-- Add DOI images -->
+:::
 
-## Open licenses {.smaller}
+::: {.column width="50%" style="padding-top: 125px;"}
+* OSF has a built-in version control system, all changes are tracked and can be reverted.
 
-A unlicensed work is an "all rights reserved" work. This means that you can't use it without the author's permission.
+<!-- Add git-like image -->
+:::
+::::
 
-* Licences for data
-  * [Open Knowledge Foundation](https://okfn.org/)
+## OSF: Preprints {.smaller}
 
-* Licences for software/code
-  * [OSI Approved Licenses](https://opensource.org/licenses)
-  * [The MIT licence](https://opensource.org/license/mit)
-  * [GNU General Public License version 3](https://opensource.org/license/gpl-3-0)
+## Application
 
-* Licences for _everything else_ (e.g., documents, figures)
-  * [Creative Commons](https://creativecommons.org/)
-  * [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
+* Private link: <https://osf.io/8w36c/>.
+
+* Subprojects (?):
+  * Literature review.
+  * Data wrangling & data analysis.
+  * Dashboard.
+  * Conceptual model.
+  * Agent-based model.
+
+
+<!-- --- -->
+
+
+## Promoting reproducible research practices
+
+## Reproducibility _versus_ Replicability
+
+::: {style="padding-top: 50px;"}
+"__Reproducibility__ means that research data and code are made available so that others are able to __reach the same results__ as are claimed in scientific outputs. Closely related is the concept of __replicability__, the act of repeating a scientific methodology to __reach similar conclusions__. These concepts are core elements of empirical research."
+:::
+
+::: footer
+[@bezjak2018]
+:::
+
+## Reproducible research
+
+![](images/scriberia-reproducible-research.jpg){fig-align="center"}
+
+::: footer
+(Illustration by [Scriberia](https://zenodo.org/records/10654984).)
+:::
+
+## Big data
+
+:::: {.columns}
+::: {.column width="40%"}
+"__Big data will be dead in 5 Years__: Everything will be big data, so it won't need a special name." [@gavin2020]
+:::
+
+::: {.column width="60%"}
+![](images/david-fletcher-big-data.jpeg){fig-align="center" width=100%}
+:::
+::::
+
+::: footer
+(Cartoon by [David Fletcher](https://en.wikipedia.org/wiki/David_Fletcher_(cartoonist)))
+:::
+
+## Big data wrangling
+
+* Working with big data using Excel or GUI-based statistical software is extremely challenging, if not impossible. Excel, for example, can struggle with performance issues and has a maximum row limit (1,048,576 rows), which is often insufficient for big data projects.
+* The best tools for handling big data are R and Python.
+
+## Example: SISVAN data (Tabular) {.nostretch .smaller}
+
+:::: {.columns}
+::: {.column width="50%"}
+2023
+: 34 cols $\times$ 50,544,073 rows<br>1,718,498,482 data points.
+
+2022
+: 34 cols $\times$ 45,862,105 rows<br>1,559,311,570 data points.
+
+2021
+: 34 cols $\times$ 29,853,217 rows<br>1,015,009,378 data points.
+
+2020
+: 34 cols $\times$ 22,720,515 rows<br>772,497,510 data points.
+
+2019
+: 34 cols $\times$ 30,175,272 rows<br>1,025,959,248 data points.
+:::
+
+::: {.column width="50%"}
+![](images/sisvan-logo.png){fig-align="center" width="75%" style="padding-top: 100px;"}
+:::
+::::
+
+## Example: Spatial data (Raster) {.smaller}
+
+:::: {.columns}
+::: {.column width="50%"}
+* Not all data is tabular; spatial data can be very large and complex.
+* Excel cannot handle spatial data, and GUI-based (Graphical User Interface) statistical softwares, when capable of handling spatial data, are often limited and struggles with performance issues.
+:::
+
+::: {.column width="50%"}
+![](images/worldclim-2-1-data.png){fig-align="center" style="padding-top: 50px;"}
+:::
+::::
+
+::: footer
+([WorldClim 2.1 data](https://worldclim.org/data/worldclim21.html). June mean temperature in the South America (1970-2000))
+:::
 
 ## Open-source programming languages
 
-![](images/calltutors-figure-1.png){.r-stretch}
+![](images/calltutors-figure-1.png){.r-stretch fig-align="center"}
 
 ## Now, let's be rational about this...
 
@@ -423,15 +399,11 @@ A unlicensed work is an "all rights reserved" work. This means that you can't us
 :::
 ::::
 
-## Python is fine too, I suppose... {.smaller}
+## Python is fine too, I suppose... {.nostretch .smaller}
 
 Python is good for learning how to program, but it is much easier to learn how to work with data in R. In academia, both programming languages are very important.
 
-![](images/meme-python-r.png){fig-align="center"}
-
-## It's not what you thinking {.nostretch}
-
-![](images/allison-horst-figure-10.png){fig-align="center" style="padding-top: 10px;"}
+![](images/meme-python-r.png){fig-align="center" width="62%"}
 
 ::: footer
 (Illustration by [Allison Horst](https://allisonhorst.com/horst-hill-collaborations))
@@ -517,25 +489,94 @@ It's made of a very diverse, inclusive, non-toxic community. __100% incel-free__
 (Illustration by [Allison Horst](https://allisonhorst.com/horst-hill-collaborations))
 :::
 
-## Ok, now that we got that out of the way...
+## Stata _versus_ R {.smaller}
 
-## Application Programming Interfaces (APIs) {.smaller}
+:::: {.columns}
+::: {.column width="50%" style="padding-top: 200px;"}
+![](images/stata-logo.svg){fig-align="center" width=75%}
 
-⚠️ __NOT FINISHED__ ⚠️
+:::
 
-* [OSF](https://developer.osf.io/)
+::: {.column width="50%"style="padding-top: 100px;"}
+![](images/r-logo.svg){fig-align="center" width=75%}
+:::
+::::
+
+## Dynamic documents {.smaller}
+
+They can also be called computation notebooks.
+
+* [Quarto](https://quarto.org/) (R, Python, Julia) (Integrates with Pandoc)
+* [Jupyter](https://jupyter.org/) (Python, R, Julia, +37 languages)
+* [Rmarkdown](https://rmarkdown.rstudio.com/) (Just R) (Integrates with Pandoc)
+
+#### Examples
+
+* <https://danielvartan.github.io/central-limit-theorem/>
+* <https://danielvartan.github.io/sample-size/>
+
+## Application Programming Interfaces (APIs) {.smaller visibility="uncounted"}
+
+:::: {.columns}
+::: {.column width="50%"}
+* [OSF API](https://developer.osf.io/)
 * [Brazil's Central Bank APIs](https://dadosabertos.bcb.gov.br/dataset?res_format=API)
 * [NASA's APIs](https://api.nasa.gov/)
+:::
+
+::: {.column width="50%"}
 * [SIDRA API (IBGE)](https://api.sidra.ibge.gov.br/)
 * [SISVAN API](https://opendatasus.saude.gov.br/dataset/sisvan-estado-nutricional/resource/3ead4331-6424-471f-a811-4edf22f58e00)
+:::
+::::
 
-## Dynamic documents (computational notebooks) {.smaller}
+```{r}
+#| echo: true
 
-⚠️ __NOT FINISHED__ ⚠️
+# library(dplyr)
+# library(magrittr)
+# library(sidrar)
 
-* [Quarto](https://quarto.org/)
-* [Jupyter](https://jupyter.org/)
-* [Rmarkdown](https://rmarkdown.rstudio.com/)
+# Brazil's population in 2022 (census data)
+sidrar::get_sidra(
+  api = "/t/7358/n1/all/v/all/p/all/c2/6794/c287/100362/c1933/49039"
+) |>
+  suppressMessages() |>
+  magrittr::extract2("Valor") |>
+  prettyNum(big.mark = ",")
+```
+
+## Pipelines
+
+:::: {.columns}
+::: {.column width="25%"}
+[![](images/targets-logo.png){fig-align="center" style="padding-top: 125px;"}](https://github.com/ropensci/targets)
+:::
+
+::: {.column width="75%"}
+[![](images/targets-pipeline.png){fig-align="center" style="padding-top: 50px;"}](https://books.ropensci.org/targets/walkthrough.html#inspect-the-pipeline)
+:::
+::::
+
+## Reproducible environments
+
+:::: {.columns}
+::: {.column width="50%"}
+[![](images/renv-logo.png){fig-align="center" width="75%" style="padding-top: 75px;"}](https://rstudio.github.io/renv/)
+:::
+
+::: {.column width="50%"}
+[![](images/docker-logo.png){fig-align="center" width="75%" style="padding-top: 75px;"}](https://www.docker.com/)
+:::
+::::
+
+## Example of a reproducible research {.smaller}
+
+* <https://danielvartan.github.io/mastersthesis/web/qmd/chapter-6.html>
+
+
+<!-- --- -->
+
 
 ## Some other things that we didn't cover {.smaller}
 
@@ -543,26 +584,25 @@ We just scratched the surface of the open science world. There are many other to
 
 :::: {.columns}
 ::: {.column width="50%" style="font-size: 0.75em;"}
-* Pipelines (e.g., [`targets`](https://docs.ropensci.org/targets/)).
-* Reproducible environments (e.g., [`renv`](https://rstudio.github.io/renv/index.html/), [Docker](https://www.docker.com/)).
 * Markup languages (e.g., [Markdown](https://daringfireball.net/projects/markdown/), [LaTeX](https://www.latex-project.org/)).
 * Open source softwares (e.g., [rOpenSci](https://ropensci.org/), [CRAN](https://cran.r-project.org/), [Bioconductor](https://www.bioconductor.org/), [PyPI](https://pypi)).
 * Version control systems (e.g. [Git](https://www.git-scm.com/), [SVN](https://subversion.apache.org/), [Semantic versioning](https://semver.org/)).
-* Open source data management systems (e.g., [CKAN](https://www.ckan.org/), [Dataverse](https://dataverse.org/)).
+* Open source data management systems (e.g., [CKAN](https://www.ckan.org/), [Dataverse](https://dataverse.org/); [DSpace](https://dspace.lyrasis.org/)).
 * Open journals (e.g., [PLoS](https://plos.org/), [BMJ Open](https://bmjopen.bmj.com/), [PeerJ](https://peerj.com/)).
 * Community-driven open journals (e.g., [Journal of Statistical Software](https://www.jstatsoft.org), [JASSS](https://www.jasss.org/)).
+* Preprint servers (e.g., [arXiv](https://arxiv.org/), [bioRxiv](https://www.biorxiv.org/), [OSF preprints](https://osf.io/preprints)).
+* Ethical data sharing practices (See @meyer2018 to learn more).
 :::
 
 ::: {.column width="50%" style="font-size: 0.75em;"}
-* Preprint servers (e.g., [arXiv](https://arxiv.org/), [bioRxiv](https://www.biorxiv.org/), [OSF preprints](https://osf.io/preprints)).
 * Git-based repositories (e.g., [GitHub](https://github.com), [GitLab](https://gitlab.com)).
 * Open repositories (e.g., [Zenodo](https://zenodo.org/), [FigShare](https://figshare.com/), [ResearchGate](https://www.researchgate.net/), [Dryad](https://datadryad.org)).
-* Data repositories (e.g., [GSA](https://ngdc.cncb.ac.cn/gsa/), [UniProtKB](https://www.uniprot.org/), [OpenNeuro](https://openneuro.org/)).
+* Data data repositories (e.g., [GSA](https://ngdc.cncb.ac.cn/gsa/), [UniProtKB](https://www.uniprot.org/), [OpenNeuro](https://openneuro.org/)).
+* Open data formats (e.g., [CSV](https://en.wikipedia.org/wiki/Comma-separated_values), [JSON](https://www.json.org/json-en.html), [Apache Parquet](https://en.wikipedia.org/wiki/Apache_Parquet)).
 * Open science policies (e.g., [FAPESP](https://fapesp.br/openscience/), [European Commission](https://research-and-innovation.ec.europa.eu/strategy/strategy-2020-2024/our-digital-future/open-science_en)).
 * Shadow libraries (e.g., [Sci-Hub](https://sci-hub.se/), [Library Genesis](https://libgen.is/)).
 :::
 ::::
-
 
 ## Some other things that we didn't cover {.nostretch}
 
@@ -576,83 +616,82 @@ We just scratched the surface of the open science world. There are many other to
 <!-- --- -->
 
 
-## Example of a reproducible research
+## Summary of points and suggestions
 
-⚠️ __NOT FINISHED__ ⚠️
+These suggestions may be too overwhelming at first. It's important to __start small__ and gradually incorporate these practices into the project workflow.
 
-* Associations between the duration and quality of sleep of pregnant women in the third trimester with the duration of labor.
+The order of the suggestions is not important.
+
+## Summary of points and suggestions {.smaller}
+
+1. __Project and data management system__
+
+* Implement OSF (Open Science Framework) as the central system for managing the project and associated data.
+
+2. __Subprojects integration__
+
+* Integrate each subproject (e.g., scope review, data analysis, causal model, agent-based modeling) into the main project on OSF.
+
+3. __Protocol registration__
+
+* Register research protocols for both the main project and each subproject.
+* Ensure alignment of protocols before registration by using drafts.
+
+## Summary of points and suggestions {.smaller}
+
+<!-- Bug -->
+
+::: {}
+4. __Data management plan__
+:::
+
+* Develop a data management plan for each subproject.
+
+::: {}
+5. __Open licenses__
+:::
+
+* Apply open licenses to both the data and the code to ensure transparency and accessibility.
+
+::: {}
+6. __Agile management methodology__
+:::
+
+* Use a project management tool to track the progress of the project and subprojects (e.g., [Taiga](https://taiga.io/), [Jira](https://www.atlassian.com/software/jira), [Trello](https://trello.com)).
+* A simple Kanban board for each subproject can be very helpful. There's no need to overcomplicate things.
+
+## Summary of points and suggestions {.smaller}
+
+7. __Data science program__
+
+* Follow the guidelines and methodologies proposed by Wickham (2023) when conducting data analyses.
+* Tidy and document all the code and data.
+
+8. __Dynamic documents__
+
+* Use dynamic documents to maintain an updated and reproducible record of data analyses.
+* Use [GitHub](https://github.com/) for code and integrate it with OSF.
+
+## Summary of points and suggestions {.smaller}
+
+9. __Programmatic approach__
+
+* Emphasize learning and applying programmatic methods for handling large datasets, as this is the most effective approach for managing and analyzing extensive data collections
+
+10. __Reproducible environments__
+
+* Use reproducible environments to ensure that the data analysis is replicable and transparent (e.g., [`renv`](https://rstudio.github.io/renv/index.html/), [Docker](https://www.docker.com/)).
+* Use [`targets`](https://docs.ropensci.org/targets/) for building pipelines.
 
 
 <!-- --- -->
 
 
-## Suggestions for the Global Syndemic project {.smaller}
-
-⚠️ __NOT FINISHED__ ⚠️
-
-#### Project and data management
-
-1. __Use OSF as a project and data management system__
-  * Implement OSF (Open Science Framework) as the central system for managing the project and associated data.
-2. __Subprojects integration__
-  * Integrate each subproject (e.g., scope review, data analysis, causal model, agent-based modeling) into the main project on OSF.
-
-## Suggestions for the Global Syndemic project {.smaller}
-
-#### Project and data management
-
-3. __Protocol registration__
-  * Register research protocols for both the main project and each subproject.
-  * Ensure alignment of protocols before registration by using drafts.
-4. __Open licenses__
-  * Apply open licenses to both the data and the code to ensure transparency and accessibility.
-
-## Suggestions for the Global Syndemic project {.smaller}
-
-⚠️ __NOT FINISHED__ ⚠️
-
-#### Data analysis
-
-1. __Use Wickham's program for data analysis__
-  * Follow the guidelines and methodologies proposed by Wickham (2023) when conducting data analyses.
-  * Tidy and document all the code and data.
-2. __Dynamic documents__
-  * Utilize dynamic documents to maintain an updated and reproducible record of data analyses.
-
-## Suggestions for the Global Syndemic project {.smaller}
-
-⚠️ __NOT FINISHED__ ⚠️
-
-#### Data analysis
-
-3. __Programmatic approach__
-  * Emphasize learning and applying programmatic methods for handling large datasets, as this is the most effective approach for managing and analyzing extensive data collections
-4. Reproducible environments
-  * Use reproducible environments to ensure that the data analysis is replicable and transparent.
-
-## We need to work as a team
-
-You're not alone in this journey. We're all in this together.
-
-![](images/meme-team-work.gif){fig-align="center" width=200%}
-
-## Global Syndemic project on OSF {.smaller}
-
-⚠️ __NOT FINISHED__ ⚠️
-
-## Global Syndemic project on GitHub {.smaller}
-
-⚠️ __NOT FINISHED__ ⚠️
-
-## Theory _versus_ practice
+## Theory _versus_ practice {.smaller}
 
 Things will not always go as planned. But that's ok. We'll figure it out together.
 
 ![](images/meme-theory-versus-practice.gif){.r-stretch fig-align="center"}
-
-
-<!-- --- -->
-
 
 ## Final remarks {.smaller}
 
@@ -665,7 +704,7 @@ This presentation was made using the Quarto Publishing System. Code and material
 
 All those beautiful illustrations were made by [Allison Horst](https://allisonhorst.com). Thank you, Allison!
 
-![](images/allison-horst-figure-1.png){fig-align="center" width=80%}
+![](images/allison-horst-figure-1.png){fig-align="center" width=80% style="padding-top: 10px;"}
 
 ::: footer
 (Illustration by [Allison Horst](https://allisonhorst.com/horst-hill-collaborations))
@@ -686,4 +725,190 @@ In accordance with the [American Psychological Association (APA) Style](https://
 
 ::: footer
 (Illustration by [Allison Horst](https://allisonhorst.com/horst-hill-collaborations))
+:::
+
+
+<!-- --- -->
+
+## (AP) Appendices {visibility="uncounted"}
+
+## (AP) Establishing standardized guidelines for data practices {visibility="uncounted"}
+
+## (AP) Data engineering {.smaller .nostretch visibility="uncounted"}
+
+"__Data engineering is the development, implementation, and maintenance of systems and processes that take in raw data and produce high-quality, consistent information that supports downstream use cases, such as analysis and machine learning.__"
+
+You can think data engineering as the __plumbing__ of data science.
+
+![](images/reis-2022-figure-1-1.png){fig-align="center" width=65% style="padding-top: 0px;"}
+
+::: footer
+[@reis2022]
+:::
+
+## (AP) Data science {.nostretch .smaller visibility="uncounted"}
+
+It's a confusing term, with many definitions and interpretations.
+
+For some, data science is just statistics [@broman2013] (_hype statistics_). For others, it's a new interdisciplinary field that synthesizes statistics, informatics, computing, communication, management, and sociology [@cao2017].
+
+A high-level definition: "__Data science is the study of the generalizable extraction of knowledge from data.__" [@dhar2023]
+
+![](images/wickham-2023-figure-1.png){fig-align="center" width=85%}
+
+::: footer
+(Figure from @wickham2023b)
+:::
+
+## (AP) Data engineering _versus_ data science {.nostretch visibility="uncounted"}
+
+<p style="padding-top:50px;">"Data scientists, according to interviews and expert estimates, spend __from 50 percent to 80 percent of their time mired in this more mundane labor of collecting and preparing unruly digital data__, before it can be explored for useful nuggets." [@lohr2014].</p>
+
+![](images/reis-2022-figure-1-6.png){fig-align="center" width="90%" style="padding-top:50px;"}
+
+::: footer
+(Figure by @reis2022)
+:::
+
+## (AP) Tidy data {.nostretch visibility="uncounted"}
+
+![](images/allison-horst-figure-13.jpg){fig-align="center" width=100%}
+
+::: footer
+(Illustration by [Allison Horst](https://allisonhorst.com/horst-hill-collaborations))
+:::
+
+## (AP) Tidy data {.nostretch visibility="uncounted"}
+
+![](images/allison-horst-figure-14.jpg){fig-align="center" width=100%}
+
+::: footer
+(Illustration by [Allison Horst](https://allisonhorst.com/horst-hill-collaborations))
+:::
+
+## (AP) Tidy data {.nostretch visibility="uncounted"}
+
+Learn more in @wickham2023b, chap. 5.
+
+![](images/wickham-2023-figure-5-3.png){fig-align="center" width=100%}
+
+::: footer
+(Figure from @wickham2023b)
+:::
+
+## (AP) Tidy data {.nostretch visibility="uncounted"}
+
+![](images/allison-horst-figure-15.jpg){fig-align="center" width=100%}
+
+::: footer
+(Illustration by [Allison Horst](https://allisonhorst.com/horst-hill-collaborations))
+:::
+
+## (AP) Tidy data {.nostretch visibility="uncounted"}
+
+![](images/allison-horst-figure-19.jpg){fig-align="center" width=100%}
+
+::: footer
+(Illustration by [Allison Horst](https://allisonhorst.com/horst-hill-collaborations))
+:::
+
+## (AP) Data documentation {visibility="uncounted"}
+
+* Data dictionaries/Codebooks (e.g., [SISVAN](https://s3.sa-east-1.amazonaws.com/ckan.saude.gov.br/SISVAN/estado_nutricional/Dicionário+de+Dados+-+Estado+Nutricional.pdf))
+* [Guide to writing “readme” style metadata](https://data.research.cornell.edu/data-management/sharing/readme/)
+* [Metadata Standards Catalog](https://rdamsc.bath.ac.uk/)
+* [Data Documentation Initiative (DDI)](https://ddialliance.org/)
+
+## Codebook {.smaller visibility="uncounted"}
+
+![](images/ellis-2018-figure-1.jpg){.r-stretch fig-align="center"}
+
+## (AP) Open data formats {.smaller visibility="uncounted"}
+
+There are many open data formats available for researchers to use. Here are some examples:
+
+* Tabular data
+  * [Comma-Separated Values (CSV)](https://en.wikipedia.org/wiki/Comma-separated_values)
+  * [Apache Parquet](https://en.wikipedia.org/wiki/Apache_Parquet)
+
+(__Excel files are not a open data format!__)
+
+* List data
+  * [JSON](https://en.wikipedia.org/wiki/JSON)
+  * [YAML](https://en.wikipedia.org/wiki/YAML)
+  * [TOML](https://en.wikipedia.org/wiki/TOML)
+  * [XML](https://en.wikipedia.org/wiki/XML)
+
+## (AP) Data management plans {visibility="uncounted"}
+
+* [FAPESP](https://fapesp.br/gestaodedados)
+* [DMPTool](https://dmptool.org/)
+* [DMPonline](https://dmponline.dcc.ac.uk/)
+
+* Example of a data management plan
+  * [Associations between the duration and quality of sleep of pregnant women in the third trimester with the duration of labor](https://doi.org/10.48321/D1PS4M)
+
+## (AP) What is data after all? {.smaller visibility="uncounted"}
+
+* [Ackoff's DIKW pyramid](https://en.wikipedia.org/wiki/DIKW_pyramid).
+* Data < Information < Knowledge < Wisdom.
+* Data _versus_ the interpretation of data.
+
+![](images/dikw-drawing.jpeg){fig-align="center" style="padding-top: 25px;"}
+
+::: footer
+(To learn more see: @ackoff1989 and @rowley2007)
+:::
+
+## (AP) What is data after all? {.smaller visibility="uncounted"}
+
+Data is an abstraction of reality. It's a representation of the world around us. Without context, it has no meaning.
+
+[![](images/picasso-1946-the-bull.jpg){fig-align="center"}](https://www.artic.edu/artworks/83721/the-bull)
+
+## (AP) What is a project? {visibility="uncounted"}
+
+1. A __unique__ and __temporary__ endeavor.
+2. Has a defined beginning and end.
+3. Purpose is to create a specific product or service or change a specific product or service.
+4. Has limited resources.
+
+::: footer
+[@pmi2017]
+:::
+
+## (AP) KISS principle {.nostretch visibility="uncounted"}
+
+![](images/kiss-principle.png){fig-align="center" width="75%" style="padding-top: 100px;"}
+
+## (AP) Kanban {visibility="uncounted"}
+
+::: {style="padding-top: 100px;"}
+"Kanban is a tool that allows you to fully visualize the status of your processes through a board with dynamic columns that make all tasks and processes steps clear”
+:::
+
+::: footer
+[@alionco2017]
+:::
+
+## (AP) Kanban board {.smaller visibility="uncounted"}
+
+![](images/simple-kanban-board.png){.r-stretch fig-align="center"}
+
+## (AP) Kanban origin {.nostretch visibility="uncounted"}
+
+![](images/kanban-board-toyota.jpg){fig-align="center" width="80%"}
+
+::: footer
+(Author unknown)
+:::
+
+## (AP) Kanban principles {visibility="uncounted"}
+
+1. Start with what you do now.
+2. Agree to pursue incremental, evolutionary change.
+3. Respect the current process, roles, responsibilities, and titles.
+
+::: footer
+[@stellman2014]
 :::
