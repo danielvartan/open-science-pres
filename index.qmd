@@ -63,24 +63,6 @@ Page link: <http://memoria2.cnpq.br/web/guest/chamadas-publicas?p_p_id=resultado
 
 ![](images/meme-your-plan-reality.png){fig-align="center" style="padding-top: 25px;"}
 
-## What I can help with
-
-It's important to note, that I'm not an expert in public health or environmental science. However, I have a strong background in data science and complex systems modeling. I can help with:
-
-:::: {.columns}
-::: {.column width="50%"}
-* __Project management__.
-* __Data engineering__.
-:::
-
-::: {.column width="50%"}
-* __Data science__.
-* __Complex system modeling__.
-:::
-::::
-
-I leave the theorizing and interpretation efforts to the experts in the field.
-
 ## Key points
 
 1. __Fostering a culture of open science__.
@@ -177,7 +159,7 @@ I leave the theorizing and interpretation efforts to the experts in the field.
 :::
 ::::
 
-## There is a solution: Open Science {.smaller}
+## Open Science {.smaller}
 
 :::: {.columns}
 ::: {.column width="50%"}
@@ -485,7 +467,7 @@ A unlicensed work is an "all rights reserved" work. This means that you can't us
 :::
 ::::
 
-## Python is fine too, I suppose... {.nostretch .smaller}
+## Python is fine too {.nostretch .smaller}
 
 Python is good for learning how to program, but it is much easier to learn how to work with data in R. In academia, both programming languages are very important.
 
@@ -543,7 +525,7 @@ __How do I learn R?__
 ::: {.column width="40%"}
 R was created by scientists for scientists.
 
-It's made of a very diverse, inclusive, non-toxic community. __100% incel-free__!
+It's made of a very diverse, inclusive, non-toxic community.
 :::
 
 ::: {.column width="60%"}
@@ -607,6 +589,7 @@ __Examples__
 
 * External-link: [Central limit theorem](https://danielvartan.github.io/central-limit-theorem/).
 * External-link: [Sample size](https://danielvartan.github.io/sample-size/).
+* External-link: [Fisher's hypothesis](https://danielvartan.github.io/fisher-hypothesis/).
 :::
 ::::
 
@@ -760,7 +743,8 @@ In accordance with the [American Psychological Association (APA) Style](https://
 
 <!-- --- -->
 
-##(AP) App. Programming Interfaces (APIs) {.smaller visibility="uncounted"}
+
+## (AP) App. Programming Interfaces (APIs) {.smaller visibility="uncounted"}
 
 APIs are a set of rules that allow different software applications to communicate with each other.
 
@@ -944,9 +928,9 @@ Data is an abstraction. It's a representation of the world around us. Without co
 
 ![](images/raw-data.png){fig-align="center" width=75% style="padding-top: 10px;"}
 
-## (AP) Data types {.smaller visibility="uncounted"}
+## (AP) Data classes {.smaller visibility="uncounted"}
 
-__Some R data types__
+__Some R data classes__
 
 :::: {.columns}
 ::: {.column width="50%"}

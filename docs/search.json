@@ -28,13 +28,6 @@
     "text": "Why this is important?"
   },
   {
-    "objectID": "index.html#what-i-can-help-with",
-    "href": "index.html#what-i-can-help-with",
-    "title": "Enhancing the Global Syndemic project with Open Science practices",
-    "section": "What I can help with",
-    "text": "What I can help with\nIt’s important to note, that I’m not an expert in public health or environmental science. However, I have a strong background in data science and complex systems modeling. I can help with:\n\n\n\n\nProject management.\n\nData engineering.\n\n\n\n\nData science.\n\nComplex system modeling.\n\n\n\nI leave the theorizing and interpretation efforts to the experts in the field."
-  },
-  {
     "objectID": "index.html#key-points",
     "href": "index.html#key-points",
     "title": "Enhancing the Global Syndemic project with Open Science practices",
@@ -77,11 +70,11 @@
     "text": "A real fictional example\n\n\n\nMulticentric cohort study.\nUncentralized data storage.\nNo data management plan.\nHierarchical communication.\nReluctance to share data and code.\nComplete absence of standards.\nComplete absence of documentation.\nProprietary data formats.\nNon-transparent research process.\nUnreproducible results."
   },
   {
-    "objectID": "index.html#there-is-a-solution-open-science",
-    "href": "index.html#there-is-a-solution-open-science",
+    "objectID": "index.html#open-science",
+    "href": "index.html#open-science",
     "title": "Enhancing the Global Syndemic project with Open Science practices",
-    "section": "There is a solution: Open Science",
-    "text": "There is a solution: Open Science\n\n\n“Open Science is an umbrella term encompassing a multitude of assumptions about the future of knowledge creation and dissemination.” (Fecher & Friesike, 2014)\nAt a high-level, it can be defined as the following.\n“Open Science is scholarly research that is collaborative, transparent and reproducible and whose outputs are publicly available.” (European Commission & Directorate-General for Research and Innovation, 2018)\n\n\n\n\n\n\n\n\n(Figure by Lotta Tomasson)"
+    "section": "Open Science",
+    "text": "Open Science\n\n\n“Open Science is an umbrella term encompassing a multitude of assumptions about the future of knowledge creation and dissemination.” (Fecher & Friesike, 2014)\nAt a high-level, it can be defined as the following.\n“Open Science is scholarly research that is collaborative, transparent and reproducible and whose outputs are publicly available.” (European Commission & Directorate-General for Research and Innovation, 2018)\n\n\n\n\n\n\n\n\n(Figure by Lotta Tomasson)"
   },
   {
     "objectID": "index.html#implementing-a-comprehensive-project-and-data-management-system",
@@ -217,11 +210,11 @@
     "text": "Now, let’s be rational about this…"
   },
   {
-    "objectID": "index.html#python-is-fine-too-i-suppose",
-    "href": "index.html#python-is-fine-too-i-suppose",
+    "objectID": "index.html#python-is-fine-too",
+    "href": "index.html#python-is-fine-too",
     "title": "Enhancing the Global Syndemic project with Open Science practices",
-    "section": "Python is fine too, I suppose…",
-    "text": "Python is fine too, I suppose…\nPython is good for learning how to program, but it is much easier to learn how to work with data in R. In academia, both programming languages are very important.\n\n\n\n\n\n(Illustration by Allison Horst)"
+    "section": "Python is fine too",
+    "text": "Python is fine too\nPython is good for learning how to program, but it is much easier to learn how to work with data in R. In academia, both programming languages are very important.\n\n\n\n\n\n(Illustration by Allison Horst)"
   },
   {
     "objectID": "index.html#its-not-what-you-thinking",
@@ -242,7 +235,7 @@
     "href": "index.html#r-has-the-best-communities",
     "title": "Enhancing the Global Syndemic project with Open Science practices",
     "section": "R has the best communities",
-    "text": "R has the best communities\n\n\nR was created by scientists for scientists.\nIt’s made of a very diverse, inclusive, non-toxic community. 100% incel-free!\n\n\n\n\n\n\n\n\n(Illustration by Allison Horst)"
+    "text": "R has the best communities\n\n\nR was created by scientists for scientists.\nIt’s made of a very diverse, inclusive, non-toxic community.\n\n\n\n\n\n\n\n\n(Illustration by Allison Horst)"
   },
   {
     "objectID": "index.html#important-r-communities-and-events",
@@ -270,7 +263,7 @@
     "href": "index.html#dynamic-documents",
     "title": "Enhancing the Global Syndemic project with Open Science practices",
     "section": "Dynamic documents",
-    "text": "Dynamic documents\nDynamic documents seamlessly integrate text with output from a programming language, automatically updating the output whenever the code is executed.\n\n\n\n\nQuarto (R, Python, Julia) (+Pandoc).\n\nJupyter (Python, R, Julia, +37 languages).\n\nRmarkdown (R) (+Pandoc).\n\n\nExamples\n\nExternal-link: Central limit theorem.\nExternal-link: Sample size.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nYou can write articles with dynamic documents.\nDifference from LaTeX.\nQuarto as an evolution from Rmarkdown.\nJupyter can be used with Quarto."
+    "text": "Dynamic documents\nDynamic documents seamlessly integrate text with output from a programming language, automatically updating the output whenever the code is executed.\n\n\n\n\nQuarto (R, Python, Julia) (+Pandoc).\n\nJupyter (Python, R, Julia, +37 languages).\n\nRmarkdown (R) (+Pandoc).\n\n\nExamples\n\nExternal-link: Central limit theorem.\nExternal-link: Sample size.\nExternal-link: Fisher’s hypothesis.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nYou can write articles with dynamic documents.\nDifference from LaTeX.\nQuarto as an evolution from Rmarkdown.\nJupyter can be used with Quarto."
   },
   {
     "objectID": "index.html#pipelines",
@@ -347,7 +340,14 @@
     "href": "index.html#ap-appendices",
     "title": "Enhancing the Global Syndemic project with Open Science practices",
     "section": "(AP) Appendices",
-    "text": "(AP) Appendices\n\n##(AP) App. Programming Interfaces (APIs) {.smaller visibility=“uncounted”}\nAPIs are a set of rules that allow different software applications to communicate with each other.\n\n\n\n\nOSF API.\n\nBrazil’s Central Bank APIs.\n\nNASA’s APIs.\n\n\n\n\nOpenAI API.\n\nSIDRA API (IBGE).\n\nSISVAN API.\n\n\n\n\n\n\n\n\n\n\n\n\n# library(dplyr)\n# library(magrittr)\n# library(sidrar)\n\n# Brazil's population in 2022 (census data)\nsidrar::get_sidra(\n  api = \"/t/7358/n1/all/v/all/p/all/c2/6794/c287/100362/c1933/49039\"\n) |&gt;\n  suppressMessages() |&gt;\n  magrittr::extract2(\"Valor\") |&gt;\n  prettyNum(big.mark = \",\")\n#&gt; [1] \"216,284,269\""
+    "text": "(AP) Appendices"
+  },
+  {
+    "objectID": "index.html#ap-app.-programming-interfaces-apis",
+    "href": "index.html#ap-app.-programming-interfaces-apis",
+    "title": "Enhancing the Global Syndemic project with Open Science practices",
+    "section": "(AP) App. Programming Interfaces (APIs)",
+    "text": "(AP) App. Programming Interfaces (APIs)\nAPIs are a set of rules that allow different software applications to communicate with each other.\n\n\n\n\nOSF API.\n\nBrazil’s Central Bank APIs.\n\nNASA’s APIs.\n\n\n\n\nOpenAI API.\n\nSIDRA API (IBGE).\n\nSISVAN API.\n\n\n\n\n\n\n\n\n\n\n\n\n# library(dplyr)\n# library(magrittr)\n# library(sidrar)\n\n# Brazil's population in 2022 (census data)\nsidrar::get_sidra(\n  api = \"/t/7358/n1/all/v/all/p/all/c2/6794/c287/100362/c1933/49039\"\n) |&gt;\n  suppressMessages() |&gt;\n  magrittr::extract2(\"Valor\") |&gt;\n  prettyNum(big.mark = \",\")\n#&gt; [1] \"216,284,269\""
   },
   {
     "objectID": "index.html#ap-summary-of-points-and-suggestions",
@@ -441,11 +441,11 @@
     "text": "(AP) Raw data\n\n“With raw data, we mean the data as it arrives at the desk of the analyst. The state of such data may of course vary enormously, depending on the data source.” (Jonge & Loo, 2018).\n“If the researcher has made any modifications to the raw data, it is not the raw form of the data.” (Ellis & Leek, 2018)."
   },
   {
-    "objectID": "index.html#ap-data-types",
-    "href": "index.html#ap-data-types",
+    "objectID": "index.html#ap-data-classes",
+    "href": "index.html#ap-data-classes",
     "title": "Enhancing the Global Syndemic project with Open Science practices",
-    "section": "(AP) Data types",
-    "text": "(AP) Data types\nSome R data types\n\n\n\n\nCharacter (e.g., “Maria”, “John”).\n\nFactor (e.g., 1 = “Male”, 2 = “Female”).\n\nInteger (e.g., 1, 2, 3).\n\nFloat (e.g., 1.0, 2.0, 3.0).\n\nComplex (e.g., 1 + 2i, 3 + 4i).\n\nBoolean (e.g., TRUE, FALSE).\n\n\n\n\nDate (e.g., 2023-01-01) (linear time).\n\nDate-time (e.g., 2023-01-01 00:00:00) (linear time).\n\nInterval (e.g., 2023-01-01 00:00:00)–2023-12-15 15:40:00)) (linear time).\n\nDuration (e.g., 1 year, 2 months, 3 days) (linear time).\n\nPeriod (e.g., 1 year, 2 months, 3 days) (linear(ish) time).\n\nTime of day (e.g., 01:00:00) (circular time)."
+    "section": "(AP) Data classes",
+    "text": "(AP) Data classes\nSome R data classes\n\n\n\n\nCharacter (e.g., “Maria”, “John”).\n\nFactor (e.g., 1 = “Male”, 2 = “Female”).\n\nInteger (e.g., 1, 2, 3).\n\nFloat (e.g., 1.0, 2.0, 3.0).\n\nComplex (e.g., 1 + 2i, 3 + 4i).\n\nBoolean (e.g., TRUE, FALSE).\n\n\n\n\nDate (e.g., 2023-01-01) (linear time).\n\nDate-time (e.g., 2023-01-01 00:00:00) (linear time).\n\nInterval (e.g., 2023-01-01 00:00:00)–2023-12-15 15:40:00)) (linear time).\n\nDuration (e.g., 1 year, 2 months, 3 days) (linear time).\n\nPeriod (e.g., 1 year, 2 months, 3 days) (linear(ish) time).\n\nTime of day (e.g., 01:00:00) (circular time)."
   },
   {
     "objectID": "index.html#ap-valid-data",
