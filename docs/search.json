@@ -4,7 +4,7 @@
     "href": "index.html#hi-there",
     "title": "Enhancing the Global Syndemic project with Open Science practices",
     "section": "Hi there! 👋",
-    "text": "Hi there! 👋\n\n\nThis presentation aims to organize our research efforts in a way that makes them transparent, reproducible, and in accordance with the best international standards.\n\nHere is our itinerary:\n\nIntroduction\nKey points for improvement\nFostering a culture of open science\nImplementing a comprehensive project and data management system\nPromoting reproducible research practices\nSummary of points and suggestions\nFinal remarks"
+    "text": "Hi there! 👋\n\n\nThis presentation aims to organize our research efforts in a way that makes them transparent, reproducible, and in accordance with the best international standards.\nHere is our itinerary:\n\nIntroduction\nFostering a culture of open science\nImplementing a comprehensive project and data management system\nPromoting reproducible research practices\nFinal remarks\n\n\n\n\n\n\n\n\n\n\nIntroduction (5 min.)\n\nFostering a culture of open science (10 min.)\n\nImplementing a comprehensive project and data management system (10 min.)\n\nPromoting reproducible research practices (10 min.)\n\nFinal remarks (5 min.)"
   },
   {
     "objectID": "index.html#materials-sent-before-the-presentation",
@@ -21,6 +21,13 @@
     "text": "Let’s try to keep an open mind"
   },
   {
+    "objectID": "index.html#section",
+    "href": "index.html#section",
+    "title": "Enhancing the Global Syndemic project with Open Science practices",
+    "section": "",
+    "text": "Page link: http://memoria2.cnpq.br/web/guest/chamadas-publicas?p_p_id=resultadosportlet_WAR_resultadoscnpqportlet_INSTANCE_0ZaM&filtro=abertas&detalha=chamadaDivulgada&idDivulgacao=11626."
+  },
+  {
     "objectID": "index.html#why-this-is-important",
     "href": "index.html#why-this-is-important",
     "title": "Enhancing the Global Syndemic project with Open Science practices",
@@ -32,14 +39,14 @@
     "href": "index.html#what-i-can-help-with",
     "title": "Enhancing the Global Syndemic project with Open Science practices",
     "section": "What I can help with",
-    "text": "What I can help with\nIt’s important to note, that I’m not an expert in public health or environmental science. However, I have a strong background in data science and complex systems modeling. I can help with:\n\n\n\nProject management.\nData engineering.\n\n\n\nData analysis and visualization.\nComplex system modeling.\n\n\n\nI leave the theorizing and interpretation efforts to the experts in the field."
+    "text": "What I can help with\nIt’s important to note, that I’m not an expert in public health or environmental science. However, I have a strong background in data science and complex systems modeling. I can help with:\n\n\n\n\nProject management.\n\nData engineering.\n\n\n\n\nData analysis and visualization.\n\nComplex system modeling.\n\n\n\nI leave the theorizing and interpretation efforts to the experts in the field."
   },
   {
     "objectID": "index.html#key-points-for-improvement",
     "href": "index.html#key-points-for-improvement",
     "title": "Enhancing the Global Syndemic project with Open Science practices",
     "section": "Key points for improvement",
-    "text": "Key points for improvement\n\n\nFostering a culture of open science.\n\nImplementing a comprehensive project and data management system.\n\nPromoting reproducible research practices.\n\n\n(If there is time)\n\n4. Establishing standardized guidelines for data practices)"
+    "text": "Key points for improvement\n\n\nFostering a culture of open science.\n\nImplementing a comprehensive project and data management system.\n\nPromoting reproducible research practices.\n\n\nIf there is time:\n\n4. Establishing standardized guidelines for data practices"
   },
   {
     "objectID": "index.html#fostering-a-culture-of-open-science",
@@ -60,14 +67,14 @@
     "href": "index.html#closed-doors-science",
     "title": "Enhancing the Global Syndemic project with Open Science practices",
     "section": "Closed doors science",
-    "text": "Closed doors science\n\n\n\n\n\n\n\n\n(Drawings by John McKiernan)"
+    "text": "Closed doors science\n\n\n\n\n\n\n\n\n(Drawings by John McKiernan)\n\n\nScience is a collective enterprise: its models are cumulative, interconnected and coherent.\n“If I have seen further, it is by standing on the shoulders of giants” (Newton’s letter to Robert Hooke, 1675).\nThe scientific revolution, spearheaded by figures like Bacon and Galileo, and the establishment of the Royal Society, marked a significant shift in the 17th century.\nScience is funded by public money.\nNature Article Processing Charge (APC): $12,290.00. https://www.nature.com/nature/for-authors/publishing-options\nOpen journals (e.g., PLoS, BMJ Open, PeerJ).\n“The road to hell is paved with good intentions” [marx2013]\nCommunity-driven open journals (e.g., Journal of Statistical Software, JASSS)."
   },
   {
     "objectID": "index.html#reproducibility-crisis",
     "href": "index.html#reproducibility-crisis",
     "title": "Enhancing the Global Syndemic project with Open Science practices",
     "section": "Reproducibility crisis",
-    "text": "Reproducibility crisis\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n(Figures from Baker (2015) and Baker (2016))"
+    "text": "Reproducibility crisis\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n(Figures from Baker (2015) and Baker (2016))\n\n\n“An effort to reproduce 100 psychology findings found that only 39 held up. But some of the 61 non-replications reported similar findings to those of their original papers.” [baker2015]\nPublish or perish.\nBroken system.\nPreprint repositories."
   },
   {
     "objectID": "index.html#a-real-fictional-example",
@@ -84,20 +91,6 @@
     "text": "There is a solution: Open Science\n\n\n“Open Science is an umbrella term encompassing a multitude of assumptions about the future of knowledge creation and dissemination.” (Fecher & Friesike, 2014)\nAt a high-level, it can be defined as the following.\n“Open Science is scholarly research that is collaborative, transparent and reproducible and whose outputs are publicly available.” (European Commission & Directorate-General for Research and Innovation, 2018)\n\n\n\n\n\n\n\n\n(Figure by Lotta Tomasson)"
   },
   {
-    "objectID": "index.html#fair-principles",
-    "href": "index.html#fair-principles",
-    "title": "Enhancing the Global Syndemic project with Open Science practices",
-    "section": "Fair principles",
-    "text": "Fair principles\n\n\n\n\n\n(To learn more see: Wilkinson et al. (2016) and GO FAIR initiative (n.d.))"
-  },
-  {
-    "objectID": "index.html#open-licenses",
-    "href": "index.html#open-licenses",
-    "title": "Enhancing the Global Syndemic project with Open Science practices",
-    "section": "Open licenses",
-    "text": "Open licenses\nA unlicensed work is an “all rights reserved” work. This means that you can’t use it without the author’s permission.\n\nLicences for data\n\nOpen Knowledge Foundation\n\n\nLicences for software/code\n\nOSI Approved Licenses\nThe MIT licence\nGNU General Public License version 3\n\n\nLicences for everything else (e.g., documents, figures)\n\nCreative Commons\nCC BY 4.0"
-  },
-  {
     "objectID": "index.html#implementing-a-comprehensive-project-and-data-management-system",
     "href": "index.html#implementing-a-comprehensive-project-and-data-management-system",
     "title": "Enhancing the Global Syndemic project with Open Science practices",
@@ -105,60 +98,74 @@
     "text": "Implementing a comprehensive project and data management system"
   },
   {
-    "objectID": "index.html#open-science-framework-osf",
-    "href": "index.html#open-science-framework-osf",
+    "objectID": "index.html#the-open-science-framework-osf",
+    "href": "index.html#the-open-science-framework-osf",
     "title": "Enhancing the Global Syndemic project with Open Science practices",
-    "section": "Open Science Framework (OSF)",
-    "text": "Open Science Framework (OSF)\nOSF is a free and open source project management tool that supports researchers throughout their entire project lifecycle.\n\n\n(Center for Open Science)"
+    "section": "The Open Science Framework (OSF)",
+    "text": "The Open Science Framework (OSF)\nOSF is a free and open source project management tool, created by the Center for Open Science, that supports researchers throughout their entire project lifecycle.\n\n\n\n\n\n(Image by Center for Open Science)\n\nIt’s a game changer."
   },
   {
-    "objectID": "index.html#osf-registrations",
-    "href": "index.html#osf-registrations",
+    "objectID": "index.html#registrations",
+    "href": "index.html#registrations",
     "title": "Enhancing the Global Syndemic project with Open Science practices",
-    "section": "OSF: Registrations",
-    "text": "OSF: Registrations\n\nOSF Registries\nPROSPERO\nClinicalTrials.gov"
+    "section": "Registrations",
+    "text": "Registrations\n\n\nIt is easy to obtain confirmations, or verifications, for nearly every theory —if we look for confirmations.\n\nConfirmations should count only if they are the result of risky predictions; that is to say, if, unenlightened by the theory in question, we should have expected an event which was incompatible with the theory—an event which would have refuted the theory.\n\n\nPopular registries\n\nOSF Registries\nPROSPERO\nClinicalTrials.gov\n\n\n\n(Popper, 2002)"
   },
   {
-    "objectID": "index.html#osf-data-storage",
-    "href": "index.html#osf-data-storage",
+    "objectID": "index.html#data-storage",
+    "href": "index.html#data-storage",
     "title": "Enhancing the Global Syndemic project with Open Science practices",
-    "section": "OSF: Data storage",
-    "text": "OSF: Data storage"
+    "section": "Data storage",
+    "text": "Data storage\nOSF offers 50 GB of free storage for each public project (on Google Cloud) and allows you to connect your project with other cloud storage services.\n\n\n\n\n\n(Image by Center for Open Science)"
   },
   {
-    "objectID": "index.html#osf-components",
-    "href": "index.html#osf-components",
+    "objectID": "index.html#components",
+    "href": "index.html#components",
     "title": "Enhancing the Global Syndemic project with Open Science practices",
-    "section": "OSF: Components",
-    "text": "OSF: Components\n\nEverything is a component in OSF, including projects.\nSubprojects can be nested into main projects.\n\n\n\n(Diagram by Center for Open Science)"
+    "section": "Components",
+    "text": "Components\n\nEverything is a component in OSF, including projects.\nSubprojects can be nested within main projects.\n\n\n\n(Image by Center for Open Science)"
   },
   {
-    "objectID": "index.html#osf-managing-permissions",
-    "href": "index.html#osf-managing-permissions",
+    "objectID": "index.html#managing-access",
+    "href": "index.html#managing-access",
     "title": "Enhancing the Global Syndemic project with Open Science practices",
-    "section": "OSF: Managing permissions",
-    "text": "OSF: Managing permissions\nOSF let you have a fine control over each component of your project.\n\n\n\n\n\n\n\n\n\n📁 Research protocol ✅\n📁 Research data ✅\n📁 Research code ✅\n📁 Research results ✅\n📁 Secrets of the masonic society (Level 5!) ❌"
+    "section": "Managing access",
+    "text": "Managing access\nOSF let you have a fine control over each component of your project.\n\n\n\n\n\n\n\n\n\n📁 Research protocol ✅\n📁 Research data ✅\n📁 Research code ✅\n📁 Research results ✅\n📁 Secrets of the masonic society (Level 5!) ❌"
   },
   {
-    "objectID": "index.html#osf-digital-objects-version-control",
-    "href": "index.html#osf-digital-objects-version-control",
+    "objectID": "index.html#digital-objects-version-control",
+    "href": "index.html#digital-objects-version-control",
     "title": "Enhancing the Global Syndemic project with Open Science practices",
-    "section": "OSF: Digital Objects & version control",
-    "text": "OSF: Digital Objects & version control\n\n\n\nOSF provides unique, persistent URLs for all components and files.\nIt can also provide DOIs (Digital Object Identifiers) for all components.\n\n\n\n\nOSF has a built-in version control system, all changes are tracked and can be reverted."
+    "section": "Digital objects & version control",
+    "text": "Digital objects & version control\n\n\n\nOSF provides unique, persistent URLs for all components and files.\nIt can also provide DOIs (Digital Object Identifiers) for all components.\n\n\n\n\n\n\n\n\n\nOSF has a built-in version control system, all changes are tracked and can be reverted."
   },
   {
-    "objectID": "index.html#osf-preprints",
-    "href": "index.html#osf-preprints",
+    "objectID": "index.html#preprints",
+    "href": "index.html#preprints",
     "title": "Enhancing the Global Syndemic project with Open Science practices",
-    "section": "OSF: Preprints",
-    "text": "OSF: Preprints"
+    "section": "Preprints",
+    "text": "Preprints\nA preprint repository is a platform that allows researchers to share their research outputs before they are peer-reviewed."
   },
   {
-    "objectID": "index.html#application",
-    "href": "index.html#application",
+    "objectID": "index.html#open-licenses",
+    "href": "index.html#open-licenses",
     "title": "Enhancing the Global Syndemic project with Open Science practices",
-    "section": "Application",
-    "text": "Application\n\nPrivate link: https://osf.io/8w36c/.\n\nSubprojects (?):\n\nLiterature review.\nData wrangling & data analysis.\nDashboard.\nConceptual model.\nAgent-based model."
+    "section": "Open licenses",
+    "text": "Open licenses\nA unlicensed work is an “all rights reserved” work. This means that you can’t use it without the author’s permission.\n\n\n\nLicences for data\n\nOpen Knowledge Foundation\n\n\nLicences for software/code\n\nOSI Approved Licenses\nThe MIT licence\nGNU General Public License version 3\n\n\nLicences for everything else (e.g., documents, figures)\n\nCreative Commons\nCC BY 4.0"
+  },
+  {
+    "objectID": "index.html#project-page",
+    "href": "index.html#project-page",
+    "title": "Enhancing the Global Syndemic project with Open Science practices",
+    "section": "Project page",
+    "text": "Project page\n\nExternal-link: https://osf.io/8w36c/."
+  },
+  {
+    "objectID": "index.html#suggestions",
+    "href": "index.html#suggestions",
+    "title": "Enhancing the Global Syndemic project with Open Science practices",
+    "section": "Suggestions",
+    "text": "Suggestions\n\nProject and data management system\n\n\nImplement OSF as the central system for managing the project and associated data.\n\n\nSubprojects integration\n\n\nIntegrate each subproject (e.g., scope review, data analysis/dashboard, causal model, agent-based modeling) into the main project on OSF.\n\n\nProtocol registration\n\n\nRegister research protocols for both the main project and each subproject.\nEnsure alignment of protocols before registration by using drafts.\n\n\nEnsure a clear-cut movement from beginning to end.\nAdd transparency and align everyone to pursue the same goal."
   },
   {
     "objectID": "index.html#promoting-reproducible-research-practices",
@@ -172,14 +179,7 @@
     "href": "index.html#reproducibility-versus-replicability",
     "title": "Enhancing the Global Syndemic project with Open Science practices",
     "section": "Reproducibility versus Replicability",
-    "text": "Reproducibility versus Replicability\n\n“Reproducibility means that research data and code are made available so that others are able to reach the same results as are claimed in scientific outputs. Closely related is the concept of replicability, the act of repeating a scientific methodology to reach similar conclusions. These concepts are core elements of empirical research.”\n\n\n(Bezjak et al., 2018)"
-  },
-  {
-    "objectID": "index.html#reproducible-research",
-    "href": "index.html#reproducible-research",
-    "title": "Enhancing the Global Syndemic project with Open Science practices",
-    "section": "Reproducible research",
-    "text": "Reproducible research\n\n\n(Illustration by Scriberia.)"
+    "text": "Reproducibility versus Replicability\n\n\n“Reproducibility means that research data and code are made available so that others are able to reach the same results as are claimed in scientific outputs. Closely related is the concept of replicability, the act of repeating a scientific methodology to reach similar conclusions. These concepts are core elements of empirical research.”\n(Bezjak et al., 2018)\n\n\n\n\n\n\n\n\n(Illustration by Scriberia.)"
   },
   {
     "objectID": "index.html#big-data",
@@ -193,7 +193,7 @@
     "href": "index.html#big-data-wrangling",
     "title": "Enhancing the Global Syndemic project with Open Science practices",
     "section": "Big data wrangling",
-    "text": "Big data wrangling\n\nWorking with big data using Excel or GUI-based statistical software is extremely challenging, if not impossible. Excel, for example, can struggle with performance issues and has a maximum row limit (1,048,576 rows), which is often insufficient for big data projects.\nThe best tools for handling big data are R and Python."
+    "text": "Big data wrangling\n\nWorking with big data using Excel or GUI-based (Graphical User Interface) statistical software is extremely challenging, if not impossible.\nExcel, for example, can struggle with performance issues and has a maximum row limit (1,048,576 rows), which is often insufficient for big data projects.\nThe best tools for handling big data are R and Python."
   },
   {
     "objectID": "index.html#example-sisvan-data-tabular",
@@ -207,14 +207,14 @@
     "href": "index.html#example-spatial-data-raster",
     "title": "Enhancing the Global Syndemic project with Open Science practices",
     "section": "Example: Spatial data (Raster)",
-    "text": "Example: Spatial data (Raster)\n\n\n\nNot all data is tabular; spatial data can be very large and complex.\nExcel cannot handle spatial data, and GUI-based (Graphical User Interface) statistical softwares, when capable of handling spatial data, are often limited and struggles with performance issues.\n\n\n\n\n\n\n\n\n\n(WorldClim 2.1 data. June mean temperature in the South America (1970-2000))"
+    "text": "Example: Spatial data (Raster)\n\n\n\nNot all data is tabular; spatial data can be very large and complex.\nExcel cannot handle spatial data, and GUI-based statistical softwares, when capable of handling spatial data, are often limited and struggles with performance issues.\n\n\n\n\n\n\n\n\n\n(WorldClim 2.1 data. June mean temperature (°C) in South America (1970-2000))"
   },
   {
     "objectID": "index.html#open-source-programming-languages",
     "href": "index.html#open-source-programming-languages",
     "title": "Enhancing the Global Syndemic project with Open Science practices",
     "section": "Open-source programming languages",
-    "text": "Open-source programming languages"
+    "text": "Open-source programming languages\n\n\nHigh-level programming languages.\nR was started by professors Ross Ihaka and Robert Gentleman as a programming language to teach introductory statistics at the University of Auckland. It was release in 1993.\nPython was created by Guido van Rossum and released in 1991.\nstatistical computing and data visualization versus general-purpose.\nScience-driven versus industry-driven."
   },
   {
     "objectID": "index.html#now-lets-be-rational-about-this",
@@ -235,14 +235,14 @@
     "href": "index.html#its-not-what-you-thinking",
     "title": "Enhancing the Global Syndemic project with Open Science practices",
     "section": "It’s not what you thinking",
-    "text": "It’s not what you thinking\n\n\n\nProgramming in movies versus programming in real life:"
+    "text": "It’s not what you thinking\n\n\n\nProgramming in movies versus programming in real life:\n\n\n\n\n\n\n\n\n\n\n\n\n\nYou don’t need to be a math genius to learn how to code."
   },
   {
     "objectID": "index.html#best-and-free-resources",
     "href": "index.html#best-and-free-resources",
     "title": "Enhancing the Global Syndemic project with Open Science practices",
     "section": "Best (and free!) resources",
-    "text": "Best (and free!) resources\n\n\nI don’t know how to code! 😭\n\n\nIntrodução à Ciência da Computação com Python - Parte 1(USP) (Online course - pt-BR)\n\nIntrodução à Ciência da Computação com Python - Parte 2(USP) (Online course - pt-BR)\n\nHow do I learn R?\n\n\nData Science: Foundations using R(Jonh Hopkins) (Online course - en-US)\n\nR for Data Science (Book - en-US)\n\n\n\n\n\n\n\n\n\n(Illustration by Allison Horst)"
+    "text": "Best (and free!) resources\n\n\nI don’t know how to code! 😭\n\n\nIntrodução à Ciência da Computação com Python - Parte 1(USP) (Online course - pt-BR).\n\nIntrodução à Ciência da Computação com Python - Parte 2(USP) (Online course - pt-BR).\n\nHow do I learn R?\n\n\nData Science: Foundations using R(Jonh Hopkins) (Online course - en-US).\n\nR for Data Science (Book - en-US).\n\n\n\n\n\n\n\n\n\n(Illustration by Allison Horst)"
   },
   {
     "objectID": "index.html#r-has-the-best-communities",
@@ -277,42 +277,49 @@
     "href": "index.html#dynamic-documents",
     "title": "Enhancing the Global Syndemic project with Open Science practices",
     "section": "Dynamic documents",
-    "text": "Dynamic documents\nThey can also be called computation notebooks.\n\n\nQuarto (R, Python, Julia) (Integrates with Pandoc)\n\nJupyter (Python, R, Julia, +37 languages)\n\nRmarkdown (Just R) (Integrates with Pandoc)\n\nExamples\n\nhttps://danielvartan.github.io/central-limit-theorem/\nhttps://danielvartan.github.io/sample-size/"
+    "text": "Dynamic documents\nDynamic documents seamlessly integrate text with output from a programming language, automatically updating the output whenever the code is executed.\n\n\n\n\nQuarto (R, Python, Julia) (+Pandoc).\n\nJupyter (Python, R, Julia, +37 languages).\n\nRmarkdown (R) (+Pandoc).\n\n\nExamples\n\nExternal-link: Central limit theorem.\nExternal-link: Sample size.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nYou can write articles with dynamic documents.\nDifference from LaTeX.\nQuarto as an evolution from Rmarkdown.\nJupyter can be used with Quarto."
   },
   {
-    "objectID": "index.html#application-programming-interfaces-apis",
-    "href": "index.html#application-programming-interfaces-apis",
+    "objectID": "index.html#app.-programming-interfaces-apis",
+    "href": "index.html#app.-programming-interfaces-apis",
     "title": "Enhancing the Global Syndemic project with Open Science practices",
-    "section": "Application Programming Interfaces (APIs)",
-    "text": "Application Programming Interfaces (APIs)\n\n\n\nOSF API\nBrazil’s Central Bank APIs\nNASA’s APIs\n\n\n\nSIDRA API (IBGE)\nSISVAN API\n\n\n\n\n# library(dplyr)\n# library(magrittr)\n# library(sidrar)\n\n# Brazil's population in 2022 (census data)\nsidrar::get_sidra(\n  api = \"/t/7358/n1/all/v/all/p/all/c2/6794/c287/100362/c1933/49039\"\n) |&gt;\n  suppressMessages() |&gt;\n  magrittr::extract2(\"Valor\") |&gt;\n  prettyNum(big.mark = \",\")\n#&gt; [1] \"216,284,269\""
+    "section": "App. Programming Interfaces (APIs)",
+    "text": "App. Programming Interfaces (APIs)\nAPIs are a set of rules that allow different software applications to communicate with each other.\n\n\n\n\nOSF API.\n\nBrazil’s Central Bank APIs.\n\nNASA’s APIs.\n\n\n\n\nOpenAI API.\n\nSIDRA API (IBGE).\n\nSISVAN API.\n\n\n\n\n\n\n\n\n\n\n\n\n# library(dplyr)\n# library(magrittr)\n# library(sidrar)\n\n# Brazil's population in 2022 (census data)\nsidrar::get_sidra(\n  api = \"/t/7358/n1/all/v/all/p/all/c2/6794/c287/100362/c1933/49039\"\n) |&gt;\n  suppressMessages() |&gt;\n  magrittr::extract2(\"Valor\") |&gt;\n  prettyNum(big.mark = \",\")\n#&gt; [1] \"216,284,269\""
   },
   {
     "objectID": "index.html#pipelines",
     "href": "index.html#pipelines",
     "title": "Enhancing the Global Syndemic project with Open Science practices",
     "section": "Pipelines",
-    "text": "Pipelines"
+    "text": "Pipelines\nPipeline tools coordinate the pieces of computationally demanding analysis projects. They can be used to automate the execution of a series of tasks."
   },
   {
     "objectID": "index.html#reproducible-environments",
     "href": "index.html#reproducible-environments",
     "title": "Enhancing the Global Syndemic project with Open Science practices",
     "section": "Reproducible environments",
-    "text": "Reproducible environments"
+    "text": "Reproducible environments\nReproducible environments ensure that your code will run the same way on different machines and regardless of the time."
   },
   {
     "objectID": "index.html#example-of-a-reproducible-research",
     "href": "index.html#example-of-a-reproducible-research",
     "title": "Enhancing the Global Syndemic project with Open Science practices",
     "section": "Example of a reproducible research",
-    "text": "Example of a reproducible research\n\nhttps://danielvartan.github.io/mastersthesis/web/qmd/chapter-6.html"
+    "text": "Example of a reproducible research\n\nExternal-link: Master’s thesis"
+  },
+  {
+    "objectID": "index.html#suggestions-1",
+    "href": "index.html#suggestions-1",
+    "title": "Enhancing the Global Syndemic project with Open Science practices",
+    "section": "Suggestions",
+    "text": "Suggestions\n\nDynamic documents\n\n\nUse dynamic documents to maintain an updated and reproducible record of data analyses.\n\n\nProgrammatic approach\n\n\nEmphasize learning and applying programmatic methods for handling large datasets, as this is the most effective approach for managing and analyzing extensive data collections.\n\n\nReproducible environments\n\n\nUse reproducible environments to time-proof the code and ensure that it will run the same way on different machines.\nEmploy pipelines to streamline and automate the analysis process."
   },
   {
     "objectID": "index.html#some-other-things-that-we-didnt-cover",
     "href": "index.html#some-other-things-that-we-didnt-cover",
     "title": "Enhancing the Global Syndemic project with Open Science practices",
     "section": "Some other things that we didn’t cover",
-    "text": "Some other things that we didn’t cover\nWe just scratched the surface of the open science world. There are many other tools and concepts that we didn’t cover, such as:\n\n\n\nMarkup languages (e.g., Markdown, LaTeX).\nOpen source softwares (e.g., rOpenSci, CRAN, Bioconductor, PyPI).\nVersion control systems (e.g. Git, SVN, Semantic versioning).\nOpen source data management systems (e.g., CKAN, Dataverse; DSpace).\nOpen journals (e.g., PLoS, BMJ Open, PeerJ).\nCommunity-driven open journals (e.g., Journal of Statistical Software, JASSS).\nPreprint servers (e.g., arXiv, bioRxiv, OSF preprints).\nEthical data sharing practices (See Meyer (2018) to learn more).\n\n\n\nGit-based repositories (e.g., GitHub, GitLab).\nOpen repositories (e.g., Zenodo, FigShare, ResearchGate, Dryad).\nData data repositories (e.g., GSA, UniProtKB, OpenNeuro).\nOpen data formats (e.g., CSV, JSON, Apache Parquet).\nOpen science policies (e.g., FAPESP, European Commission).\nShadow libraries (e.g., Sci-Hub, Library Genesis)."
+    "text": "Some other things that we didn’t cover\nWe’ve only touched upon the vast landscape of open science. There are many other tools and concepts that we didn’t cover, such as:\n\n\n\nMarkup languages (e.g., Markdown, LaTeX).\nOpen source softwares (e.g., rOpenSci, CRAN, Bioconductor, PyPI).\nVersion control systems (e.g. Git, SVN, Semantic versioning).\nDatabase systems (e.g., Relational databases, NoSQL).\nOpen source data management systems (e.g., CKAN, Dataverse; DSpace).\nOpen journals (e.g., PLoS, BMJ Open, PeerJ).\nCommunity-driven open journals (e.g., Journal of Statistical Software, JASSS).\nPreprint servers (e.g., arXiv, bioRxiv, OSF preprints).\n\n\n\nGit-based repositories (e.g., GitHub, GitLab).\nOpen repositories (e.g., Zenodo, FigShare, ResearchGate, Dryad).\nData data repositories (e.g., GSA, UniProtKB, OpenNeuro).\nOpen data formats (e.g., CSV, JSON, Apache Parquet).\nCloud computing (e.g., AWS, Google Cloud, Azure).\nOpen science policies (e.g., FAPESP, European Commission).\nShadow libraries (e.g., Sci-Hub, Library Genesis).\nEthical data sharing practices (See Meyer (2018) to learn more)."
   },
   {
     "objectID": "index.html#some-other-things-that-we-didnt-cover-1",
@@ -320,41 +327,6 @@
     "title": "Enhancing the Global Syndemic project with Open Science practices",
     "section": "Some other things that we didn’t cover",
     "text": "Some other things that we didn’t cover\n\n\n\n\n\n(Illustration by Allison Horst)"
-  },
-  {
-    "objectID": "index.html#summary-of-points-and-suggestions",
-    "href": "index.html#summary-of-points-and-suggestions",
-    "title": "Enhancing the Global Syndemic project with Open Science practices",
-    "section": "Summary of points and suggestions",
-    "text": "Summary of points and suggestions\nThese suggestions may be too overwhelming at first. It’s important to start small and gradually incorporate these practices into the project workflow.\nThe order of the suggestions is not important."
-  },
-  {
-    "objectID": "index.html#summary-of-points-and-suggestions-1",
-    "href": "index.html#summary-of-points-and-suggestions-1",
-    "title": "Enhancing the Global Syndemic project with Open Science practices",
-    "section": "Summary of points and suggestions",
-    "text": "Summary of points and suggestions\n\nProject and data management system\n\n\nImplement OSF (Open Science Framework) as the central system for managing the project and associated data.\n\n\nSubprojects integration\n\n\nIntegrate each subproject (e.g., scope review, data analysis, causal model, agent-based modeling) into the main project on OSF.\n\n\nProtocol registration\n\n\nRegister research protocols for both the main project and each subproject.\nEnsure alignment of protocols before registration by using drafts."
-  },
-  {
-    "objectID": "index.html#summary-of-points-and-suggestions-2",
-    "href": "index.html#summary-of-points-and-suggestions-2",
-    "title": "Enhancing the Global Syndemic project with Open Science practices",
-    "section": "Summary of points and suggestions",
-    "text": "Summary of points and suggestions\n\n\n\nData management plan\n\n\n\nDevelop a data management plan for each subproject.\n\n\n\nOpen licenses\n\n\n\nApply open licenses to both the data and the code to ensure transparency and accessibility.\n\n\n\nAgile management methodology\n\n\n\nUse a project management tool to track the progress of the project and subprojects (e.g., Taiga, Jira, Trello).\nA simple Kanban board for each subproject can be very helpful. There’s no need to overcomplicate things."
-  },
-  {
-    "objectID": "index.html#summary-of-points-and-suggestions-3",
-    "href": "index.html#summary-of-points-and-suggestions-3",
-    "title": "Enhancing the Global Syndemic project with Open Science practices",
-    "section": "Summary of points and suggestions",
-    "text": "Summary of points and suggestions\n\nData science program\n\n\nFollow the guidelines and methodologies proposed by Wickham (2023) when conducting data analyses.\nTidy and document all the code and data.\n\n\nDynamic documents\n\n\nUse dynamic documents to maintain an updated and reproducible record of data analyses.\nUse GitHub for code and integrate it with OSF."
-  },
-  {
-    "objectID": "index.html#summary-of-points-and-suggestions-4",
-    "href": "index.html#summary-of-points-and-suggestions-4",
-    "title": "Enhancing the Global Syndemic project with Open Science practices",
-    "section": "Summary of points and suggestions",
-    "text": "Summary of points and suggestions\n\nProgrammatic approach\n\n\nEmphasize learning and applying programmatic methods for handling large datasets, as this is the most effective approach for managing and analyzing extensive data collections\n\n\nReproducible environments\n\n\nUse reproducible environments to ensure that the data analysis is replicable and transparent (e.g., renv, Docker).\nUse targets for building pipelines."
   },
   {
     "objectID": "index.html#theory-versus-practice",
@@ -368,14 +340,14 @@
     "href": "index.html#final-remarks",
     "title": "Enhancing the Global Syndemic project with Open Science practices",
     "section": "Final remarks",
-    "text": "Final remarks\n \nThis presentation was made using the Quarto Publishing System. Code and materials are available at GitHub.\nAll those beautiful illustrations were made by Allison Horst. Thank you, Allison!\n\n\n\n\n\n(Illustration by Allison Horst)"
+    "text": "Final remarks\n \nThis presentation was created using the Quarto Publishing System. Code and materials are available on GitHub.\nThese beautiful illustrations were made by Allison Horst. Thank you, Allison!\n\n\n\n\n\n(Illustration by Allison Horst)"
   },
   {
     "objectID": "index.html#references",
     "href": "index.html#references",
     "title": "Enhancing the Global Syndemic project with Open Science practices",
     "section": "References",
-    "text": "References\n\nIn accordance with the American Psychological Association (APA) Style, 7th edition.\n\n\n\nAckoff, R. (1989). From data to wisdom. Journal of Applied Systems Analysis, 16, 3–9.\n\n\nAlionço, A. (2017, May 2). What is kanban? The beginner’s guide. Pipefy. https://www.pipefy.com/blog/what-is-kanban/\n\n\nBaker, M. (2015). Over half of psychology studies fail reproducibility test. Nature. https://doi.org/10.1038/nature.2015.18248\n\n\nBaker, M. (2016). 1,500 scientists lift the lid on reproducibility. Nature, 533(7604), 452–454. https://doi.org/10.1038/533452a\n\n\nBezjak, S., Clyburne-Sherin, A., Conzett, P., Fernandes, P., Görögh, E., Helbig, K., Kramer, B., Labastida, I., Niemeyer, K., Psomopoulos, F., Ross-Hellauer, T., Schneider, R., Tennant, J., Verbakel, E., Brinken, H., & Heller, L. (2018). Open science training handbook. Zenodo. https://doi.org/10.5281/ZENODO.1212496\n\n\nBroman, K. (2013, April 5). Data science is statistics. The stupidest thing... https://kbroman.wordpress.com/2013/04/05/data-science-is-statistics/\n\n\nCao, L. (2017). Data science: A comprehensive overview. ACM Computing Surveys, 50(3), 43. https://doi.org/10.1145/3076253\n\n\nDhar, V. (2023). Data science and prediction. Communications of the ACM, 56(12), 64–73. https://doi.org/10.1145/2500499\n\n\nEuropean Commission, & Directorate-General for Research and Innovation. (2018). OSPP-REC: Open science policy platform recommendations. European Union. https://doi.org/10.2777/958647\n\n\nFecher, B., & Friesike, S. (2014). Open science: One term, five schools of thought. In S. Bartling & S. Friesike (Eds.), Opening science: The evolving guide on how the internet is changing research, collaboration and scholarly publishing (pp. 17–47). Springer. https://doi.org/10.1007/978-3-319-00026-8\n\n\nGavin, L. (2020, October 20). Big data will be dead in 5 years. Towards Data Science. https://towardsdatascience.com/big-data-will-be-dead-in-5-years-ef4344269aef\n\n\nGO FAIR initiative. (n.d.). GO FAIR initiative: Make your data & services FAIR. GO FAIR. Retrieved June 10, 2024, from https://www.go-fair.org/\n\n\nLohr, S. (2014, August 18). For big-data scientists, “Janitor work” is key hurdle to insights. The New York Times: Technology. https://www.nytimes.com/2014/08/18/technology/for-big-data-scientists-hurdle-to-insights-is-janitor-work.html\n\n\nMeyer, M. N. (2018). Practical tips for ethical data sharing. Advances in Methods and Practices in Psychological Science, 1(1), 131–144. https://doi.org/10.1177/2515245917747656\n\n\nNational Academy of Sciences, National Academy of Engineering, & Institute of Medicine of the National Academies. (2009). On being a scientist: A guide to responsible conduct in research: Third edition (3rd ed.). The National Academies Press. https://doi.org/10.17226/12192\n\n\nProject Management Institute. (2017). The agile practice guide. The Project Management Institute.\n\n\nReis, J., & Housley, M. (2022). Fundamentals of data engineering: Plan and build robust data systems. O’Reilly.\n\n\nRowley, J. (2007). The wisdom hierarchy: Representations of the DIKW hierarchy. Journal of Information Science, 33(2), 163–180. https://doi.org/10.1177/0165551506070706\n\n\nStellman, A., & Greene, J. (2014). Learning agile. O’Reilly.\n\n\nWickham, H., Çetinkaya-Rundel, M., & Grolemund, G. (2023). R for data science: Import, tidy, transform, visualize, and model data (2nd ed.). O’Reilly. https://r4ds.hadley.nz/\n\n\nWilkinson, M. D., Dumontier, M., Aalbersberg, Ij. J., Appleton, G., Axton, M., Baak, A., Blomberg, N., Boiten, J.-W., Da Silva Santos, L. B., Bourne, P. E., Bouwman, J., Brookes, A. J., Clark, T., Crosas, M., Dillo, I., Dumon, O., Edmunds, S., Evelo, C. T., Finkers, R., … Mons, B. (2016). The FAIR guiding principles for scientific data management and stewardship. Scientific Data, 3(1), 160018. https://doi.org/10.1038/sdata.2016.18"
+    "text": "References\n\nIn accordance with the American Psychological Association (APA) Style, 7th edition.\n\n\n\nAckoff, R. (1989). From data to wisdom. Journal of Applied Systems Analysis, 16, 3–9.\n\n\nAlionço, A. (2017, May 2). What is kanban? The beginner’s guide. Pipefy. https://www.pipefy.com/blog/what-is-kanban/\n\n\nBaker, M. (2015). Over half of psychology studies fail reproducibility test. Nature. https://doi.org/10.1038/nature.2015.18248\n\n\nBaker, M. (2016). 1,500 scientists lift the lid on reproducibility. Nature, 533(7604), 452–454. https://doi.org/10.1038/533452a\n\n\nBezjak, S., Clyburne-Sherin, A., Conzett, P., Fernandes, P., Görögh, E., Helbig, K., Kramer, B., Labastida, I., Niemeyer, K., Psomopoulos, F., Ross-Hellauer, T., Schneider, R., Tennant, J., Verbakel, E., Brinken, H., & Heller, L. (2018). Open science training handbook. Zenodo. https://doi.org/10.5281/ZENODO.1212496\n\n\nBroman, K. (2013, April 5). Data science is statistics. The stupidest thing... https://kbroman.wordpress.com/2013/04/05/data-science-is-statistics/\n\n\nCao, L. (2017). Data science: A comprehensive overview. ACM Computing Surveys, 50(3), 43. https://doi.org/10.1145/3076253\n\n\nCoronel, C., & Morris, S. A. (2019). Database systems: Design, implementation, and management (13th ed.). Cengage.\n\n\nDhar, V. (2023). Data science and prediction. Communications of the ACM, 56(12), 64–73. https://doi.org/10.1145/2500499\n\n\nEllis, S. E., & Leek, J. T. (2018). How to share data for collaboration. The American Statistician, 72(1), 53–57. https://doi.org/10.1080/00031305.2017.1375987\n\n\nEuropean Commission, & Directorate-General for Research and Innovation. (2018). OSPP-REC: Open science policy platform recommendations. European Union. https://doi.org/10.2777/958647\n\n\nFecher, B., & Friesike, S. (2014). Open science: One term, five schools of thought. In S. Bartling & S. Friesike (Eds.), Opening science: The evolving guide on how the internet is changing research, collaboration and scholarly publishing (pp. 17–47). Springer. https://doi.org/10.1007/978-3-319-00026-8\n\n\nGavin, L. (2020, October 20). Big data will be dead in 5 years. Towards Data Science. https://towardsdatascience.com/big-data-will-be-dead-in-5-years-ef4344269aef\n\n\nGO FAIR initiative. (n.d.). GO FAIR initiative: Make your data & services FAIR. GO FAIR. Retrieved June 10, 2024, from https://www.go-fair.org/\n\n\nJonge, E. de, & Loo, M. van der. (2018). Statistical data cleaning with applications in R. John Wiley & Sons.\n\n\nLohr, S. (2014, August 18). For big-data scientists, “Janitor work” is key hurdle to insights. The New York Times: Technology. https://www.nytimes.com/2014/08/18/technology/for-big-data-scientists-hurdle-to-insights-is-janitor-work.html\n\n\nMeyer, M. N. (2018). Practical tips for ethical data sharing. Advances in Methods and Practices in Psychological Science, 1(1), 131–144. https://doi.org/10.1177/2515245917747656\n\n\nNational Academy of Sciences, National Academy of Engineering, & Institute of Medicine of the National Academies. (2009). On being a scientist: A guide to responsible conduct in research: Third edition (3rd ed.). The National Academies Press. https://doi.org/10.17226/12192\n\n\nPopper, K. R. (2002). Conjectures and refutations: The growth of scientific knowledge. Routledge.\n\n\nProject Management Institute. (2017). The agile practice guide. The Project Management Institute.\n\n\nReis, J., & Housley, M. (2022). Fundamentals of data engineering: Plan and build robust data systems. O’Reilly.\n\n\nRowley, J. (2007). The wisdom hierarchy: Representations of the DIKW hierarchy. Journal of Information Science, 33(2), 163–180. https://doi.org/10.1177/0165551506070706\n\n\nStellman, A., & Greene, J. (2014). Learning agile. O’Reilly.\n\n\nWickham, H., Çetinkaya-Rundel, M., & Grolemund, G. (2023). R for data science: Import, tidy, transform, visualize, and model data (2nd ed.). O’Reilly. https://r4ds.hadley.nz/\n\n\nWilkinson, M. D., Dumontier, M., Aalbersberg, Ij. J., Appleton, G., Axton, M., Baak, A., Blomberg, N., Boiten, J.-W., Da Silva Santos, L. B., Bourne, P. E., Bouwman, J., Brookes, A. J., Clark, T., Crosas, M., Dillo, I., Dumon, O., Edmunds, S., Evelo, C. T., Finkers, R., … Mons, B. (2016). The FAIR guiding principles for scientific data management and stewardship. Scientific Data, 3(1), 160018. https://doi.org/10.1038/sdata.2016.18"
   },
   {
     "objectID": "index.html#thank-you",
@@ -385,157 +357,255 @@
     "text": "Thank you!\n\n\n\n\n\n(Illustration by Allison Horst)"
   },
   {
-    "objectID": "index.html#appendices",
-    "href": "index.html#appendices",
+    "objectID": "index.html#ap-appendices",
+    "href": "index.html#ap-appendices",
     "title": "Enhancing the Global Syndemic project with Open Science practices",
-    "section": "Appendices",
-    "text": "Appendices"
+    "section": "(AP) Appendices",
+    "text": "(AP) Appendices"
   },
   {
-    "objectID": "index.html#establishing-standardized-guidelines-for-data-practices",
-    "href": "index.html#establishing-standardized-guidelines-for-data-practices",
+    "objectID": "index.html#ap-summary-of-points-and-suggestions",
+    "href": "index.html#ap-summary-of-points-and-suggestions",
     "title": "Enhancing the Global Syndemic project with Open Science practices",
-    "section": "Establishing standardized guidelines for data practices",
-    "text": "Establishing standardized guidelines for data practices"
+    "section": "(AP) Summary of points and suggestions",
+    "text": "(AP) Summary of points and suggestions\nThese suggestions may be too overwhelming at first. It’s important to start small and gradually incorporate these practices into the project workflow.\nThe order of the suggestions is not important."
   },
   {
-    "objectID": "index.html#data-engineering",
-    "href": "index.html#data-engineering",
+    "objectID": "index.html#ap-summary-of-points-and-suggestions-1",
+    "href": "index.html#ap-summary-of-points-and-suggestions-1",
     "title": "Enhancing the Global Syndemic project with Open Science practices",
-    "section": "Data engineering",
-    "text": "Data engineering\n“Data engineering is the development, implementation, and maintenance of systems and processes that take in raw data and produce high-quality, consistent information that supports downstream use cases, such as analysis and machine learning.”\nYou can think data engineering as the plumbing of data science.\n\n\n\n\n\n(Reis & Housley, 2022)"
+    "section": "(AP) Summary of points and suggestions",
+    "text": "(AP) Summary of points and suggestions\n\nProject and data management system\n\n\nImplement OSF as the central system for managing the project and associated data.\n\n\nSubprojects integration\n\n\nIntegrate each subproject (e.g., scope review, data analysis, causal model, agent-based modeling) into the main project on OSF.\n\n\nProtocol registration\n\n\nRegister research protocols for both the main project and each subproject.\nEnsure alignment of protocols before registration by using drafts."
   },
   {
-    "objectID": "index.html#data-science",
-    "href": "index.html#data-science",
+    "objectID": "index.html#ap-summary-of-points-and-suggestions-2",
+    "href": "index.html#ap-summary-of-points-and-suggestions-2",
     "title": "Enhancing the Global Syndemic project with Open Science practices",
-    "section": "Data science",
-    "text": "Data science\nIt’s a confusing term, with many definitions and interpretations.\nFor some, data science is just statistics (Broman, 2013) (hype statistics). For others, it’s a new interdisciplinary field that synthesizes statistics, informatics, computing, communication, management, and sociology (Cao, 2017).\nA high-level definition: “Data science is the study of the generalizable extraction of knowledge from data.” (Dhar, 2023)\n\n\n\n\n\n(Figure from Wickham et al. (2023))"
+    "section": "(AP) Summary of points and suggestions",
+    "text": "(AP) Summary of points and suggestions\n\nDynamic documents\n\n\nUse dynamic documents to maintain an updated and reproducible record of data analyses.\n\n\nProgrammatic approach\n\n\nEmphasize learning and applying programmatic methods for handling large datasets, as this is the most effective approach for managing and analyzing extensive data collections.\n\n\nReproducible environments\n\n\nUse reproducible environments to time-proof the code and ensure that it will run the same way on different machines.\nEmploy pipelines to streamline and automate the analysis process."
   },
   {
-    "objectID": "index.html#data-engineering-versus-data-science",
-    "href": "index.html#data-engineering-versus-data-science",
+    "objectID": "index.html#ap-summary-of-points-and-suggestions-3",
+    "href": "index.html#ap-summary-of-points-and-suggestions-3",
     "title": "Enhancing the Global Syndemic project with Open Science practices",
-    "section": "Data engineering versus data science",
-    "text": "Data engineering versus data science\n\n“Data scientists, according to interviews and expert estimates, spend from 50 percent to 80 percent of their time mired in this more mundane labor of collecting and preparing unruly digital data, before it can be explored for useful nuggets.” (Lohr, 2014).\n\n\n\n\n\n\n(Figure by Reis & Housley (2022))"
+    "section": "(AP) Summary of points and suggestions",
+    "text": "(AP) Summary of points and suggestions\n\n\n\nData management plan\n\n\n\nDevelop one data management plan for the whole project.\n\n\n\nOpen licenses\n\n\nApply open licenses to both the data and the code to ensure transparency and accessibility.\n\n\n\n\nAgile management methodology\n\n\nUse a project management tool to track the progress of the project and subprojects (e.g., Taiga, Jira, Trello).\nA simple Kanban board for each subproject can be very helpful. There’s no need to overcomplicate things."
   },
   {
-    "objectID": "index.html#tidy-data",
-    "href": "index.html#tidy-data",
+    "objectID": "index.html#ap-summary-of-points-and-suggestions-4",
+    "href": "index.html#ap-summary-of-points-and-suggestions-4",
     "title": "Enhancing the Global Syndemic project with Open Science practices",
-    "section": "Tidy data",
-    "text": "Tidy data\n\n\n\n\n\n(Illustration by Allison Horst)"
+    "section": "(AP) Summary of points and suggestions",
+    "text": "(AP) Summary of points and suggestions\n\nData science program\n\n\nFollow the guidelines and methodologies proposed by Wickham (2023) when conducting data analyses.\nTidy and document all the code and data."
   },
   {
-    "objectID": "index.html#tidy-data-1",
-    "href": "index.html#tidy-data-1",
+    "objectID": "index.html#ap-establishing-standardized-guidelines-for-data-practices",
+    "href": "index.html#ap-establishing-standardized-guidelines-for-data-practices",
     "title": "Enhancing the Global Syndemic project with Open Science practices",
-    "section": "Tidy data",
-    "text": "Tidy data\n\n\n\n\n\n(Illustration by Allison Horst)"
+    "section": "(AP) Establishing standardized guidelines for data practices",
+    "text": "(AP) Establishing standardized guidelines for data practices"
   },
   {
-    "objectID": "index.html#tidy-data-2",
-    "href": "index.html#tidy-data-2",
+    "objectID": "index.html#ap-data-engineering",
+    "href": "index.html#ap-data-engineering",
     "title": "Enhancing the Global Syndemic project with Open Science practices",
-    "section": "Tidy data",
-    "text": "Tidy data\nLearn more in Wickham et al. (2023), chap. 5.\n\n\n\n\n\n(Figure from Wickham et al. (2023))"
+    "section": "(AP) Data engineering",
+    "text": "(AP) Data engineering\n“Data engineering is the development, implementation, and maintenance of systems and processes that take in raw data and produce high-quality, consistent information that supports downstream use cases, such as analysis and machine learning.”\nYou can think data engineering as the plumbing of data science.\n\n\n\n\n\n(Reis & Housley, 2022)"
   },
   {
-    "objectID": "index.html#tidy-data-3",
-    "href": "index.html#tidy-data-3",
+    "objectID": "index.html#ap-data-science",
+    "href": "index.html#ap-data-science",
     "title": "Enhancing the Global Syndemic project with Open Science practices",
-    "section": "Tidy data",
-    "text": "Tidy data\n\n\n\n\n\n(Illustration by Allison Horst)"
+    "section": "(AP) Data science",
+    "text": "(AP) Data science\nIt’s a confusing term, with many definitions and interpretations.\nFor some, data science is just statistics (Broman, 2013) (hype statistics). For others, it’s a new interdisciplinary field that synthesizes statistics, informatics, computing, communication, management, and sociology (Cao, 2017).\nA high-level definition: “Data science is the study of the generalizable extraction of knowledge from data.” (Dhar, 2023)\n\n\n\n\n\n(Figure from Wickham et al. (2023))"
   },
   {
-    "objectID": "index.html#tidy-data-4",
-    "href": "index.html#tidy-data-4",
+    "objectID": "index.html#ap-data-engineering-versus-data-science",
+    "href": "index.html#ap-data-engineering-versus-data-science",
     "title": "Enhancing the Global Syndemic project with Open Science practices",
-    "section": "Tidy data",
-    "text": "Tidy data\n\n\n\n\n\n(Illustration by Allison Horst)"
+    "section": "(AP) Data engineering versus data science",
+    "text": "(AP) Data engineering versus data science\n\n“Data scientists, according to interviews and expert estimates, spend from 50 percent to 80 percent of their time mired in this more mundane labor of collecting and preparing unruly digital data, before it can be explored for useful nuggets.” (Lohr, 2014).\n\n\n\n\n\n\n(Figure by Reis & Housley (2022))"
   },
   {
-    "objectID": "index.html#data-documentation",
-    "href": "index.html#data-documentation",
+    "objectID": "index.html#ap-what-is-data-after-all",
+    "href": "index.html#ap-what-is-data-after-all",
     "title": "Enhancing the Global Syndemic project with Open Science practices",
-    "section": "Data documentation",
-    "text": "Data documentation\n\nData dictionaries/Codebooks (e.g., SISVAN)\nGuide to writing “readme” style metadata\nMetadata Standards Catalog\nData Documentation Initiative (DDI)"
+    "section": "(AP) What is data after all?",
+    "text": "(AP) What is data after all?\n\n\nAckoff’s DIKW pyramid.\nData &lt; Information &lt; Knowledge &lt; Wisdom.\nData versus the interpretation of the data.\n\n\n\n(To learn more see: Ackoff (1989) and Rowley (2007))"
   },
   {
-    "objectID": "index.html#codebook",
-    "href": "index.html#codebook",
+    "objectID": "index.html#ap-what-is-data-after-all-1",
+    "href": "index.html#ap-what-is-data-after-all-1",
     "title": "Enhancing the Global Syndemic project with Open Science practices",
-    "section": "Codebook",
-    "text": "Codebook"
+    "section": "(AP) What is data after all?",
+    "text": "(AP) What is data after all?\nData is an abstraction. It’s a representation of the world around us. Without context, it has no meaning."
   },
   {
-    "objectID": "index.html#open-data-formats",
-    "href": "index.html#open-data-formats",
+    "objectID": "index.html#ap-statistical-value-chain",
+    "href": "index.html#ap-statistical-value-chain",
     "title": "Enhancing the Global Syndemic project with Open Science practices",
-    "section": "Open data formats",
-    "text": "Open data formats\nThere are many open data formats available for researchers to use. Here are some examples:\n\nTabular data\n\nComma-Separated Values (CSV)\nApache Parquet\n\n\n\n(Excel files are not a open data format!)\n\nList data\n\nJSON\nYAML\nTOML\nXML"
+    "section": "(AP) Statistical value chain",
+    "text": "(AP) Statistical value chain\n“A value chain, roughly, consists of a sequence of activities that increase the value of a product step by step. […] One should realize that although the schema nicely organizes data analysis activities, in practice, the process is hardly linear.”\n\n\n(Jonge & Loo, 2018)"
   },
   {
-    "objectID": "index.html#data-management-plans",
-    "href": "index.html#data-management-plans",
+    "objectID": "index.html#ap-raw-data",
+    "href": "index.html#ap-raw-data",
     "title": "Enhancing the Global Syndemic project with Open Science practices",
-    "section": "Data management plans",
-    "text": "Data management plans\n\nFAPESP\nDMPTool\nDMPonline\n\nExample of a data management plan\n\nAssociations between the duration and quality of sleep of pregnant women in the third trimester with the duration of labor"
+    "section": "(AP) Raw data",
+    "text": "(AP) Raw data\n\n“With raw data, we mean the data as it arrives at the desk of the analyst. The state of such data may of course vary enormously, depending on the data source.” (Jonge & Loo, 2018).\n“If the researcher has made any modifications to the raw data, it is not the raw form of the data.” (Ellis & Leek, 2018)."
   },
   {
-    "objectID": "index.html#what-is-data-after-all",
-    "href": "index.html#what-is-data-after-all",
+    "objectID": "index.html#ap-data-types",
+    "href": "index.html#ap-data-types",
     "title": "Enhancing the Global Syndemic project with Open Science practices",
-    "section": "What is data after all?",
-    "text": "What is data after all?\n\n\nAckoff’s DIKW pyramid.\nData &lt; Information &lt; Knowledge &lt; Wisdom.\nData versus the interpretation of data.\n\n\n\n(To learn more see: Ackoff (1989) and Rowley (2007))"
+    "section": "(AP) Data types",
+    "text": "(AP) Data types\nSome R data types\n\n\n\n\nCharacter (e.g., “Maria”, “John”).\n\nFactor (e.g., 1 = “Male”, 2 = “Female”).\n\nInteger (e.g., 1, 2, 3).\n\nFloat (e.g., 1.0, 2.0, 3.0).\n\nComplex (e.g., 1 + 2i, 3 + 4i).\n\nBoolean (e.g., TRUE, FALSE).\n\n\n\n\nDate (e.g., 2023-01-01) (linear time).\n\nDate-time (e.g., 2023-01-01 00:00:00) (linear time).\n\nInterval (e.g., 2023-01-01 00:00:00)–2023-12-15 15:40:00)) (linear time).\n\nDuration (e.g., 1 year, 2 months, 3 days) (linear time).\n\nPeriod (e.g., 1 year, 2 months, 3 days) (linear(ish) time).\n\nTime of day (e.g., 01:00:00) (circular time)."
   },
   {
-    "objectID": "index.html#what-is-data-after-all-1",
-    "href": "index.html#what-is-data-after-all-1",
+    "objectID": "index.html#ap-valid-data",
+    "href": "index.html#ap-valid-data",
     "title": "Enhancing the Global Syndemic project with Open Science practices",
-    "section": "What is data after all?",
-    "text": "What is data after all?\nData is an abstraction of reality. It’s a representation of the world around us. Without context, it has no meaning."
+    "section": "(AP) Valid data",
+    "text": "(AP) Valid data\nData validation techiniques are used to ensure that data is accurate, consistent, and reliable.\n\nExamples\n\nImpossible values (e.g., negative age);\nInconsistent values (e.g., a person with a height of 2 meters and a weight of 20 kg);\nImprobaable values (e.g., a person 200 years old);\nDuplicated values (e.g., the same person with two different ages)."
   },
   {
-    "objectID": "index.html#what-is-a-project",
-    "href": "index.html#what-is-a-project",
+    "objectID": "index.html#ap-tidy-data",
+    "href": "index.html#ap-tidy-data",
     "title": "Enhancing the Global Syndemic project with Open Science practices",
-    "section": "What is a project?",
-    "text": "What is a project?\n\nA unique and temporary endeavor.\nHas a defined beginning and end.\nPurpose is to create a specific product or service or change a specific product or service.\nHas limited resources.\n\n\n(Project Management Institute, 2017)"
+    "section": "(AP) Tidy data",
+    "text": "(AP) Tidy data\n\n\n\n\n\n(Illustration by Allison Horst)"
   },
   {
-    "objectID": "index.html#kiss-principle",
-    "href": "index.html#kiss-principle",
+    "objectID": "index.html#ap-tidy-data-1",
+    "href": "index.html#ap-tidy-data-1",
     "title": "Enhancing the Global Syndemic project with Open Science practices",
-    "section": "KISS principle",
-    "text": "KISS principle"
+    "section": "(AP) Tidy data",
+    "text": "(AP) Tidy data\n\n\n\n\n\n(Illustration by Allison Horst)"
   },
   {
-    "objectID": "index.html#kanban",
-    "href": "index.html#kanban",
+    "objectID": "index.html#ap-untidy-to-tidy",
+    "href": "index.html#ap-untidy-to-tidy",
     "title": "Enhancing the Global Syndemic project with Open Science practices",
-    "section": "Kanban",
-    "text": "Kanban\n\n“Kanban is a tool that allows you to fully visualize the status of your processes through a board with dynamic columns that make all tasks and processes steps clear”\n\n\n(Alionço, 2017)"
+    "section": "(AP) Untidy to tidy",
+    "text": "(AP) Untidy to tidy\nLearn more in Wickham et al. (2023), chap. 5.\n\n\n\n\n\n(Figure from Wickham et al. (2023))"
   },
   {
-    "objectID": "index.html#kanban-board",
-    "href": "index.html#kanban-board",
+    "objectID": "index.html#ap-tidy-data-2",
+    "href": "index.html#ap-tidy-data-2",
     "title": "Enhancing the Global Syndemic project with Open Science practices",
-    "section": "Kanban board",
-    "text": "Kanban board"
+    "section": "(AP) Tidy data",
+    "text": "(AP) Tidy data\n\n\n\n\n\n(Illustration by Allison Horst)"
   },
   {
-    "objectID": "index.html#kanban-origin",
-    "href": "index.html#kanban-origin",
+    "objectID": "index.html#ap-tidy-data-3",
+    "href": "index.html#ap-tidy-data-3",
     "title": "Enhancing the Global Syndemic project with Open Science practices",
-    "section": "Kanban origin",
-    "text": "Kanban origin\n\n\n\n\n\n(Author unknown)"
+    "section": "(AP) Tidy data",
+    "text": "(AP) Tidy data\n\n\n\n\n\n(Illustration by Allison Horst)"
   },
   {
-    "objectID": "index.html#kanban-principles",
-    "href": "index.html#kanban-principles",
+    "objectID": "index.html#ap-spreadsheet-syndrome",
+    "href": "index.html#ap-spreadsheet-syndrome",
     "title": "Enhancing the Global Syndemic project with Open Science practices",
-    "section": "Kanban principles",
-    "text": "Kanban principles\n\nStart with what you do now.\nAgree to pursue incremental, evolutionary change.\nRespect the current process, roles, responsibilities, and titles.\n\n\n(Stellman & Greene, 2014)"
+    "section": "(AP) Spreadsheet syndrome",
+    "text": "(AP) Spreadsheet syndrome\n\n\nSpreadsheet Syndrome is a term used to describe the problems that arise from using spreadsheets to manage data.\n\n\n\n\n\n\n\n\n(Image by 9Dots Management)"
+  },
+  {
+    "objectID": "index.html#ap-relational-databases",
+    "href": "index.html#ap-relational-databases",
+    "title": "Enhancing the Global Syndemic project with Open Science practices",
+    "section": "(AP) Relational databases",
+    "text": "(AP) Relational databases\n“Developed by E. F. Codd of IBM in 1970, the relational model is based on mathematical set theory and represents data as independent relations. Each relation (table) is conceptually represented as a two-dimensional structure of intersecting rows and columns. The relations are related to each other through the sharing of common entity characteristics (values in columns)” (Coronel & Morris, 2019)."
+  },
+  {
+    "objectID": "index.html#ap-data-documentation",
+    "href": "index.html#ap-data-documentation",
+    "title": "Enhancing the Global Syndemic project with Open Science practices",
+    "section": "(AP) Data documentation",
+    "text": "(AP) Data documentation\n\nData dictionaries/Codebooks (e.g., SISVAN).\n\nGuide to writing “readme” style metadata.\n\nMetadata Standards Catalog.\n\nData Documentation Initiative (DDI)."
+  },
+  {
+    "objectID": "index.html#ap-the-codebook",
+    "href": "index.html#ap-the-codebook",
+    "title": "Enhancing the Global Syndemic project with Open Science practices",
+    "section": "(AP) The codebook",
+    "text": "(AP) The codebook"
+  },
+  {
+    "objectID": "index.html#ap-open-data-formats",
+    "href": "index.html#ap-open-data-formats",
+    "title": "Enhancing the Global Syndemic project with Open Science practices",
+    "section": "(AP) Open data formats",
+    "text": "(AP) Open data formats\nThere are many open data formats available for researchers to use. Here are some examples:\n\n\n\nTabular data\n\nComma-Separated Values (CSV)\nApache Parquet\n\n\n\n(Excel files are not a open data format!)\n\n\nList data\n\nJSON\nYAML\nTOML\nXML"
+  },
+  {
+    "objectID": "index.html#ap-fair-principles",
+    "href": "index.html#ap-fair-principles",
+    "title": "Enhancing the Global Syndemic project with Open Science practices",
+    "section": "(AP) Fair principles",
+    "text": "(AP) Fair principles\n\n\n\n\n\n(To learn more see: Wilkinson et al. (2016) and GO FAIR initiative (n.d.))"
+  },
+  {
+    "objectID": "index.html#ap-data-management-plans",
+    "href": "index.html#ap-data-management-plans",
+    "title": "Enhancing the Global Syndemic project with Open Science practices",
+    "section": "(AP) Data management plans",
+    "text": "(AP) Data management plans\nA data management plan (DMP) is a formal document that outlines how data will be managed throughout the research process.\n\n\nFAPESP.\n\nDMPTool.\n\nDMPonline.\n\n\n\nExample: Associations between the duration and quality of sleep of pregnant women in the third trimester with the duration of labor."
+  },
+  {
+    "objectID": "index.html#ap-project-management",
+    "href": "index.html#ap-project-management",
+    "title": "Enhancing the Global Syndemic project with Open Science practices",
+    "section": "(AP) Project management",
+    "text": "(AP) Project management"
+  },
+  {
+    "objectID": "index.html#ap-why-this-is-important",
+    "href": "index.html#ap-why-this-is-important",
+    "title": "Enhancing the Global Syndemic project with Open Science practices",
+    "section": "(AP) Why this is important?",
+    "text": "(AP) Why this is important?"
+  },
+  {
+    "objectID": "index.html#ap-what-is-a-project",
+    "href": "index.html#ap-what-is-a-project",
+    "title": "Enhancing the Global Syndemic project with Open Science practices",
+    "section": "(AP) What is a project?",
+    "text": "(AP) What is a project?\n\nA unique and temporary endeavor.\nHas a defined beginning and end.\nPurpose is to create a specific product or service or change a specific product or service.\nHas limited resources.\n\n\n(Project Management Institute, 2017)"
+  },
+  {
+    "objectID": "index.html#ap-kiss-principle",
+    "href": "index.html#ap-kiss-principle",
+    "title": "Enhancing the Global Syndemic project with Open Science practices",
+    "section": "(AP) KISS principle",
+    "text": "(AP) KISS principle"
+  },
+  {
+    "objectID": "index.html#ap-kanban",
+    "href": "index.html#ap-kanban",
+    "title": "Enhancing the Global Syndemic project with Open Science practices",
+    "section": "(AP) Kanban",
+    "text": "(AP) Kanban\n\n“Kanban is a tool that allows you to fully visualize the status of your processes through a board with dynamic columns that make all tasks and processes steps clear”\n\n\n(Alionço, 2017)"
+  },
+  {
+    "objectID": "index.html#ap-kanban-board",
+    "href": "index.html#ap-kanban-board",
+    "title": "Enhancing the Global Syndemic project with Open Science practices",
+    "section": "(AP) Kanban board",
+    "text": "(AP) Kanban board"
+  },
+  {
+    "objectID": "index.html#ap-kanban-origin",
+    "href": "index.html#ap-kanban-origin",
+    "title": "Enhancing the Global Syndemic project with Open Science practices",
+    "section": "(AP) Kanban origin",
+    "text": "(AP) Kanban origin\n\n\n\n\n\n(Author unknown)"
+  },
+  {
+    "objectID": "index.html#ap-kanban-principles",
+    "href": "index.html#ap-kanban-principles",
+    "title": "Enhancing the Global Syndemic project with Open Science practices",
+    "section": "(AP) Kanban principles",
+    "text": "(AP) Kanban principles\n\nStart with what you do now.\nAgree to pursue incremental, evolutionary change.\nRespect the current process, roles, responsibilities, and titles.\n\n\n(Stellman & Greene, 2014)"
   }
 ]
