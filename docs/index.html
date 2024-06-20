@@ -484,11 +484,6 @@ Daniel Vartanian
 <p>Ellis, S. E., &amp; Leek, J. T. (2018). How to share data for collaboration. <em>The American Statistician</em>, <em>72</em>(1), 53–57. <a href="https://doi.org/10.1080/00031305.2017.1375987" class="uri">https://doi.org/10.1080/00031305.2017.1375987</a></p>
 </div>
 </div>
-</section><section id="lets-try-to-keep-an-open-mind" class="slide level2 nostretch"><h2>Let’s try to keep an open mind</h2>
-<div class="quarto-figure quarto-figure-center">
-<figure><p><img data-src="images/allison-horst-figure-10.png" class="quarto-figure quarto-figure-center" style="padding-top: 10px;"></p>
-</figure>
-</div>
 <!-- --- -->
 </section><section id="section" class="slide level2" data-background-image="images/web-cnpq-br.png" data-background-position="top left" data-background-size="100%" label="CNPq"><h2></h2>
 <aside class="notes"><p>Page link: <a href="http://memoria2.cnpq.br/web/guest/chamadas-publicas?p_p_id=resultadosportlet_WAR_resultadoscnpqportlet_INSTANCE_0ZaM&amp;filtro=abertas&amp;detalha=chamadaDivulgada&amp;idDivulgacao=11626" class="uri">http://memoria2.cnpq.br/web/guest/chamadas-publicas?p_p_id=resultadosportlet_WAR_resultadoscnpqportlet_INSTANCE_0ZaM&amp;filtro=abertas&amp;detalha=chamadaDivulgada&amp;idDivulgacao=11626</a>.</p>
@@ -517,14 +512,14 @@ Daniel Vartanian
 </div><div class="column" style="width:50%;">
 <ul>
 <li>
-<strong>Data analysis and visualization</strong>.</li>
+<strong>Data science</strong>.</li>
 <li>
 <strong>Complex system modeling</strong>.</li>
 </ul>
 </div>
 </div>
 <p>I leave the theorizing and interpretation efforts to the experts in the field.</p>
-</section><section id="key-points-for-improvement" class="slide level2"><h2>Key points for improvement</h2>
+</section><section id="key-points" class="slide level2"><h2>Key points</h2>
 <ol type="1">
 <li>
 <strong>Fostering a culture of open science</strong>.</li>
@@ -533,12 +528,7 @@ Daniel Vartanian
 <li>
 <strong>Promoting reproducible research practices</strong>.</li>
 </ol>
-<p style="padding-bottom: 20px;">
-If there is time:
-</p>
-<p>4. Establishing standardized guidelines for data practices</p>
-<!-- --- -->
-</section><section id="fostering-a-culture-of-open-science" class="slide level2 smaller"><h2>Fostering a culture of open science</h2>
+<!-- --- --></section><section id="fostering-a-culture-of-open-science" class="slide level2 smaller"><h2>Fostering a culture of open science</h2>
 </section><section id="we-have-a-problem" class="slide level2"><h2>We have a problem…</h2>
 <div style="padding-top: 50px;">
 <p>“<strong>The scientific research enterprise is built on a foundation of trust</strong>. Scientists trust that the results reported by others are valid. Society trusts that the results of research reflect an honest attempt by scientists to describe the world accurately and without bias. <strong>But this trust will endure only</strong> if the scientific community devotes itself to exemplifying and transmitting the values associated with ethical scientific conduct.”</p>
@@ -709,7 +699,7 @@ If there is time:
 <div>
 
 </div>
-<div class="quarto-layout-panel" data-layout="[5, 80, 15]" style="padding-top: 50px;">
+<div class="quarto-layout-panel" style="padding-top: 50px;" data-layout="[5, 80, 15]">
 <div class="quarto-layout-row">
 <div id="first-column" class="quarto-layout-cell" style="flex-basis: 5.0%;justify-content: flex-start;">
 
@@ -1145,52 +1135,7 @@ Programming in movies <strong>versus</strong> programming in real life:
           width: 1px!important;
           overflow: hidden!important;
           display:block!important;
-      }</style></aside></section><section id="app.-programming-interfaces-apis" class="slide level2 smaller"><h2>App. Programming Interfaces (APIs)</h2>
-<p>APIs are a set of rules that allow different software applications to communicate with each other.</p>
-<div class="columns">
-<div class="column" style="width:34%;">
-<ul>
-<li>
-<a href="https://developer.osf.io/">OSF API</a>.</li>
-<li>
-<a href="https://dadosabertos.bcb.gov.br/dataset?res_format=API">Brazil’s Central Bank APIs</a>.</li>
-<li>
-<a href="https://api.nasa.gov/">NASA’s APIs</a>.</li>
-</ul>
-</div><div class="column" style="width:33%;">
-<ul>
-<li>
-<a href="https://platform.openai.com/docs/api-reference/introduction">OpenAI API</a>.</li>
-<li>
-<a href="https://api.sidra.ibge.gov.br/">SIDRA API (IBGE)</a>.</li>
-<li>
-<a href="https://opendatasus.saude.gov.br/dataset/sisvan-estado-nutricional/resource/3ead4331-6424-471f-a811-4edf22f58e00">SISVAN API</a>.</li>
-</ul>
-</div><div class="column" style="width:33%;">
-<div class="quarto-figure quarto-figure-center">
-<figure><p><img data-src="images/api-symbol.png" class="quarto-figure quarto-figure-center" style="width:40.0%"></p>
-</figure>
-</div>
-</div>
-</div>
-<div style="padding-top: 0px;">
-
-</div>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a></a><span class="co"># library(dplyr)</span></span>
-<span id="cb1-2"><a></a><span class="co"># library(magrittr)</span></span>
-<span id="cb1-3"><a></a><span class="co"># library(sidrar)</span></span>
-<span id="cb1-4"><a></a></span>
-<span id="cb1-5"><a></a><span class="co"># Brazil's population in 2022 (census data)</span></span>
-<span id="cb1-6"><a></a>sidrar<span class="sc">::</span><span class="fu">get_sidra</span>(</span>
-<span id="cb1-7"><a></a>  <span class="at">api =</span> <span class="st">"/t/7358/n1/all/v/all/p/all/c2/6794/c287/100362/c1933/49039"</span></span>
-<span id="cb1-8"><a></a>) <span class="sc">|&gt;</span></span>
-<span id="cb1-9"><a></a>  <span class="fu">suppressMessages</span>() <span class="sc">|&gt;</span></span>
-<span id="cb1-10"><a></a>  magrittr<span class="sc">::</span><span class="fu">extract2</span>(<span class="st">"Valor"</span>) <span class="sc">|&gt;</span></span>
-<span id="cb1-11"><a></a>  <span class="fu">prettyNum</span>(<span class="at">big.mark =</span> <span class="st">","</span>)</span>
-<span id="cb1-12"><a></a><span class="co">#&gt; [1] "216,284,269"</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-</section><section id="pipelines" class="slide level2 smaller"><h2>Pipelines</h2>
+      }</style></aside></section><section id="pipelines" class="slide level2 smaller"><h2>Pipelines</h2>
 <p>Pipeline tools coordinate the pieces of computationally demanding analysis projects. They can be used to automate the execution of a series of tasks.</p>
 <div class="columns">
 <div class="column" style="width:25%;">
@@ -1385,6 +1330,51 @@ Wilkinson, M. D., Dumontier, M., Aalbersberg, Ij. J., Appleton, G., Axton, M., B
 <!-- --- -->
 </section><section id="ap-appendices" class="slide level2" data-visibility="uncounted"><h2>(AP) Appendices</h2>
 <!-- --- -->
+<p>##(AP) App. Programming Interfaces (APIs) {.smaller visibility=“uncounted”}</p>
+<p>APIs are a set of rules that allow different software applications to communicate with each other.</p>
+<div class="columns">
+<div class="column" style="width:34%;">
+<ul>
+<li>
+<a href="https://developer.osf.io/">OSF API</a>.</li>
+<li>
+<a href="https://dadosabertos.bcb.gov.br/dataset?res_format=API">Brazil’s Central Bank APIs</a>.</li>
+<li>
+<a href="https://api.nasa.gov/">NASA’s APIs</a>.</li>
+</ul>
+</div><div class="column" style="width:33%;">
+<ul>
+<li>
+<a href="https://platform.openai.com/docs/api-reference/introduction">OpenAI API</a>.</li>
+<li>
+<a href="https://api.sidra.ibge.gov.br/">SIDRA API (IBGE)</a>.</li>
+<li>
+<a href="https://opendatasus.saude.gov.br/dataset/sisvan-estado-nutricional/resource/3ead4331-6424-471f-a811-4edf22f58e00">SISVAN API</a>.</li>
+</ul>
+</div><div class="column" style="width:33%;">
+<div class="quarto-figure quarto-figure-center">
+<figure><p><img data-src="images/api-symbol.png" class="quarto-figure quarto-figure-center" style="width:40.0%"></p>
+</figure>
+</div>
+</div>
+</div>
+<div style="padding-top: 0px;">
+
+</div>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a></a><span class="co"># library(dplyr)</span></span>
+<span id="cb1-2"><a></a><span class="co"># library(magrittr)</span></span>
+<span id="cb1-3"><a></a><span class="co"># library(sidrar)</span></span>
+<span id="cb1-4"><a></a></span>
+<span id="cb1-5"><a></a><span class="co"># Brazil's population in 2022 (census data)</span></span>
+<span id="cb1-6"><a></a>sidrar<span class="sc">::</span><span class="fu">get_sidra</span>(</span>
+<span id="cb1-7"><a></a>  <span class="at">api =</span> <span class="st">"/t/7358/n1/all/v/all/p/all/c2/6794/c287/100362/c1933/49039"</span></span>
+<span id="cb1-8"><a></a>) <span class="sc">|&gt;</span></span>
+<span id="cb1-9"><a></a>  <span class="fu">suppressMessages</span>() <span class="sc">|&gt;</span></span>
+<span id="cb1-10"><a></a>  magrittr<span class="sc">::</span><span class="fu">extract2</span>(<span class="st">"Valor"</span>) <span class="sc">|&gt;</span></span>
+<span id="cb1-11"><a></a>  <span class="fu">prettyNum</span>(<span class="at">big.mark =</span> <span class="st">","</span>)</span>
+<span id="cb1-12"><a></a><span class="co">#&gt; [1] "216,284,269"</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
 </section><section id="ap-summary-of-points-and-suggestions" class="slide level2" data-visibility="uncounted"><h2>(AP) Summary of points and suggestions</h2>
 <p>These suggestions may be too overwhelming at first. It’s important to <strong>start small</strong> and gradually incorporate these practices into the project workflow.</p>
 <p>The order of the suggestions is not important.</p>

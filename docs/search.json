@@ -14,13 +14,6 @@
     "text": "Materials sent before the presentation\n\n\n\n\n\n\nCenter for Open Science. (February 15, 2023) Introduction to OSF. https://youtu.be/X07mBq2tnMg?si=m_mXwKrw0LvHazTg\n\n\n\n\n\nEllis, S. E., & Leek, J. T. (2018). How to share data for collaboration. The American Statistician, 72(1), 53–57. https://doi.org/10.1080/00031305.2017.1375987"
   },
   {
-    "objectID": "index.html#lets-try-to-keep-an-open-mind",
-    "href": "index.html#lets-try-to-keep-an-open-mind",
-    "title": "Enhancing the Global Syndemic project with Open Science practices",
-    "section": "Let’s try to keep an open mind",
-    "text": "Let’s try to keep an open mind"
-  },
-  {
     "objectID": "index.html#section",
     "href": "index.html#section",
     "title": "Enhancing the Global Syndemic project with Open Science practices",
@@ -39,14 +32,14 @@
     "href": "index.html#what-i-can-help-with",
     "title": "Enhancing the Global Syndemic project with Open Science practices",
     "section": "What I can help with",
-    "text": "What I can help with\nIt’s important to note, that I’m not an expert in public health or environmental science. However, I have a strong background in data science and complex systems modeling. I can help with:\n\n\n\n\nProject management.\n\nData engineering.\n\n\n\n\nData analysis and visualization.\n\nComplex system modeling.\n\n\n\nI leave the theorizing and interpretation efforts to the experts in the field."
+    "text": "What I can help with\nIt’s important to note, that I’m not an expert in public health or environmental science. However, I have a strong background in data science and complex systems modeling. I can help with:\n\n\n\n\nProject management.\n\nData engineering.\n\n\n\n\nData science.\n\nComplex system modeling.\n\n\n\nI leave the theorizing and interpretation efforts to the experts in the field."
   },
   {
-    "objectID": "index.html#key-points-for-improvement",
-    "href": "index.html#key-points-for-improvement",
+    "objectID": "index.html#key-points",
+    "href": "index.html#key-points",
     "title": "Enhancing the Global Syndemic project with Open Science practices",
-    "section": "Key points for improvement",
-    "text": "Key points for improvement\n\n\nFostering a culture of open science.\n\nImplementing a comprehensive project and data management system.\n\nPromoting reproducible research practices.\n\n\nIf there is time:\n\n4. Establishing standardized guidelines for data practices"
+    "section": "Key points",
+    "text": "Key points\n\n\nFostering a culture of open science.\n\nImplementing a comprehensive project and data management system.\n\nPromoting reproducible research practices."
   },
   {
     "objectID": "index.html#fostering-a-culture-of-open-science",
@@ -280,13 +273,6 @@
     "text": "Dynamic documents\nDynamic documents seamlessly integrate text with output from a programming language, automatically updating the output whenever the code is executed.\n\n\n\n\nQuarto (R, Python, Julia) (+Pandoc).\n\nJupyter (Python, R, Julia, +37 languages).\n\nRmarkdown (R) (+Pandoc).\n\n\nExamples\n\nExternal-link: Central limit theorem.\nExternal-link: Sample size.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nYou can write articles with dynamic documents.\nDifference from LaTeX.\nQuarto as an evolution from Rmarkdown.\nJupyter can be used with Quarto."
   },
   {
-    "objectID": "index.html#app.-programming-interfaces-apis",
-    "href": "index.html#app.-programming-interfaces-apis",
-    "title": "Enhancing the Global Syndemic project with Open Science practices",
-    "section": "App. Programming Interfaces (APIs)",
-    "text": "App. Programming Interfaces (APIs)\nAPIs are a set of rules that allow different software applications to communicate with each other.\n\n\n\n\nOSF API.\n\nBrazil’s Central Bank APIs.\n\nNASA’s APIs.\n\n\n\n\nOpenAI API.\n\nSIDRA API (IBGE).\n\nSISVAN API.\n\n\n\n\n\n\n\n\n\n\n\n\n# library(dplyr)\n# library(magrittr)\n# library(sidrar)\n\n# Brazil's population in 2022 (census data)\nsidrar::get_sidra(\n  api = \"/t/7358/n1/all/v/all/p/all/c2/6794/c287/100362/c1933/49039\"\n) |&gt;\n  suppressMessages() |&gt;\n  magrittr::extract2(\"Valor\") |&gt;\n  prettyNum(big.mark = \",\")\n#&gt; [1] \"216,284,269\""
-  },
-  {
     "objectID": "index.html#pipelines",
     "href": "index.html#pipelines",
     "title": "Enhancing the Global Syndemic project with Open Science practices",
@@ -361,7 +347,7 @@
     "href": "index.html#ap-appendices",
     "title": "Enhancing the Global Syndemic project with Open Science practices",
     "section": "(AP) Appendices",
-    "text": "(AP) Appendices"
+    "text": "(AP) Appendices\n\n##(AP) App. Programming Interfaces (APIs) {.smaller visibility=“uncounted”}\nAPIs are a set of rules that allow different software applications to communicate with each other.\n\n\n\n\nOSF API.\n\nBrazil’s Central Bank APIs.\n\nNASA’s APIs.\n\n\n\n\nOpenAI API.\n\nSIDRA API (IBGE).\n\nSISVAN API.\n\n\n\n\n\n\n\n\n\n\n\n\n# library(dplyr)\n# library(magrittr)\n# library(sidrar)\n\n# Brazil's population in 2022 (census data)\nsidrar::get_sidra(\n  api = \"/t/7358/n1/all/v/all/p/all/c2/6794/c287/100362/c1933/49039\"\n) |&gt;\n  suppressMessages() |&gt;\n  magrittr::extract2(\"Valor\") |&gt;\n  prettyNum(big.mark = \",\")\n#&gt; [1] \"216,284,269\""
   },
   {
     "objectID": "index.html#ap-summary-of-points-and-suggestions",

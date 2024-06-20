@@ -49,10 +49,6 @@ Ellis, S. E., & Leek, J. T. (2018). How to share data for collaboration. _The Am
 :::
 ::::
 
-## Let's try to keep an open mind {.nostretch}
-
-![](images/allison-horst-figure-10.png){fig-align="center" style="padding-top: 10px;"}
-
 
 <!-- --- -->
 
@@ -78,22 +74,18 @@ It's important to note, that I'm not an expert in public health or environmental
 :::
 
 ::: {.column width="50%"}
-* __Data analysis and visualization__.
+* __Data science__.
 * __Complex system modeling__.
 :::
 ::::
 
 I leave the theorizing and interpretation efforts to the experts in the field.
 
-## Key points for improvement
+## Key points
 
 1. __Fostering a culture of open science__.
 1. __Implementing a comprehensive project and data management system__.
 1. __Promoting reproducible research practices__.
-
-<p style="padding-bottom: 20px;">If there is time:</p>
-
-4\. Establishing standardized guidelines for data practices
 
 
 <!-- --- -->
@@ -325,7 +317,6 @@ A preprint repository is a platform that allows researchers to share their resea
 :::
 ::::
 
-
 ## Open licenses {.smaller}
 
 A unlicensed work is an "all rights reserved" work. This means that you can't use it without the author's permission.
@@ -350,7 +341,6 @@ A unlicensed work is an "all rights reserved" work. This means that you can't us
 ![](images/cc-license-logo.png){fig-align="center" width=50%}
 :::
 ::::
-
 
 ## Project page
 
@@ -634,48 +624,6 @@ __Examples__
 * Jupyter can be used with Quarto.
 :::
 
-
-## App. Programming Interfaces (APIs) {.smaller}
-
-APIs are a set of rules that allow different software applications to communicate with each other.
-
-:::: {.columns}
-::: {.column width="34%"}
-* [OSF API](https://developer.osf.io/).
-* [Brazil's Central Bank APIs](https://dadosabertos.bcb.gov.br/dataset?res_format=API).
-* [NASA's APIs](https://api.nasa.gov/).
-:::
-
-::: {.column width="33%"}
-* [OpenAI API](https://platform.openai.com/docs/api-reference/introduction).
-* [SIDRA API (IBGE)](https://api.sidra.ibge.gov.br/).
-* [SISVAN API](https://opendatasus.saude.gov.br/dataset/sisvan-estado-nutricional/resource/3ead4331-6424-471f-a811-4edf22f58e00).
-:::
-
-::: {.column width="33%"}
-![](images/api-symbol.png){fig-align="center" width=40%}
-:::
-::::
-
-::: {style="padding-top: 0px;"}
-:::
-
-```{r}
-#| echo: true
-
-# library(dplyr)
-# library(magrittr)
-# library(sidrar)
-
-# Brazil's population in 2022 (census data)
-sidrar::get_sidra(
-  api = "/t/7358/n1/all/v/all/p/all/c2/6794/c287/100362/c1933/49039"
-) |>
-  suppressMessages() |>
-  magrittr::extract2("Valor") |>
-  prettyNum(big.mark = ",")
-```
-
 ## Pipelines {.smaller}
 
 Pipeline tools coordinate the pieces of computationally demanding analysis projects. They can be used to automate the execution of a series of tasks.
@@ -806,11 +754,52 @@ In accordance with the [American Psychological Association (APA) Style](https://
 
 <!-- --- -->
 
+
 ## (AP) Appendices {visibility="uncounted"}
 
 
 <!-- --- -->
 
+##(AP) App. Programming Interfaces (APIs) {.smaller visibility="uncounted"}
+
+APIs are a set of rules that allow different software applications to communicate with each other.
+
+:::: {.columns}
+::: {.column width="34%"}
+* [OSF API](https://developer.osf.io/).
+* [Brazil's Central Bank APIs](https://dadosabertos.bcb.gov.br/dataset?res_format=API).
+* [NASA's APIs](https://api.nasa.gov/).
+:::
+
+::: {.column width="33%"}
+* [OpenAI API](https://platform.openai.com/docs/api-reference/introduction).
+* [SIDRA API (IBGE)](https://api.sidra.ibge.gov.br/).
+* [SISVAN API](https://opendatasus.saude.gov.br/dataset/sisvan-estado-nutricional/resource/3ead4331-6424-471f-a811-4edf22f58e00).
+:::
+
+::: {.column width="33%"}
+![](images/api-symbol.png){fig-align="center" width=40%}
+:::
+::::
+
+::: {style="padding-top: 0px;"}
+:::
+
+```{r}
+#| echo: true
+
+# library(dplyr)
+# library(magrittr)
+# library(sidrar)
+
+# Brazil's population in 2022 (census data)
+sidrar::get_sidra(
+  api = "/t/7358/n1/all/v/all/p/all/c2/6794/c287/100362/c1933/49039"
+) |>
+  suppressMessages() |>
+  magrittr::extract2("Valor") |>
+  prettyNum(big.mark = ",")
+```
 
 ## (AP) Summary of points and suggestions {visibility="uncounted"}
 
