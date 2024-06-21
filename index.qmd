@@ -477,7 +477,7 @@ Python is good for learning how to program, but it is much easier to learn how t
 (Image author unknown)
 :::
 
-## It's not what You think {.smaller}
+## It's not what you think {.smaller}
 
 :::: {.columns}
 ::: {.column width="50%"}
