@@ -679,7 +679,7 @@ Daniel Vartanian
 <div>
 
 </div>
-<div class="quarto-layout-panel" data-layout="[5, 80, 15]" style="padding-top: 50px;">
+<div class="quarto-layout-panel" style="padding-top: 50px;" data-layout="[5, 80, 15]">
 <div class="quarto-layout-row">
 <div id="first-column" class="quarto-layout-cell" style="flex-basis: 5.0%;justify-content: flex-start;">
 
@@ -953,9 +953,9 @@ Daniel Vartanian
 </figure>
 </div>
 <div class="footer">
-<p>(Illustration by <a href="https://allisonhorst.com/horst-hill-collaborations">Allison Horst</a>)</p>
+<p>(Image author unknown)</p>
 </div>
-</section><section id="its-not-what-you-thinking" class="slide level2 smaller"><h2>It’s not what you thinking</h2>
+</section><section id="its-not-what-you-think" class="slide level2 smaller"><h2>It’s not what You think</h2>
 <div class="columns">
 <div class="column" style="width:50%;">
 <p style="font-size: 0.75em;">
@@ -997,7 +997,7 @@ Programming in movies <strong>versus</strong> programming in real life:
 <p><strong>How do I learn R?</strong></p>
 <ul>
 <li>
-<a href="https://www.coursera.org/specializations/jhu-data-science">Data Science: Foundations using R</a><br>(Jonh Hopkins) (Online course - en-US).</li>
+<a href="https://www.coursera.org/specializations/jhu-data-science">Data Science: Foundations using R</a><br>(Johns Hopkins) (Online course - en-US).</li>
 <li>
 <a href="https://r4ds.had.co.nz/">R for Data Science</a> (Book - en-US).</li>
 </ul>
@@ -1211,7 +1211,7 @@ Programming in movies <strong>versus</strong> programming in real life:
 <img data-src="images/meme-theory-versus-practice.gif" class="quarto-figure quarto-figure-center r-stretch" style="padding-top: 50px;"></section><section id="final-remarks" class="slide level2 smaller"><h2>Final remarks</h2>
 <p><a href="https://choosealicense.com/licenses/mit/"><img data-src="images/mit-license-badge.svg" style="width:10.5%" alt="License: MIT"></a> <a href="https://creativecommons.org/licenses/by/4.0/"><img data-src="images/cc-licence-badge.svg" style="width:15.0%" alt="License: CC BY 4.0"></a></p>
 <p>This presentation was created using the Quarto Publishing System. Code and materials are available on <a href="https://github.com/danielvartan/open-science-pres">GitHub</a>.</p>
-<p>These beautiful illustrations were made by <a href="https://allisonhorst.com">Allison Horst</a>. Thank you, Allison!</p>
+<p>These beautiful illustrations were made by <a href="https://allisonhorst.com">Allison Horst</a>. Thank you Allison!</p>
 <div class="quarto-figure quarto-figure-center">
 <figure><p><img data-src="images/allison-horst-figure-1.png" class="quarto-figure quarto-figure-center" style="padding-top: 10px;;width:80.0%"></p>
 </figure>
@@ -1343,18 +1343,17 @@ Wilkinson, M. D., Dumontier, M., Aalbersberg, Ij. J., Appleton, G., Axton, M., B
 
 </div>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a></a><span class="co"># library(dplyr)</span></span>
-<span id="cb1-2"><a></a><span class="co"># library(magrittr)</span></span>
-<span id="cb1-3"><a></a><span class="co"># library(sidrar)</span></span>
-<span id="cb1-4"><a></a></span>
-<span id="cb1-5"><a></a><span class="co"># Brazil's population in 2022 (census data)</span></span>
-<span id="cb1-6"><a></a>sidrar<span class="sc">::</span><span class="fu">get_sidra</span>(</span>
-<span id="cb1-7"><a></a>  <span class="at">api =</span> <span class="st">"/t/7358/n1/all/v/all/p/all/c2/6794/c287/100362/c1933/49039"</span></span>
-<span id="cb1-8"><a></a>) <span class="sc">|&gt;</span></span>
-<span id="cb1-9"><a></a>  <span class="fu">suppressMessages</span>() <span class="sc">|&gt;</span></span>
-<span id="cb1-10"><a></a>  magrittr<span class="sc">::</span><span class="fu">extract2</span>(<span class="st">"Valor"</span>) <span class="sc">|&gt;</span></span>
-<span id="cb1-11"><a></a>  <span class="fu">prettyNum</span>(<span class="at">big.mark =</span> <span class="st">","</span>)</span>
-<span id="cb1-12"><a></a><span class="co">#&gt; [1] "216,284,269"</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a></a><span class="co"># library(magrittr)</span></span>
+<span id="cb1-2"><a></a><span class="co"># library(sidrar)</span></span>
+<span id="cb1-3"><a></a></span>
+<span id="cb1-4"><a></a><span class="co"># Brazil's population in 2022 (census data)</span></span>
+<span id="cb1-5"><a></a>sidrar<span class="sc">::</span><span class="fu">get_sidra</span>(</span>
+<span id="cb1-6"><a></a>  <span class="at">api =</span> <span class="st">"/t/7358/n1/all/v/all/p/all/c2/6794/c287/100362/c1933/49039"</span></span>
+<span id="cb1-7"><a></a>) <span class="sc">|&gt;</span></span>
+<span id="cb1-8"><a></a>  <span class="fu">suppressMessages</span>() <span class="sc">|&gt;</span></span>
+<span id="cb1-9"><a></a>  magrittr<span class="sc">::</span><span class="fu">extract2</span>(<span class="st">"Valor"</span>) <span class="sc">|&gt;</span></span>
+<span id="cb1-10"><a></a>  <span class="fu">prettyNum</span>(<span class="at">big.mark =</span> <span class="st">","</span>)</span>
+<span id="cb1-11"><a></a><span class="co">#&gt; [1] "216,284,269"</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section><section id="ap-summary-of-points-and-suggestions" class="slide level2" data-visibility="uncounted"><h2>(AP) Summary of points and suggestions</h2>
 <p>These suggestions may be too overwhelming at first. It’s important to <strong>start small</strong> and gradually incorporate these practices into the project workflow.</p>
@@ -1429,7 +1428,7 @@ Wilkinson, M. D., Dumontier, M., Aalbersberg, Ij. J., Appleton, G., Axton, M., B
 <li><strong>Data science program</strong></li>
 </ol>
 <ul>
-<li>Follow the guidelines and methodologies proposed by Wickham (2023) when conducting data analyses.</li>
+<li>Follow the guidelines and methodologies proposed by <span class="citation" data-cites="wickham2023b">Wickham et al. (<a href="#/references" role="doc-biblioref" onclick="">2023</a>)</span> when conducting data analyses.</li>
 <li>Tidy and document all the code and data.</li>
 </ul>
 <!-- --- --></section><section id="ap-establishing-standardized-guidelines-for-data-practices" class="slide level2" data-visibility="uncounted"><h2>(AP) Establishing standardized guidelines for data practices</h2>
@@ -1516,7 +1515,7 @@ Wilkinson, M. D., Dumontier, M., Aalbersberg, Ij. J., Appleton, G., Axton, M., B
 <li>
 <strong>Date-time</strong> (e.g., 2023-01-01 00:00:00) (linear time).</li>
 <li>
-<strong>Interval</strong> (e.g., 2023-01-01 00:00:00)–2023-12-15 15:40:00)) (linear time).</li>
+<strong>Interval</strong> (e.g., 2023-01-01 00:00:00–2023-12-15 15:40:00) (linear time).</li>
 <li>
 <strong>Duration</strong> (e.g., 1 year, 2 months, 3 days) (linear time).</li>
 <li>
@@ -1527,13 +1526,13 @@ Wilkinson, M. D., Dumontier, M., Aalbersberg, Ij. J., Appleton, G., Axton, M., B
 </div>
 </div>
 </section><section id="ap-valid-data" class="slide level2 smaller" data-visibility="uncounted"><h2>(AP) Valid data</h2>
-<p>Data validation techiniques are used to ensure that data is accurate, consistent, and reliable.</p>
+<p>Data validation techniques are used to ensure that data is accurate, consistent, and reliable.</p>
 <div style="padding-top: 10px;">
 <p><strong>Examples</strong></p>
 <ul>
 <li>Impossible values (e.g., negative age);</li>
 <li>Inconsistent values (e.g., a person with a height of 2 meters and a weight of 20 kg);</li>
-<li>Improbaable values (e.g., a person 200 years old);</li>
+<li>Improbable values (e.g., a person 200 years old);</li>
 <li>Duplicated values (e.g., the same person with two different ages).</li>
 </ul>
 </div>
@@ -1581,7 +1580,7 @@ Wilkinson, M. D., Dumontier, M., Aalbersberg, Ij. J., Appleton, G., Axton, M., B
 </section><section id="ap-spreadsheet-syndrome" class="slide level2 nostretch" data-visibility="uncounted"><h2>(AP) Spreadsheet syndrome</h2>
 <div class="columns">
 <div class="column" style="width:50%;">
-<p>Spreadsheet Syndrome is a term used to describe the problems that arise from using spreadsheets to manage data.</p>
+<p>Spreadsheet syndrome is a term used to describe the problems that arise from using spreadsheets to manage data.</p>
 </div><div class="column" style="width:50%;">
 <div class="quarto-figure quarto-figure-center">
 <figure><p><img data-src="images/spreadsheet-syndrome.png" class="quarto-figure quarto-figure-center" style="padding-top: 60px;;width:100.0%"></p>
@@ -1607,9 +1606,15 @@ Wilkinson, M. D., Dumontier, M., Aalbersberg, Ij. J., Appleton, G., Axton, M., B
 <a href="https://rdamsc.bath.ac.uk/">Metadata Standards Catalog</a>.</li>
 <li>
 <a href="https://ddialliance.org/">Data Documentation Initiative (DDI)</a>.</li>
-</ul></section><section id="ap-the-codebook" class="slide level2" data-visibility="uncounted"><h2>(AP) The codebook</h2>
-
-<img data-src="images/ellis-2018-figure-1.jpg" class="r-stretch quarto-figure quarto-figure-center"></section><section id="ap-open-data-formats" class="slide level2 smaller" data-visibility="uncounted"><h2>(AP) Open data formats</h2>
+</ul></section><section id="ap-the-codebook" class="slide level2 nostretch" data-visibility="uncounted"><h2>(AP) The codebook</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure><p><img data-src="images/ellis-2018-figure-1.jpg" class="quarto-figure quarto-figure-center" style="width:85.0%"></p>
+</figure>
+</div>
+<div class="footer">
+<p>(Figure by <span class="citation" data-cites="ellis2018">Ellis &amp; Leek (<a href="#/references" role="doc-biblioref" onclick="">2018</a>)</span>)</p>
+</div>
+</section><section id="ap-open-data-formats" class="slide level2 smaller" data-visibility="uncounted"><h2>(AP) Open data formats</h2>
 <p>There are many open data formats available for researchers to use. Here are some examples:</p>
 <div class="columns">
 <div class="column" style="width:50%;">
@@ -1660,12 +1665,9 @@ Wilkinson, M. D., Dumontier, M., Aalbersberg, Ij. J., Appleton, G., Axton, M., B
 </div>
 <!-- --- -->
 </section><section id="ap-project-management" class="slide level2 smaller" data-visibility="uncounted"><h2>(AP) Project management</h2>
-</section><section id="ap-why-this-is-important" class="slide level2 nostretch" data-visibility="uncounted"><h2>(AP) Why this is important?</h2>
-<div class="quarto-figure quarto-figure-center">
-<figure><p><img data-src="images/meme-your-plan-reality.png" class="quarto-figure quarto-figure-center" style="padding-top: 25px;"></p>
-</figure>
-</div>
-</section><section id="ap-what-is-a-project" class="slide level2" data-visibility="uncounted"><h2>(AP) What is a project?</h2>
+</section><section id="ap-why-this-is-important" class="slide level2" data-visibility="uncounted"><h2>(AP) Why this is important?</h2>
+
+<img data-src="images/meme-your-plan-reality.png" class="quarto-figure quarto-figure-center r-stretch" style="padding-top: 25px;"></section><section id="ap-what-is-a-project" class="slide level2" data-visibility="uncounted"><h2>(AP) What is a project?</h2>
 <ol type="1">
 <li>A <strong>unique</strong> and <strong>temporary</strong> endeavor.</li>
 <li>Has a defined beginning and end.</li>

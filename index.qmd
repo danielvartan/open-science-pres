@@ -474,10 +474,10 @@ Python is good for learning how to program, but it is much easier to learn how t
 ![](images/meme-python-r.png){fig-align="center" width="62%"}
 
 ::: footer
-(Illustration by [Allison Horst](https://allisonhorst.com/horst-hill-collaborations))
+(Image author unknown)
 :::
 
-## It's not what you thinking {.smaller}
+## It's not what You think {.smaller}
 
 :::: {.columns}
 ::: {.column width="50%"}
@@ -506,7 +506,7 @@ __I don't know how to code!__ 😭
 
 __How do I learn R?__
 
-* [Data Science: Foundations using R](https://www.coursera.org/specializations/jhu-data-science)<br>(Jonh Hopkins) (Online course - en-US).
+* [Data Science: Foundations using R](https://www.coursera.org/specializations/jhu-data-science)<br>(Johns Hopkins) (Online course - en-US).
 * [R for Data Science](https://r4ds.had.co.nz/) (Book - en-US).
 :::
 
@@ -709,7 +709,7 @@ MIT](images/mit-license-badge.svg){width=10.5%}](https://choosealicense.com/lice
 
 This presentation was created using the Quarto Publishing System. Code and materials are available on [GitHub](https://github.com/danielvartan/open-science-pres).
 
-These beautiful illustrations were made by [Allison Horst](https://allisonhorst.com). Thank you, Allison!
+These beautiful illustrations were made by [Allison Horst](https://allisonhorst.com). Thank you Allison!
 
 ![](images/allison-horst-figure-1.png){fig-align="center" width=80% style="padding-top: 10px;"}
 
@@ -772,7 +772,6 @@ APIs are a set of rules that allow different software applications to communicat
 ```{r}
 #| echo: true
 
-# library(dplyr)
 # library(magrittr)
 # library(sidrar)
 
@@ -848,7 +847,7 @@ The order of the suggestions is not important.
 
 10. __Data science program__
 
-* Follow the guidelines and methodologies proposed by Wickham (2023) when conducting data analyses.
+* Follow the guidelines and methodologies proposed by @wickham2023b when conducting data analyses.
 * Tidy and document all the code and data.
 
 
@@ -945,7 +944,7 @@ __Some R data classes__
 ::: {.column width="50%"}
 * __Date__ (e.g., 2023-01-01) ([linear time](https://danielvartan.github.io/lubritime/reference/cycle_time.html#linear-versus-circular-time)).
 * __Date-time__ (e.g., 2023-01-01 00:00:00) (linear time).
-* __Interval__ (e.g., 2023-01-01 00:00:00)--2023-12-15 15:40:00)) (linear time).
+* __Interval__ (e.g., 2023-01-01 00:00:00--2023-12-15 15:40:00) (linear time).
 * __Duration__ (e.g., 1 year, 2 months, 3 days) (linear time).
 * __Period__ (e.g., 1 year, 2 months, 3 days) (linear(ish) time).
 * __Time of day__ (e.g., 01:00:00) ([circular time](https://danielvartan.github.io/lubritime/reference/cycle_time.html#linear-versus-circular-time)).
@@ -954,14 +953,14 @@ __Some R data classes__
 
 ## (AP) Valid data {.smaller visibility="uncounted"}
 
-Data validation techiniques are used to ensure that data is accurate, consistent, and reliable.
+Data validation techniques are used to ensure that data is accurate, consistent, and reliable.
 
 ::: {style="padding-top: 10px;"}
 __Examples__
 
 * Impossible values (e.g., negative age);
 * Inconsistent values (e.g., a person with a height of 2 meters and a weight of 20 kg);
-* Improbaable values (e.g., a person 200 years old);
+* Improbable values (e.g., a person 200 years old);
 * Duplicated values (e.g., the same person with two different ages).
 :::
 
@@ -1011,7 +1010,7 @@ Learn more in @wickham2023b, chap. 5.
 
 :::: {.columns}
 ::: {.column width="50%"}
-Spreadsheet Syndrome is a term used to describe the problems that arise from using spreadsheets to manage data.
+Spreadsheet syndrome is a term used to describe the problems that arise from using spreadsheets to manage data.
 :::
 ::: {.column width="50%"}
 ![](images/spreadsheet-syndrome.png){fig-align="center" width="100%" style="padding-top: 60px;"}
@@ -1035,9 +1034,13 @@ Spreadsheet Syndrome is a term used to describe the problems that arise from usi
 * [Metadata Standards Catalog](https://rdamsc.bath.ac.uk/).
 * [Data Documentation Initiative (DDI)](https://ddialliance.org/).
 
-## (AP) The codebook {visibility="uncounted"}
+## (AP) The codebook {.nostretch visibility="uncounted"}
 
-![](images/ellis-2018-figure-1.jpg){.r-stretch fig-align="center"}
+![](images/ellis-2018-figure-1.jpg){fig-align="center" width="85%"}
+
+::: footer
+(Figure by @ellis2018)
+:::
 
 ## (AP) Open data formats {.smaller visibility="uncounted"}
 
@@ -1087,7 +1090,7 @@ A data management plan (DMP) is a formal document that outlines how data will be
 
 ## (AP) Project management {.smaller visibility="uncounted"}
 
-## (AP) Why this is important?{.nostretch visibility="uncounted"}
+## (AP) Why this is important?{visibility="uncounted"}
 
 ![](images/meme-your-plan-reality.png){fig-align="center" style="padding-top: 25px;"}
 

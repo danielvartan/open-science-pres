@@ -214,21 +214,21 @@
     "href": "index.html#python-is-fine-too",
     "title": "Enhancing the Global Syndemic project with Open Science practices",
     "section": "Python is fine too",
-    "text": "Python is fine too\nPython is good for learning how to program, but it is much easier to learn how to work with data in R. In academia, both programming languages are very important.\n\n\n\n\n\n(Illustration by Allison Horst)"
+    "text": "Python is fine too\nPython is good for learning how to program, but it is much easier to learn how to work with data in R. In academia, both programming languages are very important.\n\n\n\n\n\n(Image author unknown)"
   },
   {
-    "objectID": "index.html#its-not-what-you-thinking",
-    "href": "index.html#its-not-what-you-thinking",
+    "objectID": "index.html#its-not-what-you-think",
+    "href": "index.html#its-not-what-you-think",
     "title": "Enhancing the Global Syndemic project with Open Science practices",
-    "section": "It’s not what you thinking",
-    "text": "It’s not what you thinking\n\n\n\nProgramming in movies versus programming in real life:\n\n\n\n\n\n\n\n\n\n\n\n\n\nYou don’t need to be a math genius to learn how to code."
+    "section": "It’s not what You think",
+    "text": "It’s not what You think\n\n\n\nProgramming in movies versus programming in real life:\n\n\n\n\n\n\n\n\n\n\n\n\n\nYou don’t need to be a math genius to learn how to code."
   },
   {
     "objectID": "index.html#best-and-free-resources",
     "href": "index.html#best-and-free-resources",
     "title": "Enhancing the Global Syndemic project with Open Science practices",
     "section": "Best (and free!) resources",
-    "text": "Best (and free!) resources\n\n\nI don’t know how to code! 😭\n\n\nIntrodução à Ciência da Computação com Python - Parte 1(USP) (Online course - pt-BR).\n\nIntrodução à Ciência da Computação com Python - Parte 2(USP) (Online course - pt-BR).\n\nHow do I learn R?\n\n\nData Science: Foundations using R(Jonh Hopkins) (Online course - en-US).\n\nR for Data Science (Book - en-US).\n\n\n\n\n\n\n\n\n\n(Illustration by Allison Horst)"
+    "text": "Best (and free!) resources\n\n\nI don’t know how to code! 😭\n\n\nIntrodução à Ciência da Computação com Python - Parte 1(USP) (Online course - pt-BR).\n\nIntrodução à Ciência da Computação com Python - Parte 2(USP) (Online course - pt-BR).\n\nHow do I learn R?\n\n\nData Science: Foundations using R(Johns Hopkins) (Online course - en-US).\n\nR for Data Science (Book - en-US).\n\n\n\n\n\n\n\n\n\n(Illustration by Allison Horst)"
   },
   {
     "objectID": "index.html#r-has-the-best-communities",
@@ -319,7 +319,7 @@
     "href": "index.html#final-remarks",
     "title": "Enhancing the Global Syndemic project with Open Science practices",
     "section": "Final remarks",
-    "text": "Final remarks\n \nThis presentation was created using the Quarto Publishing System. Code and materials are available on GitHub.\nThese beautiful illustrations were made by Allison Horst. Thank you, Allison!\n\n\n\n\n\n(Illustration by Allison Horst)"
+    "text": "Final remarks\n \nThis presentation was created using the Quarto Publishing System. Code and materials are available on GitHub.\nThese beautiful illustrations were made by Allison Horst. Thank you Allison!\n\n\n\n\n\n(Illustration by Allison Horst)"
   },
   {
     "objectID": "index.html#references",
@@ -347,7 +347,7 @@
     "href": "index.html#ap-app.-programming-interfaces-apis",
     "title": "Enhancing the Global Syndemic project with Open Science practices",
     "section": "(AP) App. Programming Interfaces (APIs)",
-    "text": "(AP) App. Programming Interfaces (APIs)\nAPIs are a set of rules that allow different software applications to communicate with each other.\n\n\n\n\nOSF API.\n\nBrazil’s Central Bank APIs.\n\nNASA’s APIs.\n\n\n\n\nOpenAI API.\n\nSIDRA API (IBGE).\n\nSISVAN API.\n\n\n\n\n\n\n\n\n\n\n\n\n# library(dplyr)\n# library(magrittr)\n# library(sidrar)\n\n# Brazil's population in 2022 (census data)\nsidrar::get_sidra(\n  api = \"/t/7358/n1/all/v/all/p/all/c2/6794/c287/100362/c1933/49039\"\n) |&gt;\n  suppressMessages() |&gt;\n  magrittr::extract2(\"Valor\") |&gt;\n  prettyNum(big.mark = \",\")\n#&gt; [1] \"216,284,269\""
+    "text": "(AP) App. Programming Interfaces (APIs)\nAPIs are a set of rules that allow different software applications to communicate with each other.\n\n\n\n\nOSF API.\n\nBrazil’s Central Bank APIs.\n\nNASA’s APIs.\n\n\n\n\nOpenAI API.\n\nSIDRA API (IBGE).\n\nSISVAN API.\n\n\n\n\n\n\n\n\n\n\n\n\n# library(magrittr)\n# library(sidrar)\n\n# Brazil's population in 2022 (census data)\nsidrar::get_sidra(\n  api = \"/t/7358/n1/all/v/all/p/all/c2/6794/c287/100362/c1933/49039\"\n) |&gt;\n  suppressMessages() |&gt;\n  magrittr::extract2(\"Valor\") |&gt;\n  prettyNum(big.mark = \",\")\n#&gt; [1] \"216,284,269\""
   },
   {
     "objectID": "index.html#ap-summary-of-points-and-suggestions",
@@ -382,7 +382,7 @@
     "href": "index.html#ap-summary-of-points-and-suggestions-4",
     "title": "Enhancing the Global Syndemic project with Open Science practices",
     "section": "(AP) Summary of points and suggestions",
-    "text": "(AP) Summary of points and suggestions\n\nData science program\n\n\nFollow the guidelines and methodologies proposed by Wickham (2023) when conducting data analyses.\nTidy and document all the code and data."
+    "text": "(AP) Summary of points and suggestions\n\nData science program\n\n\nFollow the guidelines and methodologies proposed by Wickham et al. (2023) when conducting data analyses.\nTidy and document all the code and data."
   },
   {
     "objectID": "index.html#ap-establishing-standardized-guidelines-for-data-practices",
@@ -445,14 +445,14 @@
     "href": "index.html#ap-data-classes",
     "title": "Enhancing the Global Syndemic project with Open Science practices",
     "section": "(AP) Data classes",
-    "text": "(AP) Data classes\nSome R data classes\n\n\n\n\nCharacter (e.g., “Maria”, “John”).\n\nFactor (e.g., 1 = “Male”, 2 = “Female”).\n\nInteger (e.g., 1, 2, 3).\n\nFloat (e.g., 1.0, 2.0, 3.0).\n\nComplex (e.g., 1 + 2i, 3 + 4i).\n\nBoolean (e.g., TRUE, FALSE).\n\n\n\n\nDate (e.g., 2023-01-01) (linear time).\n\nDate-time (e.g., 2023-01-01 00:00:00) (linear time).\n\nInterval (e.g., 2023-01-01 00:00:00)–2023-12-15 15:40:00)) (linear time).\n\nDuration (e.g., 1 year, 2 months, 3 days) (linear time).\n\nPeriod (e.g., 1 year, 2 months, 3 days) (linear(ish) time).\n\nTime of day (e.g., 01:00:00) (circular time)."
+    "text": "(AP) Data classes\nSome R data classes\n\n\n\n\nCharacter (e.g., “Maria”, “John”).\n\nFactor (e.g., 1 = “Male”, 2 = “Female”).\n\nInteger (e.g., 1, 2, 3).\n\nFloat (e.g., 1.0, 2.0, 3.0).\n\nComplex (e.g., 1 + 2i, 3 + 4i).\n\nBoolean (e.g., TRUE, FALSE).\n\n\n\n\nDate (e.g., 2023-01-01) (linear time).\n\nDate-time (e.g., 2023-01-01 00:00:00) (linear time).\n\nInterval (e.g., 2023-01-01 00:00:00–2023-12-15 15:40:00) (linear time).\n\nDuration (e.g., 1 year, 2 months, 3 days) (linear time).\n\nPeriod (e.g., 1 year, 2 months, 3 days) (linear(ish) time).\n\nTime of day (e.g., 01:00:00) (circular time)."
   },
   {
     "objectID": "index.html#ap-valid-data",
     "href": "index.html#ap-valid-data",
     "title": "Enhancing the Global Syndemic project with Open Science practices",
     "section": "(AP) Valid data",
-    "text": "(AP) Valid data\nData validation techiniques are used to ensure that data is accurate, consistent, and reliable.\n\nExamples\n\nImpossible values (e.g., negative age);\nInconsistent values (e.g., a person with a height of 2 meters and a weight of 20 kg);\nImprobaable values (e.g., a person 200 years old);\nDuplicated values (e.g., the same person with two different ages)."
+    "text": "(AP) Valid data\nData validation techniques are used to ensure that data is accurate, consistent, and reliable.\n\nExamples\n\nImpossible values (e.g., negative age);\nInconsistent values (e.g., a person with a height of 2 meters and a weight of 20 kg);\nImprobable values (e.g., a person 200 years old);\nDuplicated values (e.g., the same person with two different ages)."
   },
   {
     "objectID": "index.html#ap-tidy-data",
@@ -494,7 +494,7 @@
     "href": "index.html#ap-spreadsheet-syndrome",
     "title": "Enhancing the Global Syndemic project with Open Science practices",
     "section": "(AP) Spreadsheet syndrome",
-    "text": "(AP) Spreadsheet syndrome\n\n\nSpreadsheet Syndrome is a term used to describe the problems that arise from using spreadsheets to manage data.\n\n\n\n\n\n\n\n\n(Image by 9Dots Management)"
+    "text": "(AP) Spreadsheet syndrome\n\n\nSpreadsheet syndrome is a term used to describe the problems that arise from using spreadsheets to manage data.\n\n\n\n\n\n\n\n\n(Image by 9Dots Management)"
   },
   {
     "objectID": "index.html#ap-relational-databases",
@@ -515,7 +515,7 @@
     "href": "index.html#ap-the-codebook",
     "title": "Enhancing the Global Syndemic project with Open Science practices",
     "section": "(AP) The codebook",
-    "text": "(AP) The codebook"
+    "text": "(AP) The codebook\n\n\n\n\n\n(Figure by Ellis & Leek (2018))"
   },
   {
     "objectID": "index.html#ap-open-data-formats",
